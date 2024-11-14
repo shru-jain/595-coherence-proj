@@ -1,0 +1,1117 @@
+[
+    {
+        "Hypothesis": "SpeakerB wants SpeakerA to see SILENCE OF THE LAMB",
+        "Conversation": "B: Y-, you have to go see that one.  And how about SILENCE OF THE LAMB?\nA: No,\nB: Go.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB wants SpeakerA to see SLEEPING WITH THE ENEMY",
+        "Conversation": "B: Have you seen SLEEPING WITH THE ENEMY?\nA: No.  I've heard, I've heard that's really great, though.\nB: Y-, you have to go see that one.  And how about SILENCE OF THE LAMB?\nA: No,\nB: Go.\nA: You must really keep up.\nB: I do.  I go every weekend [laughter].  I, I, uh, those are two definite must see movies, I think.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA and SpeakerB agree to end the conversation",
+        "Conversation": "B: it used to just automatically cut off but it says when the conversation is over just say your good-byes and hang up.  So,\nA: [Laughter] Why don't we do that?\nB: I, I guess so.  Okay.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks that men pursue advances in female medications",
+        "Conversation": "B: And I know at least in the medical field, it seems like they've come out with a lot further advances as far as female medications and things since women have gotten into the doctor field.\nA: Uh-huh.\nB: I don't think that men really took the time to work on that sort of thing.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Job sharing involves two people sharing the same full time job",
+        "Conversation": "B: Uh-huh, also, with, uh, women in the work force they've gotten a lot more options as far as, you know, what's it called, job sharing.\nA: Uh-huh.\nB: Like if you and another lady were to share the same full time job,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA wasn't born in the 70's",
+        "Conversation": "A: And, um, do you like classic rock, or modern rock, or which kind?\nB: Oh, I guess the stuff [babycrying] that was done more in the seventies, because that's,\nA: No, not a seventies baby.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA and SpeakerB don't like the same music",
+        "Conversation": "A: And, um, do you like classic rock, or modern rock, or which kind?\nB: Oh, I guess the stuff [babycrying] that was done more in the seventies, because that's,\nA: No, not a seventies baby.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA thinks the difference between hard rock and heavy metal is the lyrics",
+        "Conversation": "A: And, see, the difference, I guess, between hard rock and heavy metal is that the lyrics also.  Like really, like heavy metal, wo-, is considered, like the words heavy metal and, like, you always thought about, like, suicide.  And killing people and stuff like that.\nB: Yeah.\nA: And, just hard rock has, they, they don't talk about that, they just talk about, like, life in general.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA thinks that heavy metal comments on life in general",
+        "Conversation": "A: And, see, the difference, I guess, between hard rock and heavy metal is that the lyrics also.  Like really, like heavy metal, wo-, is considered, like the words heavy metal and, like, you always thought about, like, suicide.  And killing people and stuff like that.\nB: Yeah.\nA: And, just hard rock has, they, they don't talk about that, they just talk about, like, life in general.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB thinks SpeakerA is going to commit suicide",
+        "Conversation": "A: And, see, the difference, I guess, between hard rock and heavy metal is that the lyrics also.  Like really, like heavy metal, wo-, is considered, like the words heavy metal and, like, you always thought about, like, suicide.  And killing people and stuff like that.\nB: Yeah.\nA: And, just hard rock has, they, they don't talk about that, they just talk about, like, life in general.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA likes Bohemian Rhapsody",
+        "Conversation": "A: Bo, Bo, Bohemian Rhapsody.\nB: Right, right, yeah, yeah.\nA: Yeah, that, that was great.  I heard that the other day on the radio and I pumped it up.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA has listened to the radio",
+        "Conversation": "A: Bo, Bo, Bohemian Rhapsody.\nB: Right, right, yeah, yeah.\nA: Yeah, that, that was great.  I heard that the other day on the radio and I pumped it up.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA doesn't like listening to Phil Collins",
+        "Conversation": "A: And, and, then what happened was that Phil Collins said, hey I can make money, a lot of money doing this, and then he came out with, uh, see, for example, his, his record like, No Jacket Required.\nB: Uh-huh.\nA: That was good, but it was on his way of going downhill, because he said, I can make a lot of money just singing alone, and then he came out with the Invisible Touch, with, uh, Genesis and that really, like now, I hate Phil Collins, I can't stand him.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB listens to No Jacket Required",
+        "Conversation": "A: And, and, then what happened was that Phil Collins said, hey I can make money, a lot of money doing this, and then he came out with, uh, see, for example, his, his record like, No Jacket Required.\nB: Uh-huh.\nA: That was good, but it was on his way of going downhill, because he said, I can make a lot of money just singing alone, and then he came out with the Invisible Touch, with, uh, Genesis and that really, like now, I hate Phil Collins, I can't stand him.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB currently attends college",
+        "Conversation": "A: Did, did you go to college?\nB: Well, no.  I'm going right now [laughter].\nA: Oh, that's cool.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB and SpeakerA both went to college",
+        "Conversation": "A: Did, did you go to college?\nB: Well, no.  I'm going right now [laughter].\nA: Oh, that's cool.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA likes college",
+        "Conversation": "A: Did, did you go to college?\nB: Well, no.  I'm going right now [laughter].\nA: Oh, that's cool.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA is a student of her husband",
+        "Conversation": "B: He's an aerobics instructor.  And, um, is going to be, uh, entering [breathing] North Texas [breathing] for uh, a Kinesiology program there.\nA: Uh-huh.\nB: And, um, [breathing] the, the how I met him was through, uh, the aerobics class that he used to teach.\nA: Uh-huh. You're a student?",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB's mother agrees with SpeakerA because both dislike exercising only for exercise.",
+        "Conversation": "A: I don't feel like I, I don't very often do things for the sake of exercise. I don't feel well unless I am exercising and I try to do things that involve exercise, but, I very rarely do things like, um, I've never done aerobics or any sort of structured, this is my exercise time --\nB: Uh-huh.\nA: -- but, I do lots of outdoor sports and things, bicycling, uh, you know, mountaineering, a little mountaineering, this and that, and I spend a lot of time and I probably get more exercise than your average person.  But, it's not a, a structured sort of thing, and I have to admit I have a certain resistance to the idea of exercising for exercising's sake,\nB: Uh-huh.\nA: and perhaps, it's because somehow that implies to me it's not fun, or something like that.\nB: Yeah, well I, I've, my, that's the way my mother stands on it.  She feels like if it's something that you have to do, you know,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB feels that exercising for exercise's sake is not fun",
+        "Conversation": "A: -- but, I do lots of outdoor sports and things, bicycling, uh, you know, mountaineering, a little mountaineering, this and that, and I spend a lot of time and I probably get more exercise than your average person.  But, it's not a, a structured sort of thing, and I have to admit I have a certain resistance to the idea of exercising for exercising's sake,\nB: Uh-huh.\nA: and perhaps, it's because somehow that implies to me it's not fun, or something like that.\nB: Yeah, well I, I've, my, that's the way my mother stands on it.  She feels like if it's something that you have to do, you know,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB likes Aerobics partially because she has always enjoyed dance",
+        "Conversation": "A: Yeah, yeah.  Is that why you like aerobics classes, because you're not, sort of, someone else is doing the counting for you, so,\nB: Yeah.\nA: it makes it less of a chore?\nB: And, it's got, and I've always enjoyed dance.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB likes the aspect of Aerobics that someone else is leading",
+        "Conversation": "A: Yeah, yeah.  Is that why you like aerobics classes, because you're not, sort of, someone else is doing the counting for you, so,\nB: Yeah.\nA: it makes it less of a chore?\nB: And, it's got, and I've always enjoyed dance.\nA: Yeah.\nB: So it involves, you know, I, I can't get out to dance all the time and,\nA: Yeah, would that we could [laughter].\nB: Yeah, [laughter] and it's, and it's more regulated, I mean you're, you're using different parts of the body.\nA: Uh-huh, uh-huh.\nB: So, it, it is like dance, an-, and it's structured like that, but you have the music, and someone, like you said, someone else is counting,\nA: Yeah.\nB: so, it makes it easier for me.\nA: Uh-huh.\nB: And, someone else is telling me, okay, you know, let's move this way, let's move that way,\nA: Uh-huh, uh-huh.\nB: instead of me having to think about it so much.\nA: Right.  You can just trust someone else to give you full exercise and all you do is follow along and enjoy yourself.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB uses exercise opportunities to get out",
+        "Conversation": "B: Yeah, yeah.  But, I'm like you, I also, um, like to participate in, uh, things like, well, we just went to the, uh, Myererson Symphony Run this past weekend, and, and that was a lot of fun and you get to meet different people,\nA: Uh-huh, uh-huh.\nB: and, um, just get out, you know,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "California is more often warm than Texas",
+        "Conversation": "B: and, biking and I, I, I love to swim, so I love it when, you know, it's swimming weather,\nA: Um.\nB: and, uh,\nA: Well, you're talking to someone from California where it's often swimming weather [laughter].\nB: Oh, I didn't realize that.\nA: Uh [laughter].\nB: I'm sorry.\nA: [Laughter].\nB: Well, I'm in Texas.  I, I just assumed that I had, this is the first call I've done,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "All exercise fads start in California and catch on elsewhere",
+        "Conversation": "A: um, unless you're, sort of, clearly of an older generation, or something, you know, in your sixties, or something like that, I'm, I'm, I'm not.  Uh, there's an assumption that you do something for your physical fitness, and, and, at least in urban California.  And, maybe not, I don't know about rural California too well.  But, in urban California it's just, you know, for all I know aerobics started out here.  I don't know where they actually started, but they, you know, the craze really picked up big here and before that there was the running craze.  And, they, California gets, you know, tends to be a bit faddish, but,\nB: Uh-huh.\nA: the remarkable thing is how well the fads catch on elsewhere.  So, there must be something to some of them.  And, uh,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB thinks that many diets originate in California",
+        "Conversation": "B: Well, I think people are, are more inc-, um, um, people from California seem to be more health motivated all around.  I mean, as far as the diet, and everything.  Uh, the diet and, uh, just your health consciousness, and, I mean, it just,\nA: Uh-huh.\nB: seems like, uh, a lot of those ideas generate out of California.  Not just exercise, but,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "University of California at Berkley has a progressive medical school",
+        "Conversation": "A: I think.  There, there is a sense of, you know, whole, there's a lot of, you know, you'll get organizations, like institutes for the whole health, or whatever.  And, uh, oh the, the, the uni-, University of California at Berkeley puts out THE WELLNESS LETTER.  Which is, uh, turned into a fairly well subscribed to, uh, newsletter,\nB: Uh-huh.\nA: monthly or biweekly newsletter or something like that and, and, it doesn't deal with just exercise, or just stress management, or just diet, or anything.  It, it's on fairly so-, solid scientific ground.  Uh, it's just dispensed with these distinctions.  It says ever-, all sorts of factors go into health and there's no reason to talk about one rather than another, so that they, they combined them all together.  And, uh, so it's had that orientation for quite some time.  Um, there's been some progressive medical schools out here,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "THE WELLNESS LETTER is a newsletter that contains information on many factors that contribute to health",
+        "Conversation": "A: I think.  There, there is a sense of, you know, whole, there's a lot of, you know, you'll get organizations, like institutes for the whole health, or whatever.  And, uh, oh the, the, the uni-, University of California at Berkeley puts out THE WELLNESS LETTER.  Which is, uh, turned into a fairly well subscribed to, uh, newsletter,\nB: Uh-huh.\nA: monthly or biweekly newsletter or something like that and, and, it doesn't deal with just exercise, or just stress management, or just diet, or anything.  It, it's on fairly so-, solid scientific ground.  Uh, it's just dispensed with these distinctions.  It says ever-, all sorts of factors go into health and there's no reason to talk about one rather than another, so that they, they combined them all together.  And, uh, so it's had that orientation for quite some time.  Um, there's been some progressive medical schools out here,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Exercise is strongly considered a health care option",
+        "Conversation": "A: and, before long, you, you get this, this whole kind of Gestalt, this whole package of, of health, of health care and options --\nB: Uh-huh.\nA: -- and, uh, and exercise is, is strongly considered one of them.  The irony is, is its people in the cities, in my experience, that are most oriented towards doing the exercise.  And, I guess because they spend all day in back of their desks.  The average person out on the farm, at least traditionally, now they drive fancy tractors as much as anything --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The Chinese cultural idea of \"Health\" is different than SpeakerA's culture's.",
+        "Conversation": "A: I think so.  I mean you, you've, if you look at cert-, if you look at other cultures, like I know a little bit about people who were considered very healthy in China and they don't do very much vigorous exercise at all.  But, they do a lot of low keyed, low impact, low stress exercise, and they combine it with a, you know, meditation or whatever.  Some sort of relaxation --\nB: Uh-huh.\nA: -- and, they seem pretty, you know, they don't have the hard body.  They don't have that perfect look, and an awful lot of exercise is sort of image conscious.  But they, you know, they live to a hundred and ten some [laughter], you know,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Many restaurants in urban California have a vegetarian section",
+        "Conversation": "B: [Laughter] Well that's, that's good as far as the cal-, is that, is that, um, pretty predominant as far as California do-, doe-,\nA: It is in the urban areas, yes.\nB: In the urban areas?\nA: Most, for example most restaurants in an urban area will have a little vegetarian section now.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "There are more than 200 DMC Colors",
+        "Conversation": "B: Yeah.  I'm still trying to get all the D M C colors [laughter].\nA: Oh, really [laughter].  Yeah, I've got the kits to put them all in.  I don't have them all yet [talking] --\nB: Yeah, right.  Yeah.\nA: -- certainly.\nB: Yeah.  I got to counting the other day and, uh, I think I have, what was it two hundred, and I got to thinking the money that I've got invested in this [laughter] is, uh, it, yeah, it can add up quick.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA lot of the DMC colors are similar",
+        "Conversation": "B: Right.  I see.  Well, now can I improvise with adding and using another color instead, you know, what comes close.\nA: Uh-huh.\nB: Because a lot of them are similar.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA thinks there are too many shades of pink",
+        "Conversation": "A: Yeah.  A lot of times you can do that.  I think, I the pinks, there's like forty-two different shades of pink.\nB: Good grief [laughter].  Yeah, there's lots of #pinks and greens.#\nA: #Pinks and greens.#  Yeah.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "The baby did not have a Christmas stocking last year.",
+        "Conversation": "B: And, uh, work on his Christmas stocking.\nA: Yeah.\nB: We missed it last year, so hopefully this year he'll have one.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The baby did not have any stockings last year",
+        "Conversation": "B: And, uh, work on his Christmas stocking.\nA: Yeah.\nB: We missed it last year, so hopefully this year he'll have one.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "He was young for Christmas",
+        "Conversation": "B: And, uh, work on his Christmas stocking.\nA: Yeah.\nB: We missed it last year, so hopefully this year he'll have one.\nA: Yeah.  Well, last year he was a little bit young for having one.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Cross-stitching is peaceful",
+        "Conversation": "B: Oh, well, that's neat that you like cross-stitching also.\nA: Yeah, that's, that's kind of strange [laughter] that we got the same call.\nB: Yeah.\nA: It's a (( )) call.\nB: Oh, I'm sorry.  Go ahead.\nA: No, that's okay.\nB: Okay [laughter], uh, but, yeah, I've been doing it for probably ten years or so.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB thinks that cross-stitching is peaceful",
+        "Conversation": "B: Okay [laughter], uh, but, yeah, I've been doing it for probably ten years or so.\nA: Oh, wow.  No, I just started about, well, five years ago, I think.\nB: But it is peaceful, I mean it is relaxing to do, once you find the time to do it.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The colors of the project matched the nursery by accident",
+        "Conversation": "A: Number one turned out just great, and the lady said she couldn't believe that they know that I had done it in the colors, that they had decorated the nursery and I didn't even know it.\nB: Oh, that's a (( )).\nA: I gave it to her and she said how did you know those are the colors we used.  I said {pause} didn't [laughter].",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA didn't know that her afghan colors were the same as the nursery",
+        "Conversation": "A: Number one turned out just great, and the lady said she couldn't believe that they know that I had done it in the colors, that they had decorated the nursery and I didn't even know it.\nB: Oh, that's a (( )).\nA: I gave it to her and she said how did you know those are the colors we used.  I said {pause} didn't [laughter].",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The daughter does not get to touch the Afghan",
+        "Conversation": "B: That's great.  Uh, that, uh, now I've got the material to do an afghan that I just never did get around to finishing it.\nA: Uh-huh.\nB: I like those.  Those are pretty.\nA: Yeah. ((Lilly, Lilly)), she said, she said it's for your daughter to use. Oh, no.  She said, I know she doesn't get to touch it.  She hung it on the wall.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks that having our youth do a year or two in public service is a good idea",
+        "Conversation": "A: Okay.  The question was, um, what, what is your opinion of youth, uh, spending a year or two in, in public service.\nB: I think it would be a great idea.  I'm not sure about requiring it, you know, of people, because people are going, you know, feeling resentful.  I don't know, but I think it would be a great idea.\nA: Yeah.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB isn't sure about requiring public service",
+        "Conversation": "A: Okay.  The question was, um, what, what is your opinion of youth, uh, spending a year or two in, in public service.\nB: I think it would be a great idea.  I'm not sure about requiring it, you know, of people, because people are going, you know, feeling resentful.  I don't know, but I think it would be a great idea.\nA: Yeah.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA agrees with SpeakerB's opinion",
+        "Conversation": "A: Okay.  The question was, um, what, what is your opinion of youth, uh, spending a year or two in, in public service.\nB: I think it would be a great idea.  I'm not sure about requiring it, you know, of people, because people are going, you know, feeling resentful.  I don't know, but I think it would be a great idea.\nA: Yeah.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA thinks SpeakerB is a child",
+        "Conversation": "A: Okay.  The question was, um, what, what is your opinion of youth, uh, spending a year or two in, in public service.\nB: I think it would be a great idea.  I'm not sure about requiring it, you know, of people, because people are going, you know, feeling resentful.  I don't know, but I think it would be a great idea.\nA: Yeah.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "The only good thing SpeakerA's dad could say about the Roosevelt administration was the civilian conservation corps",
+        "Conversation": "A: I know my dad always talked about, uh, he was in C C C during, uh,\nB: Yeah.\nA: And he was, uh, a rock rib Iowa type republican and the only good thing he could ever say about, uh, the whole Roosevelt administration was, uh, civilian conservation corps,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA eats a lot of ribs",
+        "Conversation": "A: I know my dad always talked about, uh, he was in C C C during, uh,\nB: Yeah.\nA: And he was, uh, a rock rib Iowa type republican and the only good thing he could ever say about, uh, the whole Roosevelt administration was, uh, civilian conservation corps,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "The man's mental disfunction caused him to kill people.",
+        "Conversation": "B: Okay, Mary.\nA: Yes.\nB: Um, the, uh, the latest one I've seen, uh, had to do with a, uh, uh, the, uh, basically a manhunt, um, and it was, uh, it was called MANHUNTER, actually.  Uh, the, uh, the guy, uh, apparently had a, a, mental disfunction in which he needed to go out and just slay people.  Uh, just, uh, kill them with, with as much blood and, and guts as possible.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Person SpeakerB thought the movie Manhunter was awful",
+        "Conversation": "B: Um, the, uh, the latest one I've seen, uh, had to do with a, uh, uh, the, uh, basically a manhunt, um, and it was, uh, it was called MANHUNTER, actually.  Uh, the, uh, the guy, uh, apparently had a, a, mental disfunction in which he needed to go out and just slay people.  Uh, just, uh, kill them with, with as much blood and, and guts as possible.\nA: Oh, how awful [laughter].\nB: It [laughter] was true, it was truly awful.  It was not one that I picked, but, uh, uh, it, it did show some, some, uh, some interesting things about the F B I because they were the, the, uh, the characters trying, trying to get him were F B I people and, uh, uh, of the, of the few good things that were in it, it did show, uh, a lot about the F B I.  About the training, and, and how they go through training and how they try to, to develop, uh, uh, a mental picture of who they're looking for before they go out and do it and all the different ways they go about doing that.  And it was, uh, uh, it was pretty telling about the, the, the F B I and their procedures.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Person SpeakerB likes driving Miss daisy",
+        "Conversation": "A: and DRIVING MISS DAISY.\nB: You know, I haven't seen that one yet, and I need to go see it.\nA: Oh, you need to see that.\nB: Yeah.\nA: That is the most heart rendering story of relationships between two people.\nB: Uh-huh.\nA: Two diametrically opposed people from the stand point that one was Jewish and one was black and this all took place in the South.\nB: Oh my.\nA: And, uh, normally never the twain shall meet.\nB: You bet, especially in the South.\nA: Yes, right, and, um, uh, it, it really was a fantastic movie.  The acting was phenomenal.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB believes it would have been great tobe around Dustin Hoffman during Rain Man",
+        "Conversation": "A: Just as RAIN MAN, uh, with Dustin Hoffman,\nB: That was,\nA: uh, that, that was tremendous and Tom Cruise.\nB: yeah, I, I think it was more a lesson for Tom Cruise than anything else in terms of, uh, of how to act from Dustin Hoffman, but, uh.\nA: Yes, uh, oh, that was, that was, uh, what the, much of the hype was that Tom Cruise learned so much from Dustin Hoffman.\nB: Yeah, it must have been great just being with him on, on a daily basis and seeing how he prepares for his, for his lines and all that stuff.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Robin Williams is in the movie Awakenings",
+        "Conversation": "A: Uh, the last movie that I saw, I, I don't go to that many so I'll just have to talk about the ones that I went to see, but,\nB: Okay.\nA: uh, it was AWAKENINGS with, uh, Robin Williams and, uh, Peter DeNiro.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA cried during the movie Dances With Wolves",
+        "Conversation": "B: I think the last movie that we went out to see was DANCES WITH WOLVES.\nA: Oh, I saw it.\nB: Good, we've both seen one [laughter].  Did you cry through it?\nA: Yes, the whole way [laughter].",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB believes there is inequality in Honduras",
+        "Conversation": "B: Um, because it is so, you know, it's, [laughter] a friend of mine wen-, traveled to ((Balise)) and, [clicking] into Honduras.\nA: Uh, oh.\nB: Hello.\nA: Uh, oh, I think, we're, we're supposed to hang up.\nB: Yeah, well it wasn't the matter of wealth, it was the matter that they were not wealthy,\nA: Yes.\nB: that made them equal.  Well, I'll talk to you later,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB knows some people that have gotten a lot out of voluntary service",
+        "Conversation": "B: [Children] Uh, I think that, uh, really it wouldn't hurt most of the young people of the country to have to go and do voluntary service.  Uh, and, you know, I mean,\nA: (( )).\nB: there have been so many people that have done it and I've talked with several and I think they've gotten a lot out of it.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA worked in the voluntary services",
+        "Conversation": "B: [Children] Uh, I think that, uh, really it wouldn't hurt most of the young people of the country to have to go and do voluntary service.  Uh, and, you know, I mean,\nA: (( )).\nB: there have been so many people that have done it and I've talked with several and I think they've gotten a lot out of it.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA agrees with SpeakerB's idea that it wouldn't hurt to have a mandatory service",
+        "Conversation": "B: [Children] Uh, I think that, uh, really it wouldn't hurt most of the young people of the country to have to go and do voluntary service.  Uh, and, you know, I mean,\nA: (( )).\nB: there have been so many people that have done it and I've talked with several and I think they've gotten a lot out of it.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB thinks kids going straight from high school to college is bad",
+        "Conversation": "B: I think probably as soon as they finished high school it would be ideal, because a lot of times, i-, if they go straight into college I think they're going in too quick but,\nA: I think particular boys that the maturity, in fact I wasn't very mature when I left high school and I think there's a, there's a real challenge there. There's also this, this issue of, of, uh, you know, whether you're really ready, and I think it gives a different perspective.\nB: Right, uh, y-, I, I think if you've been out of school a year, year and a half, before you start to college, you appreciate college more,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA wasn't mature when he/she left high school",
+        "Conversation": "B: I think probably as soon as they finished high school it would be ideal, because a lot of times, i-, if they go straight into college I think they're going in too quick but,\nA: I think particular boys that the maturity, in fact I wasn't very mature when I left high school and I think there's a, there's a real challenge there. There's also this, this issue of, of, uh, you know, whether you're really ready, and I think it gives a different perspective.\nB: Right, uh, y-, I, I think if you've been out of school a year, year and a half, before you start to college, you appreciate college more,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB agrees that SpeakerA wasn't mature when he/she left high school",
+        "Conversation": "B: I think probably as soon as they finished high school it would be ideal, because a lot of times, i-, if they go straight into college I think they're going in too quick but,\nA: I think particular boys that the maturity, in fact I wasn't very mature when I left high school and I think there's a, there's a real challenge there. There's also this, this issue of, of, uh, you know, whether you're really ready, and I think it gives a different perspective.\nB: Right, uh, y-, I, I think if you've been out of school a year, year and a half, before you start to college, you appreciate college more,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA has been to Israel",
+        "Conversation": "A: That's, uh, it's interesting.  It gets them away from home and, and gets them to do something useful, although the kids today, though, it, it seems that almost that their concern for money, I, we were doing some investigating colleges and said the kids are much more interested today in, in trying to find a job, study something that will give them a job as opposed to, be curious, be curious as to if, if there was, if there was mandatory, you could choose the option of either a mandatory military service or voluntary, do you think that would be reasonable?\nB: I think it would.  In, in Israel, the, even the women are, are required to, to be in the military for a certain period of time.  Uh, I was in the military, and I personally feel if, if they have draf-, the draft, that they should draft women as quickly as they do the men.\nA: Well, but, the, the issue of, of, of, which, what, what would, what would you find, what would you have them do?  You know there are a lot of people around with, there's a lot of unemployment right now.  What would you have these people do if they were brought in?",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB agrees that SpeakerA should be in the military",
+        "Conversation": "A: That's, uh, it's interesting.  It gets them away from home and, and gets them to do something useful, although the kids today, though, it, it seems that almost that their concern for money, I, we were doing some investigating colleges and said the kids are much more interested today in, in trying to find a job, study something that will give them a job as opposed to, be curious, be curious as to if, if there was, if there was mandatory, you could choose the option of either a mandatory military service or voluntary, do you think that would be reasonable?\nB: I think it would.  In, in Israel, the, even the women are, are required to, to be in the military for a certain period of time.  Uh, I was in the military, and I personally feel if, if they have draf-, the draft, that they should draft women as quickly as they do the men.\nA: Well, but, the, the issue of, of, of, which, what, what would, what would you find, what would you have them do?  You know there are a lot of people around with, there's a lot of unemployment right now.  What would you have these people do if they were brought in?",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB believes women should be drafted alongside men",
+        "Conversation": "A: That's, uh, it's interesting.  It gets them away from home and, and gets them to do something useful, although the kids today, though, it, it seems that almost that their concern for money, I, we were doing some investigating colleges and said the kids are much more interested today in, in trying to find a job, study something that will give them a job as opposed to, be curious, be curious as to if, if there was, if there was mandatory, you could choose the option of either a mandatory military service or voluntary, do you think that would be reasonable?\nB: I think it would.  In, in Israel, the, even the women are, are required to, to be in the military for a certain period of time.  Uh, I was in the military, and I personally feel if, if they have draf-, the draft, that they should draft women as quickly as they do the men.\nA: Well, but, the, the issue of, of, of, which, what, what would, what would you find, what would you have them do?  You know there are a lot of people around with, there's a lot of unemployment right now.  What would you have these people do if they were brought in?",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA asks SpeakerB what daycare costs",
+        "Conversation": "B: I haven't ever really looked at them.  Are you aware at all,\nA: Uh, well, no,\nB: of, of what they would, what they cost?",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA thinks it is 60 dollars a week per child",
+        "Conversation": "A: I know the day care centers are not cheap either.  You know they're,\nB: I haven't ever really looked at them.  Are you aware at all,\nA: Uh, well, no,\nB: of, of what they would, what they cost?\nA: I just know, I know several single mothers who absolutely can't afford it.  They have to go with the, a single, uh, wh-, I mean a baby-sitter more, more or less.\nB: Uh-huh.\nA: But I think it's like, about sixty dollars a week for two children --",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB doesn't agree with SpeakerA that the girl and boy scouts are a good organization",
+        "Conversation": "B: Uh, I agree with you.  Uh, uh, what I'm thinking about is back [breathing], well, when I was a kid, and much earlier than that, kids were kind of, i-, i-, you know, the parents kind of pushed them to join, like the Boy Scouts [children] or Girl Scouts and they did, do, do do a lot of public service activities, but these days they're not, uh, par-, parents aren't encouraging their kids to do things like that.  Because when I was in the Girl Scouts, we did a lot of public service things, because that's just part o-, of, of the scouting, and, you know.\nA: Yeah, I've, I've, that's really great.  I, I really think that both the Boy Scouts and Girl Scouts is a excellent, two excellent organizations.\nB: They are but parents,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Very few scouts go on to become Eagle Scouts",
+        "Conversation": "A: and they don't follow it at all, you know.  There are very few Scouts go on,\nB: Oh, no.\nA: and become Eagle Scouts.  And, and I don't know what the high rank is for the gals but,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA and SpeakerB agree that we should fix the problems at home before the problems of other countries",
+        "Conversation": "A: I think it's a really a good thing.  I, I like to see, of course, there's, you know, third world countries that can use all kind of help [laughter].\nB: Yeah, but there's a lot that can be done right here in this country,\nA: But I think,\nB: too.\nA: we ought to start right here at home.  I'm, you know,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB is a former educator",
+        "Conversation": "B: #Well, but you know, the,# the strange thing, uh, perhaps, not strange, but something that many people don't realize, is that you can go back as far as nineteen fifty-one and fifty-two and find that there were drug dealers at that time trying to influence the high school kids, because, uh, I'm a retired educator.\nA: Okay [noise].\nB: And, in fifty-one and fifty-two, the police came to the high school where I was and were telling us how to recognize when kids were on drugs, how to recognize the pushers --\nA: Yeah.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA knows how to spot people on drugs",
+        "Conversation": "B: #Well, but you know, the,# the strange thing, uh, perhaps, not strange, but something that many people don't realize, is that you can go back as far as nineteen fifty-one and fifty-two and find that there were drug dealers at that time trying to influence the high school kids, because, uh, I'm a retired educator.\nA: Okay [noise].\nB: And, in fifty-one and fifty-two, the police came to the high school where I was and were telling us how to recognize when kids were on drugs, how to recognize the pushers --\nA: Yeah.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB is a politician",
+        "Conversation": "B: But the guy at the very top, the one who's, who's really making the millions and the millions is the one who also many times is part of the power structure, uh, the, uh, and had the political --\nA: Yeah.\nB: -- uh, pull to keep things from, uh, keep the interest or the emphasis in some other direction, other than on the drug dealing, because it sure is monstrous in this country.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA is part of the political power structure",
+        "Conversation": "B: But the guy at the very top, the one who's, who's really making the millions and the millions is the one who also many times is part of the power structure, uh, the, uh, and had the political --\nA: Yeah.\nB: -- uh, pull to keep things from, uh, keep the interest or the emphasis in some other direction, other than on the drug dealing, because it sure is monstrous in this country.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB thinks that drug dealing is monstrous in this country",
+        "Conversation": "B: But the guy at the very top, the one who's, who's really making the millions and the millions is the one who also many times is part of the power structure, uh, the, uh, and had the political --\nA: Yeah.\nB: -- uh, pull to keep things from, uh, keep the interest or the emphasis in some other direction, other than on the drug dealing, because it sure is monstrous in this country.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB does not like dances with wolves.",
+        "Conversation": "A: Cindy, have you seen DANCES WITH WOLVES?\nB: No, I haven't.  Have you?\nA: Oh, that is a wonderful movie.\nB: Uh-huh, it's not, the length isn't too long?",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "The bull did not like Oreo cookies.",
+        "Conversation": "A: And they have a particular child actor, uh, who's, who's being supposedly run down by a buffalo.\nB: Uh-huh.\nA: And when they were trying to film that, the buffalo that they used for that scene was Neil Young's buffalo.\nB: Uh-huh.\nA: I can't remember what they said his name was.  But he has a fetish for Oreo cookies.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA thinks indians should have been rolled in the dirt.",
+        "Conversation": "A: -- yeah, was, the only thing about the costuming my husband remarked that it didn't, that, that, um, the Indians all appeared to be wearing new things.\nB: Oh really.\nA: And they should have taken them out and rolled them in the dirt a little more --",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA thinks costumes were authentic but were not aged.",
+        "Conversation": "A: -- yeah, was, the only thing about the costuming my husband remarked that it didn't, that, that, um, the Indians all appeared to be wearing new things.\nB: Oh really.\nA: And they should have taken them out and rolled them in the dirt a little more --\nB: Uh-huh.\nA: -- probably --\nB: Uh-huh, uh-huh.\nA: -- to age, to age the material so, they, they did very authentic reproductions of the,\nB: The styles, uh-huh.\nA: of the actual stuff, but they didn't, they didn't age it --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thought Misery was very suspenful.",
+        "Conversation": "B: Um, actually have been to the movies, um, I think the last movie I saw was MISERY.\nA: Oh, I didn't see that.\nB: Oh, very suspenseful.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB liked Misery.",
+        "Conversation": "B: Um, actually have been to the movies, um, I think the last movie I saw was MISERY.\nA: Oh, I didn't see that.\nB: Oh, very suspenseful.\nA: I don't, I don't like Stephen King.\nB: I really don't either, but I went with someone, and once I was there, I couldn't believe.  I mean, it's an excellent movie.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA thinks Jagged Edge was a thriller suspense movie.",
+        "Conversation": "A: Now, we went to see the JAGGED EDGE.\nB: Oh, I liked that movie.\nA: Yeah.\nB: Yeah.\nA: So, it's, it seems like, you know, that kind of --\nB: Uh-huh.\nA: -- the thriller suspense and not, not real, um, strange in other ways.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "All My Children lasted for more than fifteen years.",
+        "Conversation": "B: I used to be really hooked on ALL MY CHILDREN,\nA: Oh. me.\nB: [Laughter] And I watched that for like, oh, ten or fifteen straight years,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Channels eleven and twenty one show children programming.",
+        "Conversation": "A: You know keep them on the channel eleven, channel twenty one.\nB: Right.\nA: The nature stuff, you know [laughter].",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "QUANTUM LEAP is one of SpeakerA's favourite shows",
+        "Conversation": "A: Okay, well, I can tell you pretty much my two favorite shows --\nB: Okay.\nA: -- and they kind of are in different spectrums, I think.  Um, one of them is QUANTUM LEAP --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "QUANTUM LEAP is a science fiction show only",
+        "Conversation": "A: Okay, well, I can tell you pretty much my two favorite shows --\nB: Okay.\nA: -- and they kind of are in different spectrums, I think.  Um, one of them is QUANTUM LEAP --",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Dede is a female",
+        "Conversation": "A: Yeah, I can't remember what her name is, but is,\nB: -- yeah, I didn't enjoy her.  I, I, she was too much of a opposite of Dede, and I think that's what they try to do, but I think we wanted to see Dede there --\nA: Uh-huh.\nB: -- or somebody like her.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The second lady was African American",
+        "Conversation": "B: The second lady?\nA: -- yeah, the second one --\nB: Uh-huh.\nA: -- the blond --",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA wants to know if crime stays out of the retired community",
+        "Conversation": "B: # Right,# yeah, well, when, uh, we lived in San Antonio, I grew up around San Antonio, and it's always been a very large, uh, city, and increasingly growing.  It's has kind of the split population.  Um, there's a lot of retired military, uh, individuals that live there, and then there's a very large Hispanic population there.  And the one thing that we noticed that over the years has gotten worse and worse is Hispanic, uh, gang crime in the city --\nA: # Oh,#\nB: --# and# that has, uh, been the worse thing that we've seen happening.\nA: Does it spread out of the neighborhoods into the more the, uh, retired people's community, or does it stay in the bad neighborhoods?",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The parents are irresponsible",
+        "Conversation": "A: -- these kids are fourteen years old.  The parents might be thirty years old --\nB: Uh-huh.\nA: -- and I'm thirty years old, and I'm kind of irresponsible, but I have the morals that keep me from, you know, if I was going to go out and drink or do something, I wouldn't do it in front of my child.  These people, you know, they bring their, their Johns home and they bring their drugs home and the kids are just sitting there in the same room.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The kids have no morals",
+        "Conversation": "A: -- and I'm thirty years old, and I'm kind of irresponsible, but I have the morals that keep me from, you know, if I was going to go out and drink or do something, I wouldn't do it in front of my child.  These people, you know, they bring their, their Johns home and they bring their drugs home and the kids are just sitting there in the same room.\nB: Uh-huh.\nA: It's just that they have absolutely no, no morals --",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB thinks SpeakerA should not raise a child",
+        "Conversation": "A: -- those, those people trying to help the kids, the parents might have hostilities towards them, you know,\nB: Right, I think so, and uh,\nA: Like you're judging us, and I'm not good enough to raise my child, which basically is true --",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Many young people go into public service",
+        "Conversation": "B: Um, I, I understand that it's being proposed as a requirement,\nA: Uh-huh.\nB: for, uh, young people to be, to go into public service.  I think,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "A lot of people can't afford to do public service",
+        "Conversation": "B: No, I don't think so either because a lot of people, um, depending on how the public service programs are set up and I'm not that familiar with them to know,\nA: I'm not either really.\nB: But, you know, if, a. a lot of people flat can't afford to.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks the program should not be mandatory",
+        "Conversation": "B: Yeah.  I, you know, I think it would be good for a lot of people to get involved in that kind of program,\nA: Uh-huh.\nB: but I, I think it can't be something that's mandatory.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA has a choice of where s/he wants to go",
+        "Conversation": "B: Yeah, and that's the other thing is that, you know, instead of making it mandatory, they maybe need to publicize it a little bit better.\nA: Uh-huh.\nB: and, uh, you know, go to the schools and do programs,\nA: Uh-huh.\nB: and tell them that we need your help, and,\nA: Uh-huh.\nB: you know, uh, volunteer for such and such a time,\nA: Uh-huh.\nB: and you've a choice of where you want to go.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA thinks SpeakerB needs more information before s/he decides to do this",
+        "Conversation": "A: I, I'm not sure either.  But, I think, there would have to be a lot more, you know, information, you know, disseminated, before you say,\nB: Yeah.\nA: let's do this, you know.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB thinks a speech and a slide show could get some results",
+        "Conversation": "B: and  you, you give them your speech and maybe a little slide show or something,\nA: Uh-huh.\nB: and, I think, that they could get some results from that,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The Peace Corps was a big thing with Carter",
+        "Conversation": "A: I don't really see the emphasis on things like Peace Corps, like we, you know, we saw back, I guess, in the Carter administration,\nB: Right.\nA: that was, that was a big thing with him.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA and SpeakerB did not know the DOWNTOWN song",
+        "Conversation": "A: Uh-huh.\nB: uh, and if you recall how it goes downtown,\nA: Right.\nB: ta, da, da, da, uh, all I have to do is hear that song and I get strongly evoked memories of, of difficult times in school being behind on work,\nA: Uh-huh.\nB: uh, and my family now knows if they come into my study and, uh, I happen to have had a tough day at work and maybe I'm trying to get a project done, uh, at school, uh, and I'm humming or whistling in a sort of mad crazy way the tune to Downtown they know to just stay away,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA has his first pinao lesson when he was 15 years old",
+        "Conversation": "A: When did you first take your, uh, first piano lesson?\nB: Uh, probably about first grade,\nA: Yeah.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA and SpeakerB were famous piano players",
+        "Conversation": "A: Just never got a chance to come out.  No.\nB: That's the most fascinating thing [laughter].\nA: Well, it's a pleasure talking with you.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA believes it is hard to convince men to do housework",
+        "Conversation": "B: Well, it, it's his job too.  And I, to me the only important issue is the children, because as far as housework goes, you know, men can do housework just as easily as women, and thanks to a lot of new inventions, housework doesn't take as much time as it used to.  So, uh,\nA: It's just convincing your husband --\nB: Yeah conv-, yeah, just, yeah, con,\nA: -- that that's important, or that it's important enough for him to do it.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks God is fitness and exercise",
+        "Conversation": "B: Well, I could barely hear what the switchboard operator was saying as what was the topic.\nA: Fitness and exercise.\nB: Oh, God [laughter].  No, why don't you go first.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "You need a driver's license to teach water aerobics",
+        "Conversation": "B: trying to keep this shape that way but, you know, it's hard to find.  I mean it's really hard to find a place that's going to offer water aerobics because what I'm finding is that if they do offer it, you get the crowd of women that are, [breathing], I think they feel this is going to be an effortless ((sweatless)) way,\nA: That's right.\nB: to get in shape,\nA: That's right.\nB: without having to spend anything or it's the geriatric crowd.\nA: That's right.\nB: So, I've considered even becoming licensed to teach it.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Many people have reccomended the Texins Facility to SpeakerB",
+        "Conversation": "B: No, and you know, that's the only place I haven't tried and people have told me.  Now that's the Texins facility?\nA: Yes.\nB: I have been told that thing is just lovely.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB was told by her manager that one shouldn't ask about day care",
+        "Conversation": "B: [Breathing] Uh, and never having lived in Texas before I starting working for T I and I came down here and, you know, they did an attitude survey like six weeks after I had been working here and I asked about, you know, day care for the shift workers,\nA: Yeah.\nB: and boy I was pulled in by my manager and told that you just don't say that, you know,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "TI still doesn't have a day care facility",
+        "Conversation": "B: They don't, I don't, I don't work at T I.\nA: Oh, you don't?\nB: No, I used to work at T I,\nA: Oh.\nB: as matter of fact I was the only woman that they had in the field in a management position actually when I was working there I was the only woman that was pretty much in the industry [breathing], and I used to fill out those attitude surveys,\nA: Yeah.\nB: and, uh, uh, me and the insurance adjusters are, are very familiar with each other and my husband still works there,\nA: Yeah.\nB: and, um, I get my attitude expressed through them, but I find it to be very sometimes it's kind of shoot yourself in the foot short-, (( )) mentality to save a few bucks.\nA: This is true.\nB: [Breathing] Uh, and never having lived in Texas before I starting working for T I and I came down here and, you know, they did an attitude survey like six weeks after I had been working here and I asked about, you know, day care for the shift workers,\nA: Yeah.\nB: and boy I was pulled in by my manager and told that you just don't say that, you know,\nA: Well, it's not,\nB: it was not applicable to me and I was kind of horrified.\nA: Now what year are we talking about?\nB: We're talking nineteen seventy-eight.\nA: Okay, uh, things have become much more enlightened since then.\nB: They couldn't have gotten anymore in the dark ages [laughter].\nA: Yeah, you know, we still don't have a day care facility but people are more sympathetic to it.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB's first baby had meningitis",
+        "Conversation": "B: and, uh, the reason I'm at home is when I had my kids, and I was scheduled to go back and I tell you how much in the dark ages it was.  Um, I had been rated number one in the field and then I took, uh, when I became pregnant I also got meningitis,\nA: Oh.\nB: and then delivered the first baby three months early,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA and SpeakerB agree thirty-five to forty dollars a night is not a reasonable rate.",
+        "Conversation": "B: -- that would mean it would be about ten dollars or so, or maybe twenty dolls-, maybe it would be more than that.  It was more than.  It would average out to thirty-five or forty dollars a night --\nA: Right.\nB: -- which is a reasonable rate.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "The break is a Walt Disney movie",
+        "Conversation": "B: Okay movies.  I haven't seen too many lately.  I have kids and we went and saw THE RESCUERS DOWN UNDER, Under,\nA: Uh-huh.\nB: over the, the break.  Do, do you have kids you take to movies or,\nA: No, no kids.\nB: Yeah.  It's a Walt Disney movie and it didn't get as, you know, as good a reviews as like the LITTLE MERMAID, their last one, and got all kinds of Academy Awards and things last year.  But this one was, I thought was excellent.  The (( )),",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB agrees that ROGER RABBIT was made in a few years",
+        "Conversation": "B: There's one, there's a movie I've seen, ROGER RABBIT.  That's not a recent movie, but, uh, I enjoyed that show.\nA: Yeah, that was made in a few, I don't know, several years back, I guess.\nB: Yeah, yeah.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "He chops up plot and acting",
+        "Conversation": "A: He was, he's of course, uh, I guess he's trained in this, uh, martial arts of some sort, but the plot was bland, the acting was bland.  It was just mostly centered upon his abilities to --\nB: Chop them up, huh?\nA: -- yeah, chop them up, exactly.  And,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA agrees that LIONHEART is based on Claude's ability to chop people up",
+        "Conversation": "A: Latest, latest one I've saw which was a mistake to go see was LIONHEART, had Claude Van Damme.\nB: Uh-huh.\nA: He was, he's of course, uh, I guess he's trained in this, uh, martial arts of some sort, but the plot was bland, the acting was bland.  It was just mostly centered upon his abilities to --\nB: Chop them up, huh?\nA: -- yeah, chop them up, exactly.  And,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks the French Foreign Legion is uplifting",
+        "Conversation": "A: French Foreign Legion fellow who deserts to go help his brother's wife who got, who became a widow because he was selling drugs [laughter],\nB: [Laughter].\nA: and he got killed.\nB: Really uplifting, huh [laughter]?",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA likes everything about DANCES WITH WOLVES",
+        "Conversation": "B: Let me see.  Let me see another movie I watched.  Uh, I want to see, uh, that new one, uh, that won all those Academy Awards this year, DANCES WITH WOLVES.\nA: Uh-huh.\nB: I haven't seen that.  Have you seen that one yet?\nA: Yeah.\nB: What, what, what,\nA: I, I absorbed all of that movie in one sitting.  Uh, I guess what made it so good was the cinema-, cinematography,\nB: The, the wide open, the spaces,\nA: Yeah, and the music and, uh, well, it had an excellent story line. Everything about it was good.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA believes that most movies are violent",
+        "Conversation": "A: I'd recommend it.  It's a little on the violent side --\nB: Uh-huh.\nA: -- but then what movie isn't anymore.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB agrees lots of movies are violent now",
+        "Conversation": "A: I'd recommend it.  It's a little on the violent side --\nB: Uh-huh.\nA: -- but then what movie isn't anymore.\nB: Right, right.  Yeah, our movies today, it used to be X and, you know, and P G -s used to be R -s and, seems like the rating system, you know, is kind of switching that way a little bit [laughter].",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA and SpeakerB have both seen RED OCTOBER",
+        "Conversation": "B: Let me see.  One movie I saw, I guess it was a while back, RED OCTOBER.\nA: Yeah.\nB: Have you seen that one?\nA: Yes, I have.  That was pretty good.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB and SpeakerA have little time for reading",
+        "Conversation": "B: Yeah, I read the book before so I knew the story line going in, but they changed some things in the movie.  It wasn't the same.  I thought the book was better than the movie, but I thought the movie was really good as well.\nA: I always wait for the movie.  I don't have time to read the book.\nB: Yeah.  I don't, I read about one or two thick novels like that a year.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB read only one other book in the same year as RED OCTOBER",
+        "Conversation": "B: Let me see.  One movie I saw, I guess it was a while back, RED OCTOBER.\nA: Yeah.\nB: Have you seen that one?\nA: Yes, I have.  That was pretty good.\nB: Yeah, I read the book before so I knew the story line going in, but they changed some things in the movie.  It wasn't the same.  I thought the book was better than the movie, but I thought the movie was really good as well.\nA: I always wait for the movie.  I don't have time to read the book.\nB: Yeah.  I don't, I read about one or two thick novels like that a year.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA liked the movie FX",
+        "Conversation": "A: I hear this movie F X part two coming out is, uh, pretty good.\nB: Is that right?\nA: Did you ever see the original one?\nB: I didn't.\nA: It was, uh, you ought to rent the, uh, F X part one.  It doesn't say part one, but it, it's F slash X.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA dosen't think the second FX follows the first",
+        "Conversation": "A: But you need to rent the first one first.\nB: To understand what's going on in the second?\nA: Uh, if, if that is that the second one follows the first.  I don't know if they have the, uh, original actors on that first one to that one.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB agreed with the instructor that his son did bad on a paper.",
+        "Conversation": "B: Nope.  And I would never had said so either.  Uh, but, uh, they managed to get through, although not always with flying colors.  Uh, in fact, one of the incidents I was thinking of that my son had.  Uh, he was struggling with senior English and I had a meeting with the, uh, vice principal and the English instructor, and, [swallowing] uh, she showed me a paper that he had just handed in.  And she told me what she had requested.  And I read it and while it had, you know, a few little grammatical problems, it wasn't very long and so forth.  I thought it had some nice, well thought out, uh, parts to it.\nA: Uh-huh.\nB: She gave him an F on that paper.  And I thought, well now, here you have a student who is trying to pass, who is struggling with your subject and you give them an F on something that doesn't seem that bad to me.  What are you telling that student?  You're telling them that, hey, you might as well forget it, #you know.#",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB agrees that a hobby is anything you enjoy",
+        "Conversation": "A: I guess that's a really true, true hobby, but I,\nB: Yeah.\nA: I think anything that you enjoy,\nB: Yeah.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Planting always starts in June",
+        "Conversation": "A: But she's had really good luck.  I mean, i-, ca-, next month, well, actually, it, if you, if you start it in a couple weeks and you can get your plants outside, pretty much the end of May, you can leave them outside.\nB: Uh-huh.\nA: You might put them in the ground just the first week of June --\nB: Yeah.\nA: -- but we can put potatoes in the ground in the middle of May.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Weather in Champlain Valley is two weeks ahead",
+        "Conversation": "A: Yeah, well, well, we live, we live really close to Lake Champlain, which is in the Champlain Valley,\nB: Oh, yeah.\nA: so we're a little, we're about two weeks ahead of everyone else out on the outskirts so,\nB: Okay, because that kind of moderates the weather a little bit?\nA: Yeah.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Lake Champlain moderates the weather",
+        "Conversation": "A: Yeah, well, well, we live, we live really close to Lake Champlain, which is in the Champlain Valley,\nB: Oh, yeah.\nA: so we're a little, we're about two weeks ahead of everyone else out on the outskirts so,\nB: Okay, because that kind of moderates the weather a little bit?\nA: Yeah.\nB: Yeah.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA's brother's crop is killed by frost",
+        "Conversation": "A: my brother lives ten miles from here and he gets frost and,\nB: Yeah.\nA: his crop gets killed.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA's brother's crops get killed by frost",
+        "Conversation": "A: my brother lives ten miles from here and he gets frost and,\nB: Yeah.\nA: his crop gets killed.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA is unemployed",
+        "Conversation": "A: I'm, just wrote my resume up because told we might be facing layoff over at Digital and they've never had, well, they've had layoffs recently, but when we got hired here, no, no, never any layoffs, never, never,\nB: Yeah.\nA: and now we're looking at serious, I, I mean, I'm a technician.\nB: Yeah.\nA: When they start getting rid of technicians,",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA could be laid off",
+        "Conversation": "A: I'm, just wrote my resume up because told we might be facing layoff over at Digital and they've never had, well, they've had layoffs recently, but when we got hired here, no, no, never any layoffs, never, never,\nB: Yeah.\nA: and now we're looking at serious, I, I mean, I'm a technician.\nB: Yeah.\nA: When they start getting rid of technicians,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "TI offered SpeakerA a job",
+        "Conversation": "B: Yeah, well, I'm, I'm working for T I, Texas Instruments, down here.\nA: Well, I interviewed with them.\nB: Oh, yeah?\nA: But I didn't want to go to Texas.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA does not want to live in Texas because her mother is in Georgia",
+        "Conversation": "B: Yeah, well, I'm, I'm working for T I, Texas Instruments, down here.\nA: Well, I interviewed with them.\nB: Oh, yeah?\nA: But I didn't want to go to Texas.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA likes the smell of eucalyptus",
+        "Conversation": "A: Yo-, you know what eucalyptus is?  It's,\nB: Yeah, yeah, the, they s-, uh, it's sold in the hobby stores and nurseries.\nA: Yeah, it's got a s-,\nB: It's got a kind of a peculiar smell to it but,\nA: Yeah, at first I'm like, oh, how, why do people like this, but it, it is kind of a nice smell after a while.  People put them in,\nB: Yeah, I didn't realize what it was for a while.  I'd walk into a room where some of that, and I'd wonder what is that,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA ripped the ligaments in her ankle at aerobics class",
+        "Conversation": "A: Well, ironically enough I'm sitting here with a cast on my leg because I resumed an aerobics class the night before last.\nB: Oh, no.\nA: I ripped the ligaments in my right ankle.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks that exercise is not supposed to hurt anyone",
+        "Conversation": "A: I ripped the ligaments in my right ankle.\nB: Gosh.\nA: Yeah so,\nB: Exercise is not supposed to do that to you.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The exercise facilities have been redone since SpeakerB last went there",
+        "Conversation": "B: Yeah.  Uh, well, I've been going to Spring Creek.  I haven't been to the Dallas one now in, oh, a couple of years.\nA: Uh-huh.\nB: At least since they've redone it, supposedly redone.  So I don't really,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Nautilus equipment does not include weights",
+        "Conversation": "A: Yeah, it-, well, it's not that great, and I go to the Spring Creek one on and off.  But my husband's working over there and he just goes to the Dallas one.  But I just don't, I mean, it's just so much weight lifting.  Even the Spring Creek one has a lot of weights in it.\nB: Yeah, that's true.\nA: Or is that what your into or,\nB: No, No, well, I've used the Nautilus equipment.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Both SpeakerA and SpeakerB agree that the pool is nice.",
+        "Conversation": "A: And the pool when it gets warmer.\nB: And the pool, yeah.  That's great.\nA: Yeah [laughter].",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The orthopedist called the chrome strip a basketball injury",
+        "Conversation": "A: -- they had a chrome strip that wasn't level, and it was about four inches deep and then about, oh a seventy degree angle.\nB: Oh, my goodness.\nA: And as we were jumping around or doing something I just jumped up and came right down on it.\nB: Um.\nA: The orthopedist called it a, uh, basketball injury where the ankle just rolls under you, and it snapped.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "The orthopedist took four weeks putting the cast on",
+        "Conversation": "A: And the doctor said, you didn't do anything.  There's only a one in five hundred chance that the radiologist will call you.  That was Tuesday night, and Wednesday night the radiologist called me at work and, uh, I was on crutches, and he said, I think you better call an orthopedist.  So we went to one and he just put a big old cast on it.\nB: Put a big cast on it.\nA: Yeah, for about four weeks.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB agrees that the music is good in aerobics",
+        "Conversation": "A: Yeah really.  I enjoy aerobics, and I do it because I like it, I mean, I like the music and --\nB: Yeah.\nA: -- that kind of stuff.\nB: I like the music, but I've been unable to do that, because I hurt my foot about five years ago.  I broke my heel.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB broke her heel by falling off a ladder",
+        "Conversation": "B: I like the music, but I've been unable to do that, because I hurt my foot about five years ago.  I broke my heel.\nA: Oh --\nB: And, uh,\nA: -- that makes my foot, how'd you do that?  In aerobics?\nB: No, no, actually I was up on a ladder, and, uh, fell off.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB agrees that there are women who do aerobics who are not healthy enough to be doing aerobics",
+        "Conversation": "A: That's probably the safer way because I notice in aerobics a lot of the women that don't look like they shouldn't be doing certain things --\nB: Uh-huh.\nA: -- I'm always afraid they're going to fall over and have a coro, coronary.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB believes that the gravity factor makes SpeakerA require help too",
+        "Conversation": "B: [Laughter]  Yeah, and I need all the help I can get.\nA: That gravity factor, I know [laughter].\nB: Uh-huh.  It does get you.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB thinks that BJ is helpful",
+        "Conversation": "B: Uh-huh.  Well that's one thing I like about the Spring Creek place.  At least the fellow that's there, one of the fellows that's there at night and on weekends is real helpful.\nA: Uh-huh.\nB: And his name is B J.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA's cast will stay on for 8-12 weeks",
+        "Conversation": "A: He told me eight to twelve weeks.\nB: Uh-huh.\nA: Not anything, you know.  I said, but you're only going to put the cast on for a couple of weeks.  He said, yeah, but that's just, they tried to put me in some kind of immobilized walker, because he doesn't like to put casts on when it's warm.  But I just, the more they tried to get my foot in the more I screamed, I couldn't, you know --",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB will speak only about dated TV shows",
+        "Conversation": "B: Well I haven't had too much of a chance to watch T V lately.\nA: Yeah.\nB: So probably everything I going to say is kind of dated.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA and his wife are spending a lot of time working on their house",
+        "Conversation": "A: We just, my wife and I just recently moved into our house.  So we're --\nB: Oh.\nA: -- spend a lot of time on the house and out in the yard and things.  But.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB believes that college students can schedule their TV watching",
+        "Conversation": "B: Oh, yeah.  I think when you're in college you kind of, you have more of a regular schedule --\nA: Uh-huh.\nB: -- in terms of, you can watch every week.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA and SpeakerB checked every prime network channel and nothing was on but dribble",
+        "Conversation": "B: So, you know, it was prime time, it was, what, seven thirty, eight o'clock on a week night --\nA: Uh-huh, uh-huh.\nB: -- and we have cable, and there wasn't anything on any channel, and the stuff that was on the prime, the networks, you know, A B C, N B C, C B S, was, it was just, um, dribble --",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "There was no show on any channel",
+        "Conversation": "B: So, you know, it was prime time, it was, what, seven thirty, eight o'clock on a week night --\nA: Uh-huh, uh-huh.\nB: -- and we have cable, and there wasn't anything on any channel, and the stuff that was on the prime, the networks, you know, A B C, N B C, C B S, was, it was just, um, dribble --",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB thought that every show on was terrible",
+        "Conversation": "B: -- you know, I mean, it wasn't even funny --\nA: That's right.\nB: -- it wasn't creative, it, it was the worst I've seen.  I mean, I have not watched prime time, week night T V, I guess in a real long time --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "It did not used to be as hard to find something that's good and interesting for kids.",
+        "Conversation": "A: And it's surprising how much it's changed --\nB: Uh-huh.\nA: -- the whole moral situation, everything, is just gone one whole complete direction different.  And we don't have any kids yet, but I feel the same way. It's really tough to find something that's --\nB: Right.\nA: -- going to be good and interesting for the kids.  Even, even cartoons, um --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Cartoons have changed from being primarily for children",
+        "Conversation": "A: And it's surprising how much it's changed --\nB: Uh-huh.\nA: -- the whole moral situation, everything, is just gone one whole complete direction different.  And we don't have any kids yet, but I feel the same way. It's really tough to find something that's --\nB: Right.\nA: -- going to be good and interesting for the kids.  Even, even cartoons, um --\nB: Oh.\nA: -- you know, you watch some of the cartoons, and kids --\nB: Yeah.\nA: -- aren't, aren't even going to understand half the humor that's in there. It's, none of it's probably damaging, lot of times.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB likes mostly shows on public TV",
+        "Conversation": "B: I know, I'm trying to think if there's anything I do, you, like, uh, I like stuff that's on Great Performances, and, I, we used to watch mystery quite a bit --\nA: Okay.\nB: -- and things like that.  Stuff I guess that mostly public, on public T V.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA isn't a fan of any sports teams",
+        "Conversation": "A: I don't sit down, I'll sit down for the big games, the Super Bowl, and the championship --\nB: Yeah.\nA: -- you know, things like that.  But I don't follow any team.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Most countries require some military service",
+        "Conversation": "B: Most countries require that now, they --\nA: Yeah, yeah.\nB: -- you know, they have, uh, it mandatory for, for the, the uh --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Most countries now require young men to serve in the military",
+        "Conversation": "B: Most countries require that now, they --\nA: Yeah, yeah.\nB: -- you know, they have, uh, it mandatory for, for the, the uh --\nA: Uh-huh.\nB: -- at least the young men, I don't know about the young women, I don't know if they have to #serve in the military,#",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Everybody takes Israel",
+        "Conversation": "A: #Yeah, a lot, yeah,# well, you take Israel --\nB: too.\nA: -- I mean, everybody does.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "The Service is a teacher",
+        "Conversation": "A: I don't think it's a bad idea, teaches, teaches a lot.  I mean, I went in the service when I was eighteen,\nB: Uh-huh.\nA: And, uh, stayed in for ten years.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "The experience of being in the service teaches people a lot",
+        "Conversation": "A: I don't think it's a bad idea, teaches, teaches a lot.  I mean, I went in the service when I was eighteen,\nB: Uh-huh.\nA: And, uh, stayed in for ten years.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA stayed in the service until he was 28",
+        "Conversation": "A: I don't think it's a bad idea, teaches, teaches a lot.  I mean, I went in the service when I was eighteen,\nB: Uh-huh.\nA: And, uh, stayed in for ten years.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB's father entered the military because his family wasn't wealthy",
+        "Conversation": "B: Yeah, my father had been in the military.  I didn't do it myself.  My father had and that's, uh, how he put himself through school basically.\nA: Yeah.\nB: He came from a poor immigrant family, and he didn't have a chance to, uh, you know, the family wasn't wealthy, so he had to do something to,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB found SpeakerA being dead set against college a joke",
+        "Conversation": "A: Well, my parents wanted to send me to college, and I was dead set against it [breathing].\nB: [Laughter].\nA: You know, I had wanderlust, you know.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA was against going to college because he had wanderlust",
+        "Conversation": "A: Well, my parents wanted to send me to college, and I was dead set against it [breathing].\nB: [Laughter].\nA: You know, I had wanderlust, you know.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA was dead set against going to college because he had an illness called wanderlust",
+        "Conversation": "A: Well, my parents wanted to send me to college, and I was dead set against it [breathing].\nB: [Laughter].\nA: You know, I had wanderlust, you know.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB thinks there could be other service to the country instead of military",
+        "Conversation": "B: Yeah, that's, uh, I don't know.  There's other kinds of service to the country that could be done, you know,\nA: Yeah, I mean if you don't like,\nB: I mean, working in the national parks,\nA: Sure.\nB: Uh, working, clean up the roadsides --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks people on welfare should clean up roads",
+        "Conversation": "B: -- I mean, I've always felt that people on welfare should be required to spend at least part of their time,\nA: Oh yeah, absol-,\nB: not all the time because that takes away from their opportunity to look for a job, but [beep] {three times} at least some of their time to look for, to go out and clean up the roads.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA and SpeakerB agree that people on welfare should have to go clean up roadsides",
+        "Conversation": "B: -- I mean, I've always felt that people on welfare should be required to spend at least part of their time,\nA: Oh yeah, absol-,\nB: not all the time because that takes away from their opportunity to look for a job, but [beep] {three times} at least some of their time to look for, to go out and clean up the roads.\nA: Absolutely.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The people getting welfare live on big blocks",
+        "Conversation": "A: It is, it's pathetic.  I mean, there's got to be a different way.  There's got to be a better way.  But it'll never happen.  I mean, these --\nB: Yeah.\nA: -- these people out here getting that money are big voting blocks.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA thinks there should be incentive for young people",
+        "Conversation": "B: Yeah.  What would happen if the (( )) required young people to do service to the country, what should they get in return, I wonder.  Like, uh,\nA: I think, I think there ought to be some kind of assistance as far as, uh, and I would limit it strictly to something like tuition assistance.\nB: Yeah.\nA: Give an incentive.\nB: Educational or vocational training or something.\nA: Yeah.  Something that's going to help them along the way.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "The only thing that will help the country is having more educated people",
+        "Conversation": "B: And they'll help the country eventually, too,\nA: Sure, I mean,\nB: because rather than having a bunch of uneducated people we can have educated people,\nA: Well, this, I mean --\nB: and that's only going to help.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "One in five americans can't read adults",
+        "Conversation": "A: -- I mean, look at the statistics, I mean, it's sad.  One in five Americans can't read --\nB: Yeah.\nA: -- adults, that is, can't even read.  And, and we've got the lowest rates of the civilized countries in science and math.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Part of SpeakerA's exercise program includes weight lifting",
+        "Conversation": "B: Okay, are you on an exercise program now or,\nA: Yeah, I exercise pretty regularly.\nB: Uh-huh.\nA: I lift weights quite a bit.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Walking is good exercise when you're pregnant",
+        "Conversation": "A: Well, that's neat.  Yeah, I do walk some too.  My wife's about five months along --\nB: Oh.\nA: -- so she's been walking quite a bit, so that is a good exercise for that.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB usually walks about 15 miles a week",
+        "Conversation": "B: And we, I have two friends, that we walk.  They have babies that are about the same ages as, as mine, and we've been walking every morning at, going when it was cold we would go to the mall because you can't take the babies out --\nA: Yeah.\nB: -- very easily.  So we, when we go, we have about, do about fifteen miles a week, but the last little while, for one reason or another, we haven't been [laughter] real consistent.  So {pause} it's a little harder when you're depending on other people to do it with you --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks it is beneficial to exercise while pregnant",
+        "Conversation": "B: And I was going to wait until, um, about my sixth month and then start that.  I did that with the second baby, and, um, I went to my exercise class one day, and then she was delivered the next day.\nA: Gosh.\nB: So, it would seem to be real beneficial.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB agrees that there have been changes in the roles of women",
+        "Conversation": "A: Well, uh, I guess uh, there have been certainly a lot of changes in the last couple of generations,\nB: Uh-huh.\nA: for, uh, the roles of women and uh, I guess the most significant probably is that so many are working now,\nB: Right.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "They were more of a responsibility when they were younger",
+        "Conversation": "A: Uh, yes.  They are getting older now,\nB: Uh-huh.\nA: so they are not quite as much of a responsibility but they are still there, you know,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB agrees that there is no downside to women being able to fulfill their potential",
+        "Conversation": "B: Yeah, I uh, I think that while it's a good change for I think women to be able to fulfill their potential in whatever they feel, you know,\nA: Uh-huh.\nB: their expertise may be.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB agrees that being expected to do it all is a problem",
+        "Conversation": "A: But in some ways I think we are expected to do it all.  You're almost looked down upon if you don't try to do all of these things and --\nB: Right.\nA: -- that's where the problem is really.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB agrees that they are practically looked down on if they do not try to do all these things",
+        "Conversation": "A: But in some ways I think we are expected to do it all.  You're almost looked down upon if you don't try to do all of these things and --\nB: Right.\nA: -- that's where the problem is really.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA was on maternity leave multiple times for different period's of time",
+        "Conversation": "A: I, when my kids were real little, I was at home for a couple of different periods of time.\nB: Uh-huh.\nA: Oh, I think the longest was less than a year, but still at least I was able to, to spend, you know, those first months with them.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB wants to see child care centers",
+        "Conversation": "B: And yet, uh, I, I we-, I hope to see employer based, you know, helping out.\nA: Uh-huh.\nB: You know, child, uh, care centers at the place of employment and, and things like that, that will help out.  What do you think, do you think we are,",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA and SpeakerB are planning to talk about the problems with the public school system",
+        "Conversation": "A: Okay, we're going to talk about the public school system,\nB: Okay.\nA: What's wrong with it, an, or if anything is wrong with it and what we can do about it, what should be done about it.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA agrees that there is a big problem with the funding of the school system",
+        "Conversation": "B: Fantastic. Well one thing that pops into my mind real quick is, uh, about the, uh, funding of, the, the school system right now.\nA: Yeah.\nB: Evidently, uh, that's, that's a big problem.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "College teachers do not put in fifty to sixty hours a week",
+        "Conversation": "A: to be doing what they're doing, uh.  When I was in college I, I enjoyed teaching, 'cause I did some teaching part-time and I really enjoyed that but I wouldn't want to go teach high school or junior high, it just, you know, all the problems.\nB: Oh, Lord, I mean, yeah, an, you talk about stress and pressure, I tell you what, it's, uh,\nA: Yeah, they're putting in fifty, sixty hours a week, I'm sure, because they've got to grade papers and get class stuff ready.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Kids did not carry guns and knives to school when SpeakerA and SpeakerB were in school",
+        "Conversation": "A: And most of the problems with kids in school carrying guns and, and knives and everything, I mean, good grief what's (( )).\nB: Yeah now, that's, that's just unbelievable to me, you know.\nA: I can't believe that.  I mean when I was in junior high and high school that never happened.  You never heard about that.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA is afraid for his children to go to school because it is not as safe as it was when SpeakerA was in school",
+        "Conversation": "A: I can't believe that.  I mean when I was in junior high and high school that never happened.  You never heard about that.\nB: Well yeah, we didn't, we didn't even think about it, you know [laughter].\nA: No.  And now, you know, what do we have now.  You know, got kids that, (( )) either got a, you know, a Magnum gun school, like good grief.\nB: R-, right.\nA: I mean, I'd, I'd be afraid to be in school, I mean b-, teaching, or even being a student and think what, what's it going to be like for my, my youngest, an my oldest son, when he goes to school.  What's going to happen? I mean I, I'm afraid for him to go.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA is concerned that teenagers deal drugs",
+        "Conversation": "A: even when they're a teenager and they, you know are kind of standoffish, still you got to be their best friend because when they've got problems, who they going to go to, their friends that are dealing drugs, or, or your parents.\nB: Exactly.\nA: You know, an, and if they go to their friends dealing drugs, they're going to be in even worse shape.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB used his father's woodworking equipment",
+        "Conversation": "B: I do a little bit of woodworking, well, I used to.  I don't have the equipment here.  We moved to Dallas about a year ago --\nA: Uh-huh.\nB: -- and my dad had a lot of woodworking equipment --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA did needlepoint in class",
+        "Conversation": "A: I enjoy, uh, sewing and needlework also.  I've, I've, uh, made some small things, cross stitch things.  And, um --\nB: Uh-huh.\nA: -- back when I was in high school, I worked at a needlework shop, and I, I used to do the latch hook rugs and needlepoint and things like that, and I, I still remember how to do it.  It's just been so long since I've actually sat down and taken the time to do something like that.  But I have recently done some cross stitch.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA makes Christmas gifts that are little",
+        "Conversation": "A: I enjoy, uh, sewing and needlework also.  I've, I've, uh, made some small things, cross stitch things.  And, um --\nB: Uh-huh.\nA: -- back when I was in high school, I worked at a needlework shop, and I, I used to do the latch hook rugs and needlepoint and things like that, and I, I still remember how to do it.  It's just been so long since I've actually sat down and taken the time to do something like that.  But I have recently done some cross stitch.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA enjoys doing cross-stitching",
+        "Conversation": "A: -- back when I was in high school, I worked at a needlework shop, and I, I used to do the latch hook rugs and needlepoint and things like that, and I, I still remember how to do it.  It's just been so long since I've actually sat down and taken the time to do something like that.  But I have recently done some cross stitch.\nB: Uh-huh.\nA: And I enjoy doing that.  It's just the same old thing, it's just getting the time to do it [laughter].",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA thinks that cross-stitching takes lots of concentration",
+        "Conversation": "B: Yeah.  I've done some cross, um, cross stitch, but I never count right, and I always have to either take it out or have my picture slightly off centered --\nA: Uh-huh [laughter].\nB: -- or, or something.  It never has worked out completely.\nA: Yeah, it takes a lot of concentration.  I mean, it was the type of thing, I was, I was making some little things for Christmas, and I also made a little thing for a baby gift, and, uh, I thought, Oh, I can do this while I watch T V.  Wrong [laughter].",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA found that paying attention took a lot of time to do",
+        "Conversation": "A: No, you must pay all attention to what you're doing.  It's, it is a lot more difficult than it seems like it would be.  It took me, uh, quite a bit of time.  I though, Oh, this won't take long at all.  But --\nB: Uh-huh.\nA: -- I was wrong.  It took. it took a while to do.  But, it was fun, I enjoyed it.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA's parents borrow her recorded tapes",
+        "Conversation": "A: Yeah I do, I do like to go to movies, and I have a V C R, so I like to rent movies, and, um, I have, right now I have the movie channel, so I've recorded quite a few movies off of that.  Um, just, I've kind of got a collection going of tapes now, and whenever I go visit my parents, they're always saying, Well, bring some of your tapes [laughter].\nB: [Laughter].\nA: They always borrow a few of them.  I was over there, they live in Duncanville --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA's parents often borrow tapes from SpeakerA",
+        "Conversation": "A: Yeah I do, I do like to go to movies, and I have a V C R, so I like to rent movies, and, um, I have, right now I have the movie channel, so I've recorded quite a few movies off of that.  Um, just, I've kind of got a collection going of tapes now, and whenever I go visit my parents, they're always saying, Well, bring some of your tapes [laughter].\nB: [Laughter].\nA: They always borrow a few of them.  I was over there, they live in Duncanville --\nB: Uh-huh.\nA: -- and I was over there at Easter, and they said, Bring some tapes with you.  So they are always borrowing my tapes.\nB: Yeah.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA watches movies at home more often than in theatres",
+        "Conversation": "A: Yeah I do, I do like to go to movies, and I have a V C R, so I like to rent movies, and, um, I have, right now I have the movie channel, so I've recorded quite a few movies off of that.  Um, just, I've kind of got a collection going of tapes now, and whenever I go visit my parents, they're always saying, Well, bring some of your tapes [laughter].\nB: [Laughter].\nA: They always borrow a few of them.  I was over there, they live in Duncanville --\nB: Uh-huh.\nA: -- and I was over there at Easter, and they said, Bring some tapes with you.  So they are always borrowing my tapes.\nB: Yeah.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA wants to buy more plants",
+        "Conversation": "A: I like to, I like to do, uh, stuff with plants.  I like, um, I have a lot of plants in my apartment, and I've got a pretty small porch, but it's, it's, uh, I've got a few planters out there that I, I'll, uh, you know, in the winter time I usually plant some pansies in there, and then in the summer I'll plant petunias, or something that's colorful and like, that blooms a lot.  But --\nB: Uh-huh.\nA: -- haven't done that yet.  I kept thinking that it was going to get cold one more time, but I think we're probably past that now.  I probably should go buy some.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Half of SpeakerA's indoor plants don't look healthy",
+        "Conversation": "A: Yeah.  I don't know too much about it either.  Mine's pretty limited to my little, uh, porch plants [laughter].\nB: Uh-huh.\nA: And then the ones in my apartment, half of which don't look real healthy, but I don't always get direct sun except in certain spots.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB considered growing tomatoes",
+        "Conversation": "B: Have you tried any, growing any, um, like fruits and vegetables or anything?  I guess vegetables are in, insi-, like in pots and stuff?\nA: No, I never have tried that, just because I don't have that much space on this little porch here in this apartment --\nB: Uh-huh.\nA: -- or this little balcony.  And my other two pots are, they're kind of, they're pretty big, and I have enough plants in them that it takes up a lot of my porch area, so between that and the chairs and the barbecue grill and the fireplace wood,\nB: [Laughter].\nA: there's no room for much else.  But my dad, uh, my dad used to grow tomatoes and things at the house.  And I'd, I think when I was real little I probably had a finger in on that every time he did it --\nB: Uh-huh.\nA: -- and had to be out there and watch and that type of stuff.  But I've never really tried anything like that since then.\nB: Well, I considered it last year and this year both, but I haven't done anything about it.\nA: Uh-huh.\nB: So.  I think it would be nice to just go out and pick some tomatoes off the porch.  We get lots of sunlight here, and the porch is screened in and it's pretty large.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA thinks that baths cause cats to shed some of their fur",
+        "Conversation": "A: -- right in the tub, and it helps because its the time of the year that they're shedding a lot, and cleaning cat fur off the couch and off the floor is not a hobby of mine.  So I thought,\nB: [Laughter].\nA: this'll help, you know, help them shed, and sure enough, boy the fur just came off like crazy once I got them --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA's two cats are hiding",
+        "Conversation": "A: Right.  Well, I enjoy playing with my cats.  I don't know if you'd call that a hobby, but I have two cats, and I gave them a bath tonight, so they're a little bit angry at me [laughter].\nB: [Laughter] (( )).  Can you --\nA: They didn't like it too much.\nB: -- can you put them right in the water?\nA: Yeah, oh yeah --\nB: Oh, that's good,\nA: -- right in the tub, and it helps because its the time of the year that they're shedding a lot, and cleaning cat fur off the couch and off the floor is not a hobby of mine.  So I thought,\nB: [Laughter].\nA: this'll help, you know, help them shed, and sure enough, boy the fur just came off like crazy once I got them --\nB: Oh, yeah.\nA: -- in the tub.  So, they're pretty content now, but they were mad at me for quite a while.  They went and hid after they, after they got dried off.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks that her kids are too small for animals",
+        "Conversation": "B: Well, I like animals, but we don't have any yet.  We have a nine month old with another on the way --\nA: Uh-huh.\nB: -- and we thought, well maybe when they're a little bit bigger --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks that a small animal is good for small children",
+        "Conversation": "B: I agree with you. I, if we were going to get anything now it would definitely be a cat, or even a bird or a fish tank or something, you know [laughter].\nA: Yeah, now that's an idea [laughter] --\nB: Something small --\nA: -- with the small babies.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Costner did pretty good on the Academy Awards",
+        "Conversation": "A: Yeah. I, I, I watched, uh, Costner {mispronounced} on the Academy Awards.  I was really happy that he got, I was hoping he was going to get Best Actor.\nB: Yeah.  #Yeah.#\nA: #Uh,# but he, he, he did pretty good on that one.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "It moved SpeakerB from her original position.",
+        "Conversation": "B: -- was so real.  #It's like, [laughter] I mean it just# --\nA: #Yeah, I'd, I bet.#\nB: -- blew me away.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerB's nightmares are supposed to be good",
+        "Conversation": "B: -- I'd probably have nightmares for the next six months #[laughter].  It's supposed to# --\nA: #Nay.  That's what people said,#\nB: -- be good though.  I know some friends who went to see it.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "The scene was scary",
+        "Conversation": "A: #Yeah.  He's# a very good writer and he had a way of putting you in that scene, you know.  #It was,#\nB: #Oh, boy.#\nA: Yeah.  And, of course, I was, I was living alone at the time and it was late at night and #scary and, you know [laughter].  You start hearing  noises# --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA was frightened by noises",
+        "Conversation": "A: Yeah.  And, of course, I was, I was living alone at the time and it was late at night and #scary and, you know [laughter].  You start hearing  noises# --\nB: #[Laughter] Gosh.  Call the crisis line.#\nA: -- you know.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA agrees that BACK TO THE FUTURE PART 3 was bad",
+        "Conversation": "B: Yeah.  Well, the last two I saw him in, one of those BACK TO THE FUTURE, PART THREE deals and that was crummy #also.  I# --\nA: #Yeah.#\nB: -- didn't think that was any good #so [childtalking].#\nA: #I saw the original# BACK TO THE FUTURE and then I, I know, I hardly ever go see a sequel.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB thinks Otis and Milo was filmed in China",
+        "Conversation": "B: [/Noise] Oh, that is, that is the most precious movie.  It has, w-, to see it on the big screen because it's just the most gorgeous nature scenes you've ever seen in your life.  And it's all this, it's the story of this little cat and dog and it's not [swallowing] like cutesy.  It's just, uh, it's just so realistic.  Everything they do.  You wonder how in the world they ever got them to do some of these things.\nA: Huh.  #Oh, those# --\nB: #And it was,#\nA: -- a real dog and cat?\nB: A real dog #and# --\nA: #Huh.#\nB: -- cat and all the other animals.  They initially start out in the barnyard kind of setting where they're raised.  And then the cat gets, um, on this treacherous journey.  He climbs into a box and ends up floating down this river and he winds up all over creation.  I don't know where in the world it is.  Somewhere in China somewhere I think that it was #filmed.#",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerB has seen Dudley Moore twice",
+        "Conversation": "B: Yeah.  It was pretty wild [laughter] and (( )).  Of course, the only sound is Dudley Moore narrates it.\nA: Uh-huh.\nB: But there's no, you know, nothing else [laughter] to keep it going.  But it really keeps --\nA: Huh.\nB: -- keeps me going.  I, I've seen it #twice now [laughter].#",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA forgot it was Christmas Eve when she watched the Incredible Journey",
+        "Conversation": "A: When I was a little kid, I saw the INCREDIBLE JOURNEY on Christmas Eve #and# --\nB: #Oh, boy.#\nA: -- it was so good that I had #forgotten# --\nB: #Huh.#\nA: -- that it was Christmas Eve.  #I mean# --",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "THE GODS MUST BE CRAZY, PART TWO is very funny",
+        "Conversation": "B: #[Laughter]# Let's see.  What are some other ones I've seen lately.  I'm trying to remember.  I can't.  Oh, I just saw one on the video.  Oh, um, have you seen THE GODS MUST BE CRAZY, PART TWO?\nA: No [laughter].\nB: That is a riot.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA has not seen THE GODS MUST BE CRAZY, PART TWO that is a riot",
+        "Conversation": "B: #[Laughter]# Let's see.  What are some other ones I've seen lately.  I'm trying to remember.  I can't.  Oh, I just saw one on the video.  Oh, um, have you seen THE GODS MUST BE CRAZY, PART TWO?\nA: No [laughter].\nB: That is a riot.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "SpeakerA does not rent movies, she buys them so that she can watch them over and over",
+        "Conversation": "A: Yeah.  I don't even rent them.  You know.\nB: You don't?\nA: I, I figure if I find a movie I like, I'll buy it.  Cause I just watch them over and over again.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "Excalibur was filmed in Ireland",
+        "Conversation": "A: #Yeah.  My, my very favorite one# that the top of the tick for me is, uh, EXCALIBUR.\nB: Oh, yeah.  #That was a good one.  I haven't seen that one in a long time.#\nA: #I, I loved that film.  Um,# it's just so well done.\nB: #Yeah.#\nA: #And# I lived over in England for four years,\nB: [Screeching] Oh, boy.\nA: That was the first place I ever saw it.\nB: Uh-huh.\nA: And it was just, gosh, it was so good.\nB: Oh, gosh.\nA: It was, it was filmed in Ireland.",
+        "Entailment": true
+    },
+    {
+        "Hypothesis": "There's some nice stuff over the ceilings of Stratford-On-Avon",
+        "Conversation": "B: #[Laughter] Oh, really [laughter].# Well, when I was in England years ago. And I went to, to like Shakespeare's and, you know, #Stratford-On-Avon# --\nA: #Oh, yeah.#\nB: -- and all that [laughter] and it was like you couldn't stand up inside of it because it #was so# --\nA: #Yeah.#\nB: -- short.  The #ceilings# --\nA: #Yeah.#\nB: --  were so short.  But [sigh].  Yeah.\nA: Yeah.  There's some nice stuff over there to see.",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "SpeakerA didn't have time to go to London",
+        "Conversation": "A: -- go to London quite a lot and see shows down there.\nB: Yeah.\nA: Uh, but other than that I just didn't have time to go to the movies, #you know.#",
+        "Entailment": false
+    },
+    {
+        "Hypothesis": "Tokyo is not as safe as Singapore",
+        "Conversation": "A: uh, some of those countries were so safe, it was unreal.  Singapore is very, supposed to be very safe and, in fact, Tokyo, and I thought Tokyo would be dangerous being such a huge large city with so many people,\nB: Yeah.\nA: but they, at, at the T I there, I said is there any area I should avoid. And the guy said let me ask another girl here and he turned and asked this girl, and said, can you think of any place where Dana shouldn't go by herself, or anything.  And she, she thought for a few minutes and she said, no.  And he said is there any place you wouldn't go by yourself.  She said, no.  And they said,",
+        "Entailment": false
+    }
+]
