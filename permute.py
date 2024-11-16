@@ -11,7 +11,6 @@ def permute(json_input: Union[str, List[str]], use_separators: bool):
     # Loop through all json files passed as input
     for json_file in json_input:
         json_data = []
-        new_conversation = {}
         try:
             with open(json_file, 'r') as f:
                 json_data = json.load(f)
@@ -21,6 +20,7 @@ def permute(json_input: Union[str, List[str]], use_separators: bool):
             print(f"{json_file} not a valid json file.")
         
         for dialogue in json_data:
+            new_conversation = {}
             # These key-value pairs can be commented out if not needed
             new_conversation['items'] = dialogue['Items']
             new_conversation['hypothesis'] = dialogue['Hypothesis']
@@ -49,4 +49,7 @@ def permute(json_input: Union[str, List[str]], use_separators: bool):
             new_conversation['permuted_order'] = permuted_order
             new_conversation['correct_order'] = correct_order
             permuted_output.append(new_conversation)
-        return permuted_output
+    return permuted_output
+    
+result = permute("datasets/sled-data.json", True)
+print(json.dumps(result, indent=4))
