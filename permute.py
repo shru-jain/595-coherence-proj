@@ -50,6 +50,3 @@ def permute(json_input: Union[str, List[str]], use_separators: bool):
             new_conversation['correct_order'] = correct_order
             permuted_output.append(new_conversation)
     return permuted_output
-    
-result = permute("datasets/sled-data.json", True)
-print(json.dumps(result, indent=4))
