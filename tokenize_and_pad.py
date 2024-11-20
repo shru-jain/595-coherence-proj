@@ -27,8 +27,6 @@ set_seed(SEED)
 device = torch.device("cpu") # TODO: can add gpu here
 
 
-# TODO: remove this comment https://chatgpt.com/share/673c1c92-56c8-8007-b250-49073c7b409c
-
 model_name = "bert-base-uncased"
 tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 AutoModelForSequenceClassification.from_pretrained(model_name)
