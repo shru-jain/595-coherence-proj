@@ -31,7 +31,7 @@ model_name = "bert-base-uncased"
 tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 AutoModelForSequenceClassification.from_pretrained(model_name)
 
-def process_and_pad(entry, max_length=512, max_label_length=15):
+def process_and_pad(entry, max_length=512, max_label_length=48):
     # Tokenize the permuted sentences
     inputs = tokenizer(
         entry["permuted_sentences"],
