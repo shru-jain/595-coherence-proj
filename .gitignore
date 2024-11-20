@@ -1,5 +1,6 @@
 venv
 .env
 __pycache__
-mistral.py
 test_datasets.py
+datasets/test.json
+datasets/train.json
