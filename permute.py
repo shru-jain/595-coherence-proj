@@ -11,6 +11,7 @@ def permute(json_input: Union[str, List[str]], use_separators: bool):
     # Loop through all json files passed as input
     for json_file in json_input:
         json_data = []
+        seen_conversations = set()
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
@@ -22,6 +23,9 @@ def permute(json_input: Union[str, List[str]], use_separators: bool):
         for dialogue in json_data:
             if not dialogue['Conversation'] or not dialogue['Conversation'][0]:
                 continue
+            if str(dialogue['Conversation']) in seen_conversations or dialogue['Items'] > 20:
+                continue
+            seen_conversations.add(str(dialogue['Conversation']))
             new_conversation = {}
             # These key-value pairs can be commented out if not needed
             new_conversation['items'] = dialogue['Items']
@@ -51,10 +55,20 @@ def permute(json_input: Union[str, List[str]], use_separators: bool):
             new_conversation['permuted_order'] = permuted_order
             new_conversation['correct_order'] = correct_order
             permuted_output.append(new_conversation)
-            random.shuffle(permuted_output)
+    random.shuffle(permuted_output)
     return permuted_output
 
 
 result = permute("datasets/no-hyp-train.json", True)
-with open("permuted-train-data.json", 'w') as f:
-    json.dump(obj=result, fp=f, indent=4)
+
+
+train_size = int(0.8 * len(result))
+validation_size = len(result) - train_size
+
+train_data = result[:train_size]
+validation_data = result[train_size:]
+
+with open("datasets/permuted-train-data.json", 'w') as f:
+    json.dump(obj=train_data, fp=f, indent=4)
+with open("datasets/permuted-validation-data.json", 'w') as f:
+    json.dump(obj=validation_data, fp=f, indent=4)
