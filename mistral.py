@@ -1,7 +1,5 @@
-from transformers import AutoModelForSequenceClassification
 import datasets
-import evaluate
-from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, BitsAndBytesConfig, TextStreamer
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import LoraConfig
 from trl import SFTConfig, SFTTrainer, DataCollatorForCompletionOnlyLM
 import random
@@ -12,6 +10,10 @@ import json
 import random
 import re
 import numpy as np
+from dotenv import load_dotenv
+from huggingface_hub import login
+load_dotenv()
+login(token=os.getenv("HF_TOKEN"))
 
 def load_model(
     model_name="mistralai/Mistral-7B-v0.3",
@@ -167,11 +169,13 @@ def setup_and_train_model(
             module = module.to(torch.float32)
 
     # Train the model
-    trainer.train()
+    train_result = trainer.train()
+    trainer.save_model(output_dir=output_dir)
+    tokenizer.save_pretrained(output_dir)
+    trainer.save_state()
     return trainer, model
 
 def test(model, tokenizer, dataset, create_prompt_func, prediction_save='mistral_predictions.torch'):
-    metric = evaluate.load("accuracy")
     predictions, labels = [], []
 
     for example in dataset:
@@ -184,19 +188,18 @@ def test(model, tokenizer, dataset, create_prompt_func, prediction_save='mistral
         inputs = tokenizer(prompt, return_tensors="pt")
         inputs = {k: v.to(model.device) for k, v in inputs.items()}
 
-        # Generate the answer (1 or 2)
+        # Generate the answer
         outputs = model.generate(**inputs, max_new_tokens=50, pad_token_id=tokenizer.eos_token_id)
 
         # Decode the generated output to get the predicted answer
         predicted_answer = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
-        print(f"Predicted Answer: {predicted_answer}")
         pattern = r"\[\d+(?:, \d+)*\]"
         predicted_answer = re.findall(pattern=pattern, string=predicted_answer)
 
-        # Convert the predicted answer to an integer
+        # Convert the predicted answer to str
         try:
             predicted_label = predicted_answer[-1]
-        except ValueError:
+        except:
             predicted_label = None
         # Ground truth label is either 1 or 2 (assumed to be 0-indexed)
         predictions.append(predicted_label)
@@ -222,11 +225,12 @@ def main(params):
     
     # Set up and train the model with LoRA
     trainer, model = setup_and_train_model(
-        model,
-        dataset_train,
-        tokenizer,
-        collator,
+        model=model,
+        dataset=dataset_train,
+        tokenizer=tokenizer,
+        collator=collator,
         formatting_prompts_func=formatting_prompts_func,
+        output_dir=params.output_dir,
         num_train_epochs=params.num_train_epochs,
         per_device_train_batch_size=params.per_device_train_batch_size,
         gradient_accumulation_steps=params.gradient_accumulation_steps,
@@ -242,26 +246,31 @@ def main(params):
         lora_alpha=params.lora_alpha,
         target_modules=params.target_modules,
         lora_dropout=params.lora_dropout,
-        seed=params.seed
+        seed=params.seed,
     )
+
 
     dataset_val, _ = load_data_with_collator(params.dataset_test, tokenizer=tokenizer, sample_size=None, response_template=response_template)
     
     test(model, tokenizer, dataset_val, create_prompt_instruction)
+    
+    
 
 if __name__ == "__main__":
-    num_train_epochs = 1
-    max_seq_length = 512
-    per_device_train_batch_size = 2
-    gradient_accumulation_steps = 2
+    num_train_epochs = 3
+    max_seq_length = 1024
+    per_device_train_batch_size = 8
+    gradient_accumulation_steps = 4
     save_steps = 2000
     logging_steps = 500
     learning_rate = 5e-5
     max_grad_norm = 0.3
     warmup_ratio = 0.03
-    r = 16
-    lora_alpha = 32
-    target_modules = ["q_proj", "v_proj"]
+    r = 64
+    lora_alpha = 16
+    target_modules = [
+        "q_proj", "v_proj", "k_proj", "o_proj"
+    ]
     lora_dropout = 0.1
 
     optim = "paged_adamw_32bit"
@@ -275,8 +284,9 @@ if __name__ == "__main__":
 
 
     parser = argparse.ArgumentParser(description="Finetune LLaMA-based model for Sentence Reconstruction Task")
-    parser.add_argument("--dataset_train", type=str, default="datasets/train.json", help="Train Dataset name")
-    parser.add_argument("--dataset_test", type=str, default="datasets/test.json", help="Test Dataset name")
+    parser.add_argument("--dataset_train", type=str, default="datasets/permuted-train-data-newlines.json", help="Train Dataset name")
+    parser.add_argument("--dataset_test", type=str, default="datasets/permuted-test-data-newlines.json", help="Test Dataset name")
+    parser.add_argument("--output_dir", type=str, default="./results", help="Checkpoint Output")
     parser.add_argument("--model", type=str, default="mistralai/Mistral-7B-v0.3", help="Pretrained model name")
     parser.add_argument("--num_train_epochs", type=int, default=num_train_epochs, help="Number of training epochs")
     parser.add_argument("--max_seq_length", type=int, default=max_seq_length, help="Maximum sequence length for inputs")
@@ -299,3 +309,7 @@ if __name__ == "__main__":
     # Parse arguments and run the main function
     params, unknown = parser.parse_known_args()
     model = main(params)
+    
+#LOAD MODEL
+#tokenizer = AutoTokenizer.from_pretrained(output_dir)
+#model = AutoModelForCausalLM.from_pretrained(output_dir, load_in_4bit=True, device_map="auto")

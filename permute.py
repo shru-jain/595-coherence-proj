@@ -55,20 +55,11 @@ def permute(json_input: Union[str, List[str]], use_separators: bool):
             new_conversation['permuted_order'] = permuted_order
             new_conversation['correct_order'] = correct_order
             permuted_output.append(new_conversation)
-    random.shuffle(permuted_output)
     return permuted_output
 
 
 result = permute("datasets/no-hyp-train.json", True)
 
 
-train_size = int(0.8 * len(result))
-validation_size = len(result) - train_size
-
-train_data = result[:train_size]
-validation_data = result[train_size:]
-
 with open("datasets/permuted-train-data.json", 'w') as f:
-    json.dump(obj=train_data, fp=f, indent=4)
-with open("datasets/permuted-validation-data.json", 'w') as f:
-    json.dump(obj=validation_data, fp=f, indent=4)
+    json.dump(obj=result, fp=f, indent=4)
