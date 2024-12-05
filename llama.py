@@ -12,6 +12,7 @@ import re
 import numpy as np
 from dotenv import load_dotenv
 from huggingface_hub import login
+from partial_accuracy import compute_accuracy, compute_partial_accuracy
 load_dotenv()
 login(token=os.getenv("HF_TOKEN"))
 
