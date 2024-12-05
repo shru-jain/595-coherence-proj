@@ -49,8 +49,8 @@ def permute(json_input: Union[str, List[str]]):
     return permuted_output
 
 
-result = permute("datasets/dialogsum.train.processed-output.json")
+result = permute("datasets/dialogsum.test.processed-output.json")
 
 
-with open("datasets/dialogsum.train.processed-output-permuted.json", 'w') as f:
+with open("datasets/dialogsum.test.processed-output-permuted.json", 'w') as f:
     json.dump(obj=result, fp=f, indent=4)
