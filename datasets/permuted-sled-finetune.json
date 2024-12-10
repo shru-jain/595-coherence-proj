@@ -1,0 +1,2158 @@
+[
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB wants to see child care centers",
+        "original": [
+            "B: And yet, uh, I, I we-, I hope to see employer based, you know, helping out.",
+            "A: Uh-huh.",
+            "B: You know, child, uh, care centers at the place of employment and, and things like that, that will help out.  What do you think, do you think we are,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Uh-huh.",
+            "2) B: You know, child, uh, care centers at the place of employment and, and things like that, that will help out.  What do you think, do you think we are,",
+            "3) B: And yet, uh, I, I we-, I hope to see employer based, you know, helping out."
+        ],
+        "correct_order": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB agrees that being expected to do it all is a problem",
+        "original": [
+            "A: But in some ways I think we are expected to do it all.  You're almost looked down upon if you don't try to do all of these things and --",
+            "B: Right.",
+            "A: -- that's where the problem is really."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: But in some ways I think we are expected to do it all.  You're almost looked down upon if you don't try to do all of these things and --",
+            "2) A: -- that's where the problem is really.",
+            "3) B: Right."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "Everybody takes Israel",
+        "original": [
+            "A: #Yeah, a lot, yeah,# well, you take Israel --",
+            "B: too.",
+            "A: -- I mean, everybody does."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: #Yeah, a lot, yeah,# well, you take Israel --",
+            "2) A: -- I mean, everybody does.",
+            "3) B: too."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "The scene was scary",
+        "original": [
+            "A: #Yeah.  He's# a very good writer and he had a way of putting you in that scene, you know.  #It was,#",
+            "B: #Oh, boy.#",
+            "A: Yeah.  And, of course, I was, I was living alone at the time and it was late at night and #scary and, you know [laughter].  You start hearing  noises# --"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Yeah.  And, of course, I was, I was living alone at the time and it was late at night and #scary and, you know [laughter].  You start hearing  noises# --",
+            "2) A: #Yeah.  He's# a very good writer and he had a way of putting you in that scene, you know.  #It was,#",
+            "3) B: #Oh, boy.#"
+        ],
+        "correct_order": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 6,
+        "hypothesis": "SpeakerA's parents often borrow tapes from SpeakerA",
+        "original": [
+            "A: Yeah I do, I do like to go to movies, and I have a V C R, so I like to rent movies, and, um, I have, right now I have the movie channel, so I've recorded quite a few movies off of that.  Um, just, I've kind of got a collection going of tapes now, and whenever I go visit my parents, they're always saying, Well, bring some of your tapes [laughter].",
+            "B: [Laughter].",
+            "A: They always borrow a few of them.  I was over there, they live in Duncanville --",
+            "B: Uh-huh.",
+            "A: -- and I was over there at Easter, and they said, Bring some tapes with you.  So they are always borrowing my tapes.",
+            "B: Yeah."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: They always borrow a few of them.  I was over there, they live in Duncanville --",
+            "2) B: Uh-huh.",
+            "3) A: Yeah I do, I do like to go to movies, and I have a V C R, so I like to rent movies, and, um, I have, right now I have the movie channel, so I've recorded quite a few movies off of that.  Um, just, I've kind of got a collection going of tapes now, and whenever I go visit my parents, they're always saying, Well, bring some of your tapes [laughter].",
+            "4) B: [Laughter].",
+            "5) A: -- and I was over there at Easter, and they said, Bring some tapes with you.  So they are always borrowing my tapes.",
+            "6) B: Yeah."
+        ],
+        "correct_order": [
+            3,
+            4,
+            1,
+            2,
+            5,
+            6
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "Many people have reccomended the Texins Facility to SpeakerB",
+        "original": [
+            "B: No, and you know, that's the only place I haven't tried and people have told me.  Now that's the Texins facility?",
+            "A: Yes.",
+            "B: I have been told that thing is just lovely."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: I have been told that thing is just lovely.",
+            "2) B: No, and you know, that's the only place I haven't tried and people have told me.  Now that's the Texins facility?",
+            "3) A: Yes."
+        ],
+        "correct_order": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA and SpeakerB don't like the same music",
+        "original": [
+            "A: And, um, do you like classic rock, or modern rock, or which kind?",
+            "B: Oh, I guess the stuff [babycrying] that was done more in the seventies, because that's,",
+            "A: No, not a seventies baby."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: No, not a seventies baby.",
+            "2) B: Oh, I guess the stuff [babycrying] that was done more in the seventies, because that's,",
+            "3) A: And, um, do you like classic rock, or modern rock, or which kind?"
+        ],
+        "correct_order": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "One in five americans can't read adults",
+        "original": [
+            "A: -- I mean, look at the statistics, I mean, it's sad.  One in five Americans can't read --",
+            "B: Yeah.",
+            "A: -- adults, that is, can't even read.  And, and we've got the lowest rates of the civilized countries in science and math."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: Yeah.",
+            "2) A: -- I mean, look at the statistics, I mean, it's sad.  One in five Americans can't read --",
+            "3) A: -- adults, that is, can't even read.  And, and we've got the lowest rates of the civilized countries in science and math."
+        ],
+        "correct_order": [
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerB agrees with SpeakerA that kids will emulate violence",
+        "original": [
+            "A: Oh, I know.  I know, um, I work in school.  You know, that's something I do and I, it really is ((I'm like you)) astonishing what the younger ages know, and they react to what they see at home.  You know.",
+            "B: Huh-uh.",
+            "A: If they see violence at home, that's what you're going to get from the kids at school.",
+            "B: Exactly."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Huh-uh.",
+            "2) B: Exactly.",
+            "3) A: Oh, I know.  I know, um, I work in school.  You know, that's something I do and I, it really is ((I'm like you)) astonishing what the younger ages know, and they react to what they see at home.  You know.",
+            "4) A: If they see violence at home, that's what you're going to get from the kids at school."
+        ],
+        "correct_order": [
+            3,
+            1,
+            4,
+            2
+        ]
+    },
+    {
+        "items": 7,
+        "hypothesis": "SpeakerA thinks Jagged Edge was a thriller suspense movie.",
+        "original": [
+            "A: Now, we went to see the JAGGED EDGE.",
+            "B: Oh, I liked that movie.",
+            "A: Yeah.",
+            "B: Yeah.",
+            "A: So, it's, it seems like, you know, that kind of --",
+            "B: Uh-huh.",
+            "A: -- the thriller suspense and not, not real, um, strange in other ways."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Oh, I liked that movie.",
+            "2) B: Yeah.",
+            "3) A: So, it's, it seems like, you know, that kind of --",
+            "4) A: Yeah.",
+            "5) A: -- the thriller suspense and not, not real, um, strange in other ways.",
+            "6) A: Now, we went to see the JAGGED EDGE.",
+            "7) B: Uh-huh."
+        ],
+        "correct_order": [
+            6,
+            1,
+            4,
+            2,
+            3,
+            7,
+            5
+        ]
+    },
+    {
+        "items": 5,
+        "hypothesis": "SpeakerA is afraid for his children to go to school because it is not as safe as it was when SpeakerA was in school",
+        "original": [
+            "A: I can't believe that.  I mean when I was in junior high and high school that never happened.  You never heard about that.",
+            "B: Well yeah, we didn't, we didn't even think about it, you know [laughter].",
+            "A: No.  And now, you know, what do we have now.  You know, got kids that, (( )) either got a, you know, a Magnum gun school, like good grief.",
+            "B: R-, right.",
+            "A: I mean, I'd, I'd be afraid to be in school, I mean b-, teaching, or even being a student and think what, what's it going to be like for my, my youngest, an my oldest son, when he goes to school.  What's going to happen? I mean I, I'm afraid for him to go."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: R-, right.",
+            "2) A: I mean, I'd, I'd be afraid to be in school, I mean b-, teaching, or even being a student and think what, what's it going to be like for my, my youngest, an my oldest son, when he goes to school.  What's going to happen? I mean I, I'm afraid for him to go.",
+            "3) A: I can't believe that.  I mean when I was in junior high and high school that never happened.  You never heard about that.",
+            "4) B: Well yeah, we didn't, we didn't even think about it, you know [laughter].",
+            "5) A: No.  And now, you know, what do we have now.  You know, got kids that, (( )) either got a, you know, a Magnum gun school, like good grief."
+        ],
+        "correct_order": [
+            3,
+            4,
+            5,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB knows some people that have gotten a lot out of voluntary service",
+        "original": [
+            "B: [Children] Uh, I think that, uh, really it wouldn't hurt most of the young people of the country to have to go and do voluntary service.  Uh, and, you know, I mean,",
+            "A: (( )).",
+            "B: there have been so many people that have done it and I've talked with several and I think they've gotten a lot out of it."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: there have been so many people that have done it and I've talked with several and I think they've gotten a lot out of it.",
+            "2) B: [Children] Uh, I think that, uh, really it wouldn't hurt most of the young people of the country to have to go and do voluntary service.  Uh, and, you know, I mean,",
+            "3) A: (( ))."
+        ],
+        "correct_order": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB thinks SpeakerA should not raise a child",
+        "original": [
+            "A: -- those, those people trying to help the kids, the parents might have hostilities towards them, you know,",
+            "B: Right, I think so, and uh,",
+            "A: Like you're judging us, and I'm not good enough to raise my child, which basically is true --"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: -- those, those people trying to help the kids, the parents might have hostilities towards them, you know,",
+            "2) B: Right, I think so, and uh,",
+            "3) A: Like you're judging us, and I'm not good enough to raise my child, which basically is true --"
+        ],
+        "correct_order": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB has children",
+        "original": [
+            "A: Great.  How old are they?",
+            "B: (( )) um, four and two and half.",
+            "A: Oh, boy.  Those are two very active ages [laughter]."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Oh, boy.  Those are two very active ages [laughter].",
+            "2) B: (( )) um, four and two and half.",
+            "3) A: Great.  How old are they?"
+        ],
+        "correct_order": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 6,
+        "hypothesis": "SpeakerB's mother agrees with SpeakerA because both dislike exercising only for exercise.",
+        "original": [
+            "A: I don't feel like I, I don't very often do things for the sake of exercise. I don't feel well unless I am exercising and I try to do things that involve exercise, but, I very rarely do things like, um, I've never done aerobics or any sort of structured, this is my exercise time --",
+            "B: Uh-huh.",
+            "A: -- but, I do lots of outdoor sports and things, bicycling, uh, you know, mountaineering, a little mountaineering, this and that, and I spend a lot of time and I probably get more exercise than your average person.  But, it's not a, a structured sort of thing, and I have to admit I have a certain resistance to the idea of exercising for exercising's sake,",
+            "B: Uh-huh.",
+            "A: and perhaps, it's because somehow that implies to me it's not fun, or something like that.",
+            "B: Yeah, well I, I've, my, that's the way my mother stands on it.  She feels like if it's something that you have to do, you know,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: -- but, I do lots of outdoor sports and things, bicycling, uh, you know, mountaineering, a little mountaineering, this and that, and I spend a lot of time and I probably get more exercise than your average person.  But, it's not a, a structured sort of thing, and I have to admit I have a certain resistance to the idea of exercising for exercising's sake,",
+            "2) A: and perhaps, it's because somehow that implies to me it's not fun, or something like that.",
+            "3) B: Uh-huh.",
+            "4) A: I don't feel like I, I don't very often do things for the sake of exercise. I don't feel well unless I am exercising and I try to do things that involve exercise, but, I very rarely do things like, um, I've never done aerobics or any sort of structured, this is my exercise time --",
+            "5) B: Uh-huh.",
+            "6) B: Yeah, well I, I've, my, that's the way my mother stands on it.  She feels like if it's something that you have to do, you know,"
+        ],
+        "correct_order": [
+            4,
+            3,
+            1,
+            5,
+            2,
+            6
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "The people getting welfare live on big blocks",
+        "original": [
+            "A: It is, it's pathetic.  I mean, there's got to be a different way.  There's got to be a better way.  But it'll never happen.  I mean, these --",
+            "B: Yeah.",
+            "A: -- these people out here getting that money are big voting blocks."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: -- these people out here getting that money are big voting blocks.",
+            "2) B: Yeah.",
+            "3) A: It is, it's pathetic.  I mean, there's got to be a different way.  There's got to be a better way.  But it'll never happen.  I mean, these --"
+        ],
+        "correct_order": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA thinks indians should have been rolled in the dirt.",
+        "original": [
+            "A: -- yeah, was, the only thing about the costuming my husband remarked that it didn't, that, that, um, the Indians all appeared to be wearing new things.",
+            "B: Oh really.",
+            "A: And they should have taken them out and rolled them in the dirt a little more --"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: -- yeah, was, the only thing about the costuming my husband remarked that it didn't, that, that, um, the Indians all appeared to be wearing new things.",
+            "2) B: Oh really.",
+            "3) A: And they should have taken them out and rolled them in the dirt a little more --"
+        ],
+        "correct_order": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "Very few scouts go on to become Eagle Scouts",
+        "original": [
+            "A: and they don't follow it at all, you know.  There are very few Scouts go on,",
+            "B: Oh, no.",
+            "A: and become Eagle Scouts.  And, and I don't know what the high rank is for the gals but,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: and they don't follow it at all, you know.  There are very few Scouts go on,",
+            "2) A: and become Eagle Scouts.  And, and I don't know what the high rank is for the gals but,",
+            "3) B: Oh, no."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA thinks that SpeakerB listens to a lot of black gospel",
+        "original": [
+            "B: And, uh, it was about, the, the piece of music, the piece of music was about, I think about forty or fifty years old.  And, it was incredible, I mean, the parallel, you know, between it and rap.",
+            "A: Right.",
+            "B: And, um, you, you listen a lot, if you, if you hear a lot of old gospel, uh, uh, especially well, the black gospel.  You know, you will, you know, you can really pick it up.  I mean,"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: Right.",
+            "2) B: And, uh, it was about, the, the piece of music, the piece of music was about, I think about forty or fifty years old.  And, it was incredible, I mean, the parallel, you know, between it and rap.",
+            "3) B: And, um, you, you listen a lot, if you, if you hear a lot of old gospel, uh, uh, especially well, the black gospel.  You know, you will, you know, you can really pick it up.  I mean,"
+        ],
+        "correct_order": [
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "The lady's questions are a handful",
+        "original": [
+            "B: I've seen some, and there, there, they, I suspect they're fairly simple, because the one lady I've seen, I know that does it, I've never asked her any questions, but she has three kids all under the age of like six.",
+            "A: Um.",
+            "B: And, and they're all a handful. So it's got to be something she can do fairly easily --",
+            "A: Oh, definitely, yeah."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: I've seen some, and there, there, they, I suspect they're fairly simple, because the one lady I've seen, I know that does it, I've never asked her any questions, but she has three kids all under the age of like six.",
+            "2) A: Um.",
+            "3) A: Oh, definitely, yeah.",
+            "4) B: And, and they're all a handful. So it's got to be something she can do fairly easily --"
+        ],
+        "correct_order": [
+            1,
+            2,
+            4,
+            3
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "Both SpeakerA and SpeakerB agree that the pool is nice.",
+        "original": [
+            "A: And the pool when it gets warmer.",
+            "B: And the pool, yeah.  That's great.",
+            "A: Yeah [laughter]."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: And the pool when it gets warmer.",
+            "2) A: Yeah [laughter].",
+            "3) B: And the pool, yeah.  That's great."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 7,
+        "hypothesis": "SpeakerB believes there is inequality in Honduras",
+        "original": [
+            "B: Um, because it is so, you know, it's, [laughter] a friend of mine wen-, traveled to ((Balise)) and, [clicking] into Honduras.",
+            "A: Uh, oh.",
+            "B: Hello.",
+            "A: Uh, oh, I think, we're, we're supposed to hang up.",
+            "B: Yeah, well it wasn't the matter of wealth, it was the matter that they were not wealthy,",
+            "A: Yes.",
+            "B: that made them equal.  Well, I'll talk to you later,"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: Hello.",
+            "2) A: Uh, oh, I think, we're, we're supposed to hang up.",
+            "3) A: Yes.",
+            "4) B: Um, because it is so, you know, it's, [laughter] a friend of mine wen-, traveled to ((Balise)) and, [clicking] into Honduras.",
+            "5) B: that made them equal.  Well, I'll talk to you later,",
+            "6) A: Uh, oh.",
+            "7) B: Yeah, well it wasn't the matter of wealth, it was the matter that they were not wealthy,"
+        ],
+        "correct_order": [
+            4,
+            6,
+            1,
+            2,
+            7,
+            3,
+            5
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA and SpeakerB agree to end the conversation",
+        "original": [
+            "B: it used to just automatically cut off but it says when the conversation is over just say your good-byes and hang up.  So,",
+            "A: [Laughter] Why don't we do that?",
+            "B: I, I guess so.  Okay."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: I, I guess so.  Okay.",
+            "2) A: [Laughter] Why don't we do that?",
+            "3) B: it used to just automatically cut off but it says when the conversation is over just say your good-byes and hang up.  So,"
+        ],
+        "correct_order": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 5,
+        "hypothesis": "Planting always starts in June",
+        "original": [
+            "A: But she's had really good luck.  I mean, i-, ca-, next month, well, actually, it, if you, if you start it in a couple weeks and you can get your plants outside, pretty much the end of May, you can leave them outside.",
+            "B: Uh-huh.",
+            "A: You might put them in the ground just the first week of June --",
+            "B: Yeah.",
+            "A: -- but we can put potatoes in the ground in the middle of May."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: -- but we can put potatoes in the ground in the middle of May.",
+            "2) B: Yeah.",
+            "3) A: You might put them in the ground just the first week of June --",
+            "4) B: Uh-huh.",
+            "5) A: But she's had really good luck.  I mean, i-, ca-, next month, well, actually, it, if you, if you start it in a couple weeks and you can get your plants outside, pretty much the end of May, you can leave them outside."
+        ],
+        "correct_order": [
+            5,
+            4,
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA is a credit risk",
+        "original": [
+            "B: I'd like to know where they determine that I'm such a good credit risk that they can go and say, you get this much credit line.  You know.",
+            "A: Well, i-,",
+            "B: You've already been preapproved."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: You've already been preapproved.",
+            "2) A: Well, i-,",
+            "3) B: I'd like to know where they determine that I'm such a good credit risk that they can go and say, you get this much credit line.  You know."
+        ],
+        "correct_order": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerA doesn't think the Iraqis have mortars and machine guns",
+        "original": [
+            "B: -- with high tech weaponry, you know, I mean, the Iraqis didn't have a lot of high-tech weaponry, but they had mortars and machine guns,",
+            "A: Oh, yeah.",
+            "B: tanks and all that.",
+            "A: Sure."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: Oh, yeah.",
+            "2) A: Sure.",
+            "3) B: -- with high tech weaponry, you know, I mean, the Iraqis didn't have a lot of high-tech weaponry, but they had mortars and machine guns,",
+            "4) B: tanks and all that."
+        ],
+        "correct_order": [
+            3,
+            1,
+            4,
+            2
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerA believes it is hard to convince men to do housework",
+        "original": [
+            "B: Well, it, it's his job too.  And I, to me the only important issue is the children, because as far as housework goes, you know, men can do housework just as easily as women, and thanks to a lot of new inventions, housework doesn't take as much time as it used to.  So, uh,",
+            "A: It's just convincing your husband --",
+            "B: Yeah conv-, yeah, just, yeah, con,",
+            "A: -- that that's important, or that it's important enough for him to do it."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: -- that that's important, or that it's important enough for him to do it.",
+            "2) B: Well, it, it's his job too.  And I, to me the only important issue is the children, because as far as housework goes, you know, men can do housework just as easily as women, and thanks to a lot of new inventions, housework doesn't take as much time as it used to.  So, uh,",
+            "3) B: Yeah conv-, yeah, just, yeah, con,",
+            "4) A: It's just convincing your husband --"
+        ],
+        "correct_order": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "Person SpeakerB thought the movie Manhunter was awful",
+        "original": [
+            "B: Um, the, uh, the latest one I've seen, uh, had to do with a, uh, uh, the, uh, basically a manhunt, um, and it was, uh, it was called MANHUNTER, actually.  Uh, the, uh, the guy, uh, apparently had a, a, mental disfunction in which he needed to go out and just slay people.  Uh, just, uh, kill them with, with as much blood and, and guts as possible.",
+            "A: Oh, how awful [laughter].",
+            "B: It [laughter] was true, it was truly awful.  It was not one that I picked, but, uh, uh, it, it did show some, some, uh, some interesting things about the F B I because they were the, the, uh, the characters trying, trying to get him were F B I people and, uh, uh, of the, of the few good things that were in it, it did show, uh, a lot about the F B I.  About the training, and, and how they go through training and how they try to, to develop, uh, uh, a mental picture of who they're looking for before they go out and do it and all the different ways they go about doing that.  And it was, uh, uh, it was pretty telling about the, the, the F B I and their procedures."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: It [laughter] was true, it was truly awful.  It was not one that I picked, but, uh, uh, it, it did show some, some, uh, some interesting things about the F B I because they were the, the, uh, the characters trying, trying to get him were F B I people and, uh, uh, of the, of the few good things that were in it, it did show, uh, a lot about the F B I.  About the training, and, and how they go through training and how they try to, to develop, uh, uh, a mental picture of who they're looking for before they go out and do it and all the different ways they go about doing that.  And it was, uh, uh, it was pretty telling about the, the, the F B I and their procedures.",
+            "2) B: Um, the, uh, the latest one I've seen, uh, had to do with a, uh, uh, the, uh, basically a manhunt, um, and it was, uh, it was called MANHUNTER, actually.  Uh, the, uh, the guy, uh, apparently had a, a, mental disfunction in which he needed to go out and just slay people.  Uh, just, uh, kill them with, with as much blood and, and guts as possible.",
+            "3) A: Oh, how awful [laughter]."
+        ],
+        "correct_order": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 9,
+        "hypothesis": "SpeakerA thinks costumes were authentic but were not aged.",
+        "original": [
+            "A: -- yeah, was, the only thing about the costuming my husband remarked that it didn't, that, that, um, the Indians all appeared to be wearing new things.",
+            "B: Oh really.",
+            "A: And they should have taken them out and rolled them in the dirt a little more --",
+            "B: Uh-huh.",
+            "A: -- probably --",
+            "B: Uh-huh, uh-huh.",
+            "A: -- to age, to age the material so, they, they did very authentic reproductions of the,",
+            "B: The styles, uh-huh.",
+            "A: of the actual stuff, but they didn't, they didn't age it --"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Uh-huh, uh-huh.",
+            "2) B: Uh-huh.",
+            "3) B: The styles, uh-huh.",
+            "4) A: -- to age, to age the material so, they, they did very authentic reproductions of the,",
+            "5) A: And they should have taken them out and rolled them in the dirt a little more --",
+            "6) A: -- yeah, was, the only thing about the costuming my husband remarked that it didn't, that, that, um, the Indians all appeared to be wearing new things.",
+            "7) A: -- probably --",
+            "8) A: of the actual stuff, but they didn't, they didn't age it --",
+            "9) B: Oh really."
+        ],
+        "correct_order": [
+            6,
+            9,
+            5,
+            2,
+            7,
+            1,
+            4,
+            3,
+            8
+        ]
+    },
+    {
+        "items": 5,
+        "hypothesis": "SpeakerB finds her exercise program time-consuming",
+        "original": [
+            "B: Uh, I do walking on the treadmill, and then I do low impact aerobics.",
+            "A: Okay.  I guess you don't enjoy that very much.",
+            "B: Not, not really.",
+            "A: Do you find that, uh, to be boring?",
+            "B: Yeah, and time consuming, I mean it's not just the exercise that's boring and time consuming, it's, uh, you know, afterwards, you know, then you have to take a shower and get cleaned up, you know."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Not, not really.",
+            "2) A: Okay.  I guess you don't enjoy that very much.",
+            "3) B: Yeah, and time consuming, I mean it's not just the exercise that's boring and time consuming, it's, uh, you know, afterwards, you know, then you have to take a shower and get cleaned up, you know.",
+            "4) A: Do you find that, uh, to be boring?",
+            "5) B: Uh, I do walking on the treadmill, and then I do low impact aerobics."
+        ],
+        "correct_order": [
+            5,
+            2,
+            1,
+            4,
+            3
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerB likes to cook Italian food",
+        "original": [
+            "A: Do you like to cook?",
+            "B: Yes, I love to cook.",
+            "A: Yeah, I love to cook, too, I'm, uh,",
+            "B: Italian food [laughter]."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Do you like to cook?",
+            "2) A: Yeah, I love to cook, too, I'm, uh,",
+            "3) B: Yes, I love to cook.",
+            "4) B: Italian food [laughter]."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2,
+            4
+        ]
+    },
+    {
+        "items": 6,
+        "hypothesis": "SpeakerA did not make the stiffened ribbons because she was worried how long they would last.",
+        "original": [
+            "B: I don't know.  I was just.  There's bound to be some kind of fabric stiffener like that that's very similar --",
+            "A: Yeah.",
+            "B: -- that's not going to melt too much with, uh, uh, high humidity,",
+            "A: That's --",
+            "B: in a room,",
+            "A: -- I think that's what my concern was, was it really sure, and how they would, how they would last."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: That's --",
+            "2) B: in a room,",
+            "3) B: -- that's not going to melt too much with, uh, uh, high humidity,",
+            "4) A: Yeah.",
+            "5) A: -- I think that's what my concern was, was it really sure, and how they would, how they would last.",
+            "6) B: I don't know.  I was just.  There's bound to be some kind of fabric stiffener like that that's very similar --"
+        ],
+        "correct_order": [
+            6,
+            4,
+            3,
+            1,
+            2,
+            5
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA doesn't have  call waiting",
+        "original": [
+            "A: Oh, okay.",
+            "B: And [cough] my husband says that's called rinky-dink [laughter].",
+            "A: Instead of call waiting or call anything else."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: And [cough] my husband says that's called rinky-dink [laughter].",
+            "2) A: Oh, okay.",
+            "3) A: Instead of call waiting or call anything else."
+        ],
+        "correct_order": [
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB thinks that drug dealing is monstrous in this country",
+        "original": [
+            "B: But the guy at the very top, the one who's, who's really making the millions and the millions is the one who also many times is part of the power structure, uh, the, uh, and had the political --",
+            "A: Yeah.",
+            "B: -- uh, pull to keep things from, uh, keep the interest or the emphasis in some other direction, other than on the drug dealing, because it sure is monstrous in this country."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: But the guy at the very top, the one who's, who's really making the millions and the millions is the one who also many times is part of the power structure, uh, the, uh, and had the political --",
+            "2) A: Yeah.",
+            "3) B: -- uh, pull to keep things from, uh, keep the interest or the emphasis in some other direction, other than on the drug dealing, because it sure is monstrous in this country."
+        ],
+        "correct_order": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB was told by her manager that one shouldn't ask about day care",
+        "original": [
+            "B: [Breathing] Uh, and never having lived in Texas before I starting working for T I and I came down here and, you know, they did an attitude survey like six weeks after I had been working here and I asked about, you know, day care for the shift workers,",
+            "A: Yeah.",
+            "B: and boy I was pulled in by my manager and told that you just don't say that, you know,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Yeah.",
+            "2) B: and boy I was pulled in by my manager and told that you just don't say that, you know,",
+            "3) B: [Breathing] Uh, and never having lived in Texas before I starting working for T I and I came down here and, you know, they did an attitude survey like six weeks after I had been working here and I asked about, you know, day care for the shift workers,"
+        ],
+        "correct_order": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 6,
+        "hypothesis": "SpeakerA thinks there should be incentive for young people",
+        "original": [
+            "B: Yeah.  What would happen if the (( )) required young people to do service to the country, what should they get in return, I wonder.  Like, uh,",
+            "A: I think, I think there ought to be some kind of assistance as far as, uh, and I would limit it strictly to something like tuition assistance.",
+            "B: Yeah.",
+            "A: Give an incentive.",
+            "B: Educational or vocational training or something.",
+            "A: Yeah.  Something that's going to help them along the way."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Yeah.",
+            "2) A: Give an incentive.",
+            "3) A: Yeah.  Something that's going to help them along the way.",
+            "4) A: I think, I think there ought to be some kind of assistance as far as, uh, and I would limit it strictly to something like tuition assistance.",
+            "5) B: Educational or vocational training or something.",
+            "6) B: Yeah.  What would happen if the (( )) required young people to do service to the country, what should they get in return, I wonder.  Like, uh,"
+        ],
+        "correct_order": [
+            6,
+            4,
+            1,
+            2,
+            5,
+            3
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerA is a student of her husband",
+        "original": [
+            "B: He's an aerobics instructor.  And, um, is going to be, uh, entering [breathing] North Texas [breathing] for uh, a Kinesiology program there.",
+            "A: Uh-huh.",
+            "B: And, um, [breathing] the, the how I met him was through, uh, the aerobics class that he used to teach.",
+            "A: Uh-huh. You're a student?"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: He's an aerobics instructor.  And, um, is going to be, uh, entering [breathing] North Texas [breathing] for uh, a Kinesiology program there.",
+            "2) A: Uh-huh. You're a student?",
+            "3) A: Uh-huh.",
+            "4) B: And, um, [breathing] the, the how I met him was through, uh, the aerobics class that he used to teach."
+        ],
+        "correct_order": [
+            1,
+            3,
+            4,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA watches shows called Basic Training and What is the Other One Called",
+        "original": [
+            "A: Right.  I, ev-, every now and then I'll watch E S P N, I get cable on T V,",
+            "B: Uh-huh.",
+            "A: and they have, uh, a couple of shows called basic training, and, uh, what is the other one called."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: Right.  I, ev-, every now and then I'll watch E S P N, I get cable on T V,",
+            "2) A: and they have, uh, a couple of shows called basic training, and, uh, what is the other one called.",
+            "3) B: Uh-huh."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB believes that the gravity factor makes SpeakerA require help too",
+        "original": [
+            "B: [Laughter]  Yeah, and I need all the help I can get.",
+            "A: That gravity factor, I know [laughter].",
+            "B: Uh-huh.  It does get you."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: That gravity factor, I know [laughter].",
+            "2) B: [Laughter]  Yeah, and I need all the help I can get.",
+            "3) B: Uh-huh.  It does get you."
+        ],
+        "correct_order": [
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "items": 9,
+        "hypothesis": "SpeakerA has a choice of where s/he wants to go",
+        "original": [
+            "B: Yeah, and that's the other thing is that, you know, instead of making it mandatory, they maybe need to publicize it a little bit better.",
+            "A: Uh-huh.",
+            "B: and, uh, you know, go to the schools and do programs,",
+            "A: Uh-huh.",
+            "B: and tell them that we need your help, and,",
+            "A: Uh-huh.",
+            "B: you know, uh, volunteer for such and such a time,",
+            "A: Uh-huh.",
+            "B: and you've a choice of where you want to go."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: Uh-huh.",
+            "2) B: Yeah, and that's the other thing is that, you know, instead of making it mandatory, they maybe need to publicize it a little bit better.",
+            "3) A: Uh-huh.",
+            "4) B: and, uh, you know, go to the schools and do programs,",
+            "5) B: and you've a choice of where you want to go.",
+            "6) B: and tell them that we need your help, and,",
+            "7) A: Uh-huh.",
+            "8) B: you know, uh, volunteer for such and such a time,",
+            "9) A: Uh-huh."
+        ],
+        "correct_order": [
+            2,
+            1,
+            4,
+            9,
+            6,
+            7,
+            8,
+            3,
+            5
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB doesn't want his personal information known by a lot of people",
+        "original": [
+            "B: Um, I don't know if I'm really afraid of spending too much.  I just, uh, don't think that I need them, you know.  I, uh, they are tempting at times,",
+            "A: [Laughter].",
+            "B: but I, I just, you know, sometimes I just don't like everybody knowing everything about me, you know, so,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: but I, I just, you know, sometimes I just don't like everybody knowing everything about me, you know, so,",
+            "2) B: Um, I don't know if I'm really afraid of spending too much.  I just, uh, don't think that I need them, you know.  I, uh, they are tempting at times,",
+            "3) A: [Laughter]."
+        ],
+        "correct_order": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "Walking is good exercise when you're pregnant",
+        "original": [
+            "A: Well, that's neat.  Yeah, I do walk some too.  My wife's about five months along --",
+            "B: Oh.",
+            "A: -- so she's been walking quite a bit, so that is a good exercise for that."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Well, that's neat.  Yeah, I do walk some too.  My wife's about five months along --",
+            "2) A: -- so she's been walking quite a bit, so that is a good exercise for that.",
+            "3) B: Oh."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB thinks that many diets originate in California",
+        "original": [
+            "B: Well, I think people are, are more inc-, um, um, people from California seem to be more health motivated all around.  I mean, as far as the diet, and everything.  Uh, the diet and, uh, just your health consciousness, and, I mean, it just,",
+            "A: Uh-huh.",
+            "B: seems like, uh, a lot of those ideas generate out of California.  Not just exercise, but,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: seems like, uh, a lot of those ideas generate out of California.  Not just exercise, but,",
+            "2) A: Uh-huh.",
+            "3) B: Well, I think people are, are more inc-, um, um, people from California seem to be more health motivated all around.  I mean, as far as the diet, and everything.  Uh, the diet and, uh, just your health consciousness, and, I mean, it just,"
+        ],
+        "correct_order": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerA and SpeakerB agree that people on welfare should have to go clean up roadsides",
+        "original": [
+            "B: -- I mean, I've always felt that people on welfare should be required to spend at least part of their time,",
+            "A: Oh yeah, absol-,",
+            "B: not all the time because that takes away from their opportunity to look for a job, but [beep] {three times} at least some of their time to look for, to go out and clean up the roads.",
+            "A: Absolutely."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: -- I mean, I've always felt that people on welfare should be required to spend at least part of their time,",
+            "2) A: Oh yeah, absol-,",
+            "3) A: Absolutely.",
+            "4) B: not all the time because that takes away from their opportunity to look for a job, but [beep] {three times} at least some of their time to look for, to go out and clean up the roads."
+        ],
+        "correct_order": [
+            1,
+            2,
+            4,
+            3
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB thinks SpeakerA is militant",
+        "original": [
+            "B: Yeah.  Well, I, I don't really have anything against rap music.  I, the one thing I do object to about rap music is, is when it becomes militant,",
+            "A: Uh-huh.",
+            "B: or, if it's, uh, violence oriented."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: Yeah.  Well, I, I don't really have anything against rap music.  I, the one thing I do object to about rap music is, is when it becomes militant,",
+            "2) B: or, if it's, uh, violence oriented.",
+            "3) A: Uh-huh."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB likes mostly shows on public TV",
+        "original": [
+            "B: I know, I'm trying to think if there's anything I do, you, like, uh, I like stuff that's on Great Performances, and, I, we used to watch mystery quite a bit --",
+            "A: Okay.",
+            "B: -- and things like that.  Stuff I guess that mostly public, on public T V."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Okay.",
+            "2) B: -- and things like that.  Stuff I guess that mostly public, on public T V.",
+            "3) B: I know, I'm trying to think if there's anything I do, you, like, uh, I like stuff that's on Great Performances, and, I, we used to watch mystery quite a bit --"
+        ],
+        "correct_order": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB would like to take kids away from parents that have been proven unfit",
+        "original": [
+            "B: And then, if a parent has proved to be unfit, for any reason --",
+            "A: Huh-uh.",
+            "B: -- take the kids away from the parents."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: -- take the kids away from the parents.",
+            "2) B: And then, if a parent has proved to be unfit, for any reason --",
+            "3) A: Huh-uh."
+        ],
+        "correct_order": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA lot of the DMC colors are similar",
+        "original": [
+            "B: Right.  I see.  Well, now can I improvise with adding and using another color instead, you know, what comes close.",
+            "A: Uh-huh.",
+            "B: Because a lot of them are similar."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Right.  I see.  Well, now can I improvise with adding and using another color instead, you know, what comes close.",
+            "2) A: Uh-huh.",
+            "3) B: Because a lot of them are similar."
+        ],
+        "correct_order": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "items": 5,
+        "hypothesis": "SpeakerB broke her heel by falling off a ladder",
+        "original": [
+            "B: I like the music, but I've been unable to do that, because I hurt my foot about five years ago.  I broke my heel.",
+            "A: Oh --",
+            "B: And, uh,",
+            "A: -- that makes my foot, how'd you do that?  In aerobics?",
+            "B: No, no, actually I was up on a ladder, and, uh, fell off."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: -- that makes my foot, how'd you do that?  In aerobics?",
+            "2) B: No, no, actually I was up on a ladder, and, uh, fell off.",
+            "3) B: And, uh,",
+            "4) A: Oh --",
+            "5) B: I like the music, but I've been unable to do that, because I hurt my foot about five years ago.  I broke my heel."
+        ],
+        "correct_order": [
+            5,
+            4,
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA thinks that in Washington State they don't just let habitual sex offenders out",
+        "original": [
+            "B: And they're still let out on the street after one or two years.  Well, in Washington State, if you're a habitual sexual offender, they just don't let you out.",
+            "A: Um.",
+            "B: So you serve your prison term, and then you go into the mental hospital, and if you're pronounced cured, they'll let you go."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: So you serve your prison term, and then you go into the mental hospital, and if you're pronounced cured, they'll let you go.",
+            "2) B: And they're still let out on the street after one or two years.  Well, in Washington State, if you're a habitual sexual offender, they just don't let you out.",
+            "3) A: Um."
+        ],
+        "correct_order": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 6,
+        "hypothesis": "SpeakerB agrees with SpeakerA that they should be made semi for parents too",
+        "original": [
+            "A: Yeah, I think that's important if you're going, you know, if you're going, uh, kids are going to, uh, parents are going to have to go --",
+            "B: Right.",
+            "A: -- you ought to make it at least semi-,",
+            "B: [Laughter].",
+            "A: you know, semi for them too.",
+            "B: That's right, that's right."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: [Laughter].",
+            "2) B: That's right, that's right.",
+            "3) B: Right.",
+            "4) A: you know, semi for them too.",
+            "5) A: Yeah, I think that's important if you're going, you know, if you're going, uh, kids are going to, uh, parents are going to have to go --",
+            "6) A: -- you ought to make it at least semi-,"
+        ],
+        "correct_order": [
+            5,
+            3,
+            6,
+            1,
+            4,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB thinks it is beneficial to exercise while pregnant",
+        "original": [
+            "B: And I was going to wait until, um, about my sixth month and then start that.  I did that with the second baby, and, um, I went to my exercise class one day, and then she was delivered the next day.",
+            "A: Gosh.",
+            "B: So, it would seem to be real beneficial."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Gosh.",
+            "2) B: So, it would seem to be real beneficial.",
+            "3) B: And I was going to wait until, um, about my sixth month and then start that.  I did that with the second baby, and, um, I went to my exercise class one day, and then she was delivered the next day."
+        ],
+        "correct_order": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA listens to Peter Frampton songs",
+        "original": [
+            "B: [Laughter] Because you know, you think of the original is like, you know, oh, that was really great.  That was a, you know, a really good piece of work, and then when you hear the cover it's like, you know, God, what are they doing.",
+            "A: Right. They destroyed it.",
+            "B: [Laughter] I, I think a good one was, um, there was a Peter Frampton song,"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: Right. They destroyed it.",
+            "2) B: [Laughter] Because you know, you think of the original is like, you know, oh, that was really great.  That was a, you know, a really good piece of work, and then when you hear the cover it's like, you know, God, what are they doing.",
+            "3) B: [Laughter] I, I think a good one was, um, there was a Peter Frampton song,"
+        ],
+        "correct_order": [
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerB does not want to see the movie because she doesn't want to see the buffalos get hurt",
+        "original": [
+            "A: It, it's just the idea that there is this one spot where the white man has come by and killed a bunch a buffalo and just stripped its hide, the hides. So there's,",
+            "B: See, that's the one, that is the honest to God the one reason I don't want to see the movie --",
+            "A: Yeah, but, well,",
+            "B: -- is because I love buffalos for some weird reason, [laughter] and I know they're fake."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: It, it's just the idea that there is this one spot where the white man has come by and killed a bunch a buffalo and just stripped its hide, the hides. So there's,",
+            "2) B: -- is because I love buffalos for some weird reason, [laughter] and I know they're fake.",
+            "3) A: Yeah, but, well,",
+            "4) B: See, that's the one, that is the honest to God the one reason I don't want to see the movie --"
+        ],
+        "correct_order": [
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA was on maternity leave multiple times for different period's of time",
+        "original": [
+            "A: I, when my kids were real little, I was at home for a couple of different periods of time.",
+            "B: Uh-huh.",
+            "A: Oh, I think the longest was less than a year, but still at least I was able to, to spend, you know, those first months with them."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: Uh-huh.",
+            "2) A: Oh, I think the longest was less than a year, but still at least I was able to, to spend, you know, those first months with them.",
+            "3) A: I, when my kids were real little, I was at home for a couple of different periods of time."
+        ],
+        "correct_order": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "DANCES WITH WOLVES won 7 oscars",
+        "original": [
+            "A: I would, I mean, I guess my first instinct was to wait for the video, too. But I'm glad I didn't.  I really and truly am.  I mean, that mov-, that was one movie I came out impressed.",
+            "B: Uh-huh.",
+            "A: I really and truly did.  I mean, I have absolutely no problems with them winning seven Oscars.  None at all."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: I really and truly did.  I mean, I have absolutely no problems with them winning seven Oscars.  None at all.",
+            "2) B: Uh-huh.",
+            "3) A: I would, I mean, I guess my first instinct was to wait for the video, too. But I'm glad I didn't.  I really and truly am.  I mean, that mov-, that was one movie I came out impressed."
+        ],
+        "correct_order": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA asks SpeakerB what daycare costs",
+        "original": [
+            "B: I haven't ever really looked at them.  Are you aware at all,",
+            "A: Uh, well, no,",
+            "B: of, of what they would, what they cost?"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: of, of what they would, what they cost?",
+            "2) A: Uh, well, no,",
+            "3) B: I haven't ever really looked at them.  Are you aware at all,"
+        ],
+        "correct_order": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 5,
+        "hypothesis": "SpeakerB liked Misery.",
+        "original": [
+            "B: Um, actually have been to the movies, um, I think the last movie I saw was MISERY.",
+            "A: Oh, I didn't see that.",
+            "B: Oh, very suspenseful.",
+            "A: I don't, I don't like Stephen King.",
+            "B: I really don't either, but I went with someone, and once I was there, I couldn't believe.  I mean, it's an excellent movie."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: I don't, I don't like Stephen King.",
+            "2) A: Oh, I didn't see that.",
+            "3) B: Um, actually have been to the movies, um, I think the last movie I saw was MISERY.",
+            "4) B: I really don't either, but I went with someone, and once I was there, I couldn't believe.  I mean, it's an excellent movie.",
+            "5) B: Oh, very suspenseful."
+        ],
+        "correct_order": [
+            3,
+            2,
+            5,
+            1,
+            4
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB wants SpeakerA to see SILENCE OF THE LAMB",
+        "original": [
+            "B: Y-, you have to go see that one.  And how about SILENCE OF THE LAMB?",
+            "A: No,",
+            "B: Go."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Go.",
+            "2) B: Y-, you have to go see that one.  And how about SILENCE OF THE LAMB?",
+            "3) A: No,"
+        ],
+        "correct_order": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerA and SpeakerB have both seen RED OCTOBER",
+        "original": [
+            "B: Let me see.  One movie I saw, I guess it was a while back, RED OCTOBER.",
+            "A: Yeah.",
+            "B: Have you seen that one?",
+            "A: Yes, I have.  That was pretty good."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Yes, I have.  That was pretty good.",
+            "2) B: Let me see.  One movie I saw, I guess it was a while back, RED OCTOBER.",
+            "3) B: Have you seen that one?",
+            "4) A: Yeah."
+        ],
+        "correct_order": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 5,
+        "hypothesis": "At mid-sixties, SpeakerA was a small child.",
+        "original": [
+            "A: My T V viewing started sort of mid-sixties, so.",
+            "B: I see.",
+            "A: My folks didn't, my folks, I'm not even sure if we had one when I was really little.  That may be why, bu-, they probably didn't have a T V until I got to be, you know, grade school or so.",
+            "B: Yeah.",
+            "A: And the shows that I like now, they wouldn't let me watch.  I had to catch them all on repeats.  Like STAR TREK, they thought that was much too violent for small children. So [laughter],"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: My folks didn't, my folks, I'm not even sure if we had one when I was really little.  That may be why, bu-, they probably didn't have a T V until I got to be, you know, grade school or so.",
+            "2) B: I see.",
+            "3) A: And the shows that I like now, they wouldn't let me watch.  I had to catch them all on repeats.  Like STAR TREK, they thought that was much too violent for small children. So [laughter],",
+            "4) A: My T V viewing started sort of mid-sixties, so.",
+            "5) B: Yeah."
+        ],
+        "correct_order": [
+            4,
+            2,
+            1,
+            5,
+            3
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "The parents are irresponsible",
+        "original": [
+            "A: -- these kids are fourteen years old.  The parents might be thirty years old --",
+            "B: Uh-huh.",
+            "A: -- and I'm thirty years old, and I'm kind of irresponsible, but I have the morals that keep me from, you know, if I was going to go out and drink or do something, I wouldn't do it in front of my child.  These people, you know, they bring their, their Johns home and they bring their drugs home and the kids are just sitting there in the same room."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: -- these kids are fourteen years old.  The parents might be thirty years old --",
+            "2) A: -- and I'm thirty years old, and I'm kind of irresponsible, but I have the morals that keep me from, you know, if I was going to go out and drink or do something, I wouldn't do it in front of my child.  These people, you know, they bring their, their Johns home and they bring their drugs home and the kids are just sitting there in the same room.",
+            "3) B: Uh-huh."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerA has to look real hard to see horses in Texas",
+        "original": [
+            "B: and I was disappointed when I went to Texas.  I didn't see that many of them.",
+            "A: Horses?",
+            "B: Yes [laughter].",
+            "A: Yeah, you really don't.  Yeah, th-, the, you have to look real hard to see a lot of things besides concrete, uh,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Yes [laughter].",
+            "2) B: and I was disappointed when I went to Texas.  I didn't see that many of them.",
+            "3) A: Yeah, you really don't.  Yeah, th-, the, you have to look real hard to see a lot of things besides concrete, uh,",
+            "4) A: Horses?"
+        ],
+        "correct_order": [
+            2,
+            4,
+            1,
+            3
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "Exercise is strongly considered a health care option",
+        "original": [
+            "A: and, before long, you, you get this, this whole kind of Gestalt, this whole package of, of health, of health care and options --",
+            "B: Uh-huh.",
+            "A: -- and, uh, and exercise is, is strongly considered one of them.  The irony is, is its people in the cities, in my experience, that are most oriented towards doing the exercise.  And, I guess because they spend all day in back of their desks.  The average person out on the farm, at least traditionally, now they drive fancy tractors as much as anything --"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Uh-huh.",
+            "2) A: and, before long, you, you get this, this whole kind of Gestalt, this whole package of, of health, of health care and options --",
+            "3) A: -- and, uh, and exercise is, is strongly considered one of them.  The irony is, is its people in the cities, in my experience, that are most oriented towards doing the exercise.  And, I guess because they spend all day in back of their desks.  The average person out on the farm, at least traditionally, now they drive fancy tractors as much as anything --"
+        ],
+        "correct_order": [
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA does not rent movies, she buys them so that she can watch them over and over",
+        "original": [
+            "A: Yeah.  I don't even rent them.  You know.",
+            "B: You don't?",
+            "A: I, I figure if I find a movie I like, I'll buy it.  Cause I just watch them over and over again."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Yeah.  I don't even rent them.  You know.",
+            "2) B: You don't?",
+            "3) A: I, I figure if I find a movie I like, I'll buy it.  Cause I just watch them over and over again."
+        ],
+        "correct_order": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerA agrees that there would be shading if the television was on",
+        "original": [
+            "B: And so I've got to have total, almost total silence.  I can't really watch television if the pattern is very intricate.  It sounds like you'd have lots of shading --",
+            "A: Uh-huh.",
+            "B: -- on that particular piece.",
+            "A: Yep."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: Yep.",
+            "2) B: -- on that particular piece.",
+            "3) A: Uh-huh.",
+            "4) B: And so I've got to have total, almost total silence.  I can't really watch television if the pattern is very intricate.  It sounds like you'd have lots of shading --"
+        ],
+        "correct_order": [
+            4,
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerB feels that exercising for exercise's sake is not fun",
+        "original": [
+            "A: -- but, I do lots of outdoor sports and things, bicycling, uh, you know, mountaineering, a little mountaineering, this and that, and I spend a lot of time and I probably get more exercise than your average person.  But, it's not a, a structured sort of thing, and I have to admit I have a certain resistance to the idea of exercising for exercising's sake,",
+            "B: Uh-huh.",
+            "A: and perhaps, it's because somehow that implies to me it's not fun, or something like that.",
+            "B: Yeah, well I, I've, my, that's the way my mother stands on it.  She feels like if it's something that you have to do, you know,"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: and perhaps, it's because somehow that implies to me it's not fun, or something like that.",
+            "2) B: Uh-huh.",
+            "3) A: -- but, I do lots of outdoor sports and things, bicycling, uh, you know, mountaineering, a little mountaineering, this and that, and I spend a lot of time and I probably get more exercise than your average person.  But, it's not a, a structured sort of thing, and I have to admit I have a certain resistance to the idea of exercising for exercising's sake,",
+            "4) B: Yeah, well I, I've, my, that's the way my mother stands on it.  She feels like if it's something that you have to do, you know,"
+        ],
+        "correct_order": [
+            3,
+            2,
+            1,
+            4
+        ]
+    },
+    {
+        "items": 6,
+        "hypothesis": "Lake Champlain moderates the weather",
+        "original": [
+            "A: Yeah, well, well, we live, we live really close to Lake Champlain, which is in the Champlain Valley,",
+            "B: Oh, yeah.",
+            "A: so we're a little, we're about two weeks ahead of everyone else out on the outskirts so,",
+            "B: Okay, because that kind of moderates the weather a little bit?",
+            "A: Yeah.",
+            "B: Yeah."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Yeah.",
+            "2) B: Oh, yeah.",
+            "3) B: Okay, because that kind of moderates the weather a little bit?",
+            "4) A: Yeah, well, well, we live, we live really close to Lake Champlain, which is in the Champlain Valley,",
+            "5) B: Yeah.",
+            "6) A: so we're a little, we're about two weeks ahead of everyone else out on the outskirts so,"
+        ],
+        "correct_order": [
+            4,
+            2,
+            6,
+            3,
+            1,
+            5
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "College teachers do not put in fifty to sixty hours a week",
+        "original": [
+            "A: to be doing what they're doing, uh.  When I was in college I, I enjoyed teaching, 'cause I did some teaching part-time and I really enjoyed that but I wouldn't want to go teach high school or junior high, it just, you know, all the problems.",
+            "B: Oh, Lord, I mean, yeah, an, you talk about stress and pressure, I tell you what, it's, uh,",
+            "A: Yeah, they're putting in fifty, sixty hours a week, I'm sure, because they've got to grade papers and get class stuff ready."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: Yeah, they're putting in fifty, sixty hours a week, I'm sure, because they've got to grade papers and get class stuff ready.",
+            "2) B: Oh, Lord, I mean, yeah, an, you talk about stress and pressure, I tell you what, it's, uh,",
+            "3) A: to be doing what they're doing, uh.  When I was in college I, I enjoyed teaching, 'cause I did some teaching part-time and I really enjoyed that but I wouldn't want to go teach high school or junior high, it just, you know, all the problems."
+        ],
+        "correct_order": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB thinks a speech and a slide show could get some results",
+        "original": [
+            "B: and  you, you give them your speech and maybe a little slide show or something,",
+            "A: Uh-huh.",
+            "B: and, I think, that they could get some results from that,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Uh-huh.",
+            "2) B: and  you, you give them your speech and maybe a little slide show or something,",
+            "3) B: and, I think, that they could get some results from that,"
+        ],
+        "correct_order": [
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "items": 5,
+        "hypothesis": "SpeakerB does barbecues",
+        "original": [
+            "B: Do you do barbecues?",
+            "A: Yes, #we sure do, smoke them an-,#",
+            "B: #Well, uh, uh, smoking and# all that stuff?",
+            "A: Oh, yeah, all that hoedown stuff.",
+            "B: Yeah, yep,"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: #Well, uh, uh, smoking and# all that stuff?",
+            "2) B: Yeah, yep,",
+            "3) A: Oh, yeah, all that hoedown stuff.",
+            "4) A: Yes, #we sure do, smoke them an-,#",
+            "5) B: Do you do barbecues?"
+        ],
+        "correct_order": [
+            5,
+            4,
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 6,
+        "hypothesis": "SpeakerB believes it would have been great tobe around Dustin Hoffman during Rain Man",
+        "original": [
+            "A: Just as RAIN MAN, uh, with Dustin Hoffman,",
+            "B: That was,",
+            "A: uh, that, that was tremendous and Tom Cruise.",
+            "B: yeah, I, I think it was more a lesson for Tom Cruise than anything else in terms of, uh, of how to act from Dustin Hoffman, but, uh.",
+            "A: Yes, uh, oh, that was, that was, uh, what the, much of the hype was that Tom Cruise learned so much from Dustin Hoffman.",
+            "B: Yeah, it must have been great just being with him on, on a daily basis and seeing how he prepares for his, for his lines and all that stuff."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: That was,",
+            "2) A: Just as RAIN MAN, uh, with Dustin Hoffman,",
+            "3) A: Yes, uh, oh, that was, that was, uh, what the, much of the hype was that Tom Cruise learned so much from Dustin Hoffman.",
+            "4) B: Yeah, it must have been great just being with him on, on a daily basis and seeing how he prepares for his, for his lines and all that stuff.",
+            "5) B: yeah, I, I think it was more a lesson for Tom Cruise than anything else in terms of, uh, of how to act from Dustin Hoffman, but, uh.",
+            "6) A: uh, that, that was tremendous and Tom Cruise."
+        ],
+        "correct_order": [
+            2,
+            1,
+            6,
+            5,
+            3,
+            4
+        ]
+    },
+    {
+        "items": 5,
+        "hypothesis": "SpeakerA could be laid off",
+        "original": [
+            "A: I'm, just wrote my resume up because told we might be facing layoff over at Digital and they've never had, well, they've had layoffs recently, but when we got hired here, no, no, never any layoffs, never, never,",
+            "B: Yeah.",
+            "A: and now we're looking at serious, I, I mean, I'm a technician.",
+            "B: Yeah.",
+            "A: When they start getting rid of technicians,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: I'm, just wrote my resume up because told we might be facing layoff over at Digital and they've never had, well, they've had layoffs recently, but when we got hired here, no, no, never any layoffs, never, never,",
+            "2) B: Yeah.",
+            "3) B: Yeah.",
+            "4) A: and now we're looking at serious, I, I mean, I'm a technician.",
+            "5) A: When they start getting rid of technicians,"
+        ],
+        "correct_order": [
+            1,
+            3,
+            4,
+            2,
+            5
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "Robin Williams is in the movie Awakenings",
+        "original": [
+            "A: Uh, the last movie that I saw, I, I don't go to that many so I'll just have to talk about the ones that I went to see, but,",
+            "B: Okay.",
+            "A: uh, it was AWAKENINGS with, uh, Robin Williams and, uh, Peter DeNiro."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Uh, the last movie that I saw, I, I don't go to that many so I'll just have to talk about the ones that I went to see, but,",
+            "2) B: Okay.",
+            "3) A: uh, it was AWAKENINGS with, uh, Robin Williams and, uh, Peter DeNiro."
+        ],
+        "correct_order": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "items": 8,
+        "hypothesis": "SpeakerA likes everything about DANCES WITH WOLVES",
+        "original": [
+            "B: Let me see.  Let me see another movie I watched.  Uh, I want to see, uh, that new one, uh, that won all those Academy Awards this year, DANCES WITH WOLVES.",
+            "A: Uh-huh.",
+            "B: I haven't seen that.  Have you seen that one yet?",
+            "A: Yeah.",
+            "B: What, what, what,",
+            "A: I, I absorbed all of that movie in one sitting.  Uh, I guess what made it so good was the cinema-, cinematography,",
+            "B: The, the wide open, the spaces,",
+            "A: Yeah, and the music and, uh, well, it had an excellent story line. Everything about it was good."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Let me see.  Let me see another movie I watched.  Uh, I want to see, uh, that new one, uh, that won all those Academy Awards this year, DANCES WITH WOLVES.",
+            "2) A: I, I absorbed all of that movie in one sitting.  Uh, I guess what made it so good was the cinema-, cinematography,",
+            "3) A: Uh-huh.",
+            "4) B: I haven't seen that.  Have you seen that one yet?",
+            "5) A: Yeah, and the music and, uh, well, it had an excellent story line. Everything about it was good.",
+            "6) B: What, what, what,",
+            "7) A: Yeah.",
+            "8) B: The, the wide open, the spaces,"
+        ],
+        "correct_order": [
+            1,
+            3,
+            4,
+            7,
+            6,
+            2,
+            8,
+            5
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "A lot of people can't afford to do public service",
+        "original": [
+            "B: No, I don't think so either because a lot of people, um, depending on how the public service programs are set up and I'm not that familiar with them to know,",
+            "A: I'm not either really.",
+            "B: But, you know, if, a. a lot of people flat can't afford to."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: I'm not either really.",
+            "2) B: But, you know, if, a. a lot of people flat can't afford to.",
+            "3) B: No, I don't think so either because a lot of people, um, depending on how the public service programs are set up and I'm not that familiar with them to know,"
+        ],
+        "correct_order": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "SpeakerA cried during the movie Dances With Wolves",
+        "original": [
+            "B: I think the last movie that we went out to see was DANCES WITH WOLVES.",
+            "A: Oh, I saw it.",
+            "B: Good, we've both seen one [laughter].  Did you cry through it?",
+            "A: Yes, the whole way [laughter]."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: I think the last movie that we went out to see was DANCES WITH WOLVES.",
+            "2) A: Yes, the whole way [laughter].",
+            "3) A: Oh, I saw it.",
+            "4) B: Good, we've both seen one [laughter].  Did you cry through it?"
+        ],
+        "correct_order": [
+            1,
+            3,
+            4,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "They were more of a responsibility when they were younger",
+        "original": [
+            "A: Uh, yes.  They are getting older now,",
+            "B: Uh-huh.",
+            "A: so they are not quite as much of a responsibility but they are still there, you know,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Uh-huh.",
+            "2) A: so they are not quite as much of a responsibility but they are still there, you know,",
+            "3) A: Uh, yes.  They are getting older now,"
+        ],
+        "correct_order": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 5,
+        "hypothesis": "SpeakerA liked the movie FX",
+        "original": [
+            "A: I hear this movie F X part two coming out is, uh, pretty good.",
+            "B: Is that right?",
+            "A: Did you ever see the original one?",
+            "B: I didn't.",
+            "A: It was, uh, you ought to rent the, uh, F X part one.  It doesn't say part one, but it, it's F slash X."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Is that right?",
+            "2) B: I didn't.",
+            "3) A: Did you ever see the original one?",
+            "4) A: It was, uh, you ought to rent the, uh, F X part one.  It doesn't say part one, but it, it's F slash X.",
+            "5) A: I hear this movie F X part two coming out is, uh, pretty good."
+        ],
+        "correct_order": [
+            5,
+            1,
+            3,
+            2,
+            4
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB believes that putting people in prison doesn't work",
+        "original": [
+            "B: And, you can put a collar around a guys leg that will prohibit them from committing any kind of prohibitive act.",
+            "A: Huh-uh.",
+            "B: But, you know, putting them in prison, my God, that doesn't work."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Huh-uh.",
+            "2) B: But, you know, putting them in prison, my God, that doesn't work.",
+            "3) B: And, you can put a collar around a guys leg that will prohibit them from committing any kind of prohibitive act."
+        ],
+        "correct_order": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "Nautilus equipment does not include weights",
+        "original": [
+            "A: Yeah, it-, well, it's not that great, and I go to the Spring Creek one on and off.  But my husband's working over there and he just goes to the Dallas one.  But I just don't, I mean, it's just so much weight lifting.  Even the Spring Creek one has a lot of weights in it.",
+            "B: Yeah, that's true.",
+            "A: Or is that what your into or,",
+            "B: No, No, well, I've used the Nautilus equipment."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: Yeah, that's true.",
+            "2) A: Or is that what your into or,",
+            "3) A: Yeah, it-, well, it's not that great, and I go to the Spring Creek one on and off.  But my husband's working over there and he just goes to the Dallas one.  But I just don't, I mean, it's just so much weight lifting.  Even the Spring Creek one has a lot of weights in it.",
+            "4) B: No, No, well, I've used the Nautilus equipment."
+        ],
+        "correct_order": [
+            3,
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB thinks that her kids are too small for animals",
+        "original": [
+            "B: Well, I like animals, but we don't have any yet.  We have a nine month old with another on the way --",
+            "A: Uh-huh.",
+            "B: -- and we thought, well maybe when they're a little bit bigger --"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: Uh-huh.",
+            "2) B: -- and we thought, well maybe when they're a little bit bigger --",
+            "3) B: Well, I like animals, but we don't have any yet.  We have a nine month old with another on the way --"
+        ],
+        "correct_order": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 5,
+        "hypothesis": "SpeakerA goes to an aerobics class",
+        "original": [
+            "A: Um, do you go to an aerobics class or do you watch,",
+            "B: No, I,",
+            "A: on T V?",
+            "B: I just do it on T V,",
+            "A: Okay."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: I just do it on T V,",
+            "2) A: Okay.",
+            "3) A: Um, do you go to an aerobics class or do you watch,",
+            "4) A: on T V?",
+            "5) B: No, I,"
+        ],
+        "correct_order": [
+            3,
+            5,
+            4,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA isn't a fan of any sports teams",
+        "original": [
+            "A: I don't sit down, I'll sit down for the big games, the Super Bowl, and the championship --",
+            "B: Yeah.",
+            "A: -- you know, things like that.  But I don't follow any team."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: -- you know, things like that.  But I don't follow any team.",
+            "2) B: Yeah.",
+            "3) A: I don't sit down, I'll sit down for the big games, the Super Bowl, and the championship --"
+        ],
+        "correct_order": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "Channels eleven and twenty one show children programming.",
+        "original": [
+            "A: You know keep them on the channel eleven, channel twenty one.",
+            "B: Right.",
+            "A: The nature stuff, you know [laughter]."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: Right.",
+            "2) A: You know keep them on the channel eleven, channel twenty one.",
+            "3) A: The nature stuff, you know [laughter]."
+        ],
+        "correct_order": [
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "items": 7,
+        "hypothesis": "SpeakerA was more impressed with SLEEPING WITH THE ENEMY than she thought",
+        "original": [
+            "A: Um, the last movie I saw was, uh, SLEEPING WITH THE ENEMY.",
+            "B: Oh, was that good.  I heard,",
+            "A: Uh, see, I'm not a big Julie Roberts fan.",
+            "B: Oh, okay.",
+            "A: But I was a lot, I was a lot more impressed with her than I thought I would be.",
+            "B: Well, that's good.",
+            "A: It turned out to be a better thriller than I was expecting it to be."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: Well, that's good.",
+            "2) A: But I was a lot, I was a lot more impressed with her than I thought I would be.",
+            "3) A: It turned out to be a better thriller than I was expecting it to be.",
+            "4) B: Oh, okay.",
+            "5) A: Um, the last movie I saw was, uh, SLEEPING WITH THE ENEMY.",
+            "6) A: Uh, see, I'm not a big Julie Roberts fan.",
+            "7) B: Oh, was that good.  I heard,"
+        ],
+        "correct_order": [
+            5,
+            7,
+            6,
+            4,
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "items": 4,
+        "hypothesis": "The second lady was African American",
+        "original": [
+            "B: The second lady?",
+            "A: -- yeah, the second one --",
+            "B: Uh-huh.",
+            "A: -- the blond --"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: The second lady?",
+            "2) A: -- the blond --",
+            "3) A: -- yeah, the second one --",
+            "4) B: Uh-huh."
+        ],
+        "correct_order": [
+            1,
+            3,
+            4,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB easily gets high interest payments",
+        "original": [
+            "A: And then they have bad drawbacks, too.",
+            "B: Yeah.  It's, #it's awfully easy.#",
+            "A: #I mean high interest,# it's like paying twice."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) B: Yeah.  It's, #it's awfully easy.#",
+            "2) A: #I mean high interest,# it's like paying twice.",
+            "3) A: And then they have bad drawbacks, too."
+        ],
+        "correct_order": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB agrees that SpeakerA should be in the military",
+        "original": [
+            "A: That's, uh, it's interesting.  It gets them away from home and, and gets them to do something useful, although the kids today, though, it, it seems that almost that their concern for money, I, we were doing some investigating colleges and said the kids are much more interested today in, in trying to find a job, study something that will give them a job as opposed to, be curious, be curious as to if, if there was, if there was mandatory, you could choose the option of either a mandatory military service or voluntary, do you think that would be reasonable?",
+            "B: I think it would.  In, in Israel, the, even the women are, are required to, to be in the military for a certain period of time.  Uh, I was in the military, and I personally feel if, if they have draf-, the draft, that they should draft women as quickly as they do the men.",
+            "A: Well, but, the, the issue of, of, of, which, what, what would, what would you find, what would you have them do?  You know there are a lot of people around with, there's a lot of unemployment right now.  What would you have these people do if they were brought in?"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: That's, uh, it's interesting.  It gets them away from home and, and gets them to do something useful, although the kids today, though, it, it seems that almost that their concern for money, I, we were doing some investigating colleges and said the kids are much more interested today in, in trying to find a job, study something that will give them a job as opposed to, be curious, be curious as to if, if there was, if there was mandatory, you could choose the option of either a mandatory military service or voluntary, do you think that would be reasonable?",
+            "2) A: Well, but, the, the issue of, of, of, which, what, what would, what would you find, what would you have them do?  You know there are a lot of people around with, there's a lot of unemployment right now.  What would you have these people do if they were brought in?",
+            "3) B: I think it would.  In, in Israel, the, even the women are, are required to, to be in the military for a certain period of time.  Uh, I was in the military, and I personally feel if, if they have draf-, the draft, that they should draft women as quickly as they do the men."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "QUANTUM LEAP is a science fiction show only",
+        "original": [
+            "A: Okay, well, I can tell you pretty much my two favorite shows --",
+            "B: Okay.",
+            "A: -- and they kind of are in different spectrums, I think.  Um, one of them is QUANTUM LEAP --"
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: Okay, well, I can tell you pretty much my two favorite shows --",
+            "2) A: -- and they kind of are in different spectrums, I think.  Um, one of them is QUANTUM LEAP --",
+            "3) B: Okay."
+        ],
+        "correct_order": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerB thinks the program should not be mandatory",
+        "original": [
+            "B: Yeah.  I, you know, I think it would be good for a lot of people to get involved in that kind of program,",
+            "A: Uh-huh.",
+            "B: but I, I think it can't be something that's mandatory."
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) B: but I, I think it can't be something that's mandatory.",
+            "2) B: Yeah.  I, you know, I think it would be good for a lot of people to get involved in that kind of program,",
+            "3) A: Uh-huh."
+        ],
+        "correct_order": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "The Chinese cultural idea of \"Health\" is different than SpeakerA's culture's.",
+        "original": [
+            "A: I think so.  I mean you, you've, if you look at cert-, if you look at other cultures, like I know a little bit about people who were considered very healthy in China and they don't do very much vigorous exercise at all.  But, they do a lot of low keyed, low impact, low stress exercise, and they combine it with a, you know, meditation or whatever.  Some sort of relaxation --",
+            "B: Uh-huh.",
+            "A: -- and, they seem pretty, you know, they don't have the hard body.  They don't have that perfect look, and an awful lot of exercise is sort of image conscious.  But they, you know, they live to a hundred and ten some [laughter], you know,"
+        ],
+        "entailment": true,
+        "permuted_sentences": [
+            "1) A: I think so.  I mean you, you've, if you look at cert-, if you look at other cultures, like I know a little bit about people who were considered very healthy in China and they don't do very much vigorous exercise at all.  But, they do a lot of low keyed, low impact, low stress exercise, and they combine it with a, you know, meditation or whatever.  Some sort of relaxation --",
+            "2) B: Uh-huh.",
+            "3) A: -- and, they seem pretty, you know, they don't have the hard body.  They don't have that perfect look, and an awful lot of exercise is sort of image conscious.  But they, you know, they live to a hundred and ten some [laughter], you know,"
+        ],
+        "correct_order": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "items": 3,
+        "hypothesis": "SpeakerA does crocheting in the fall",
+        "original": [
+            "A: Do you find you do most of your, your, uh, crocheting or your knit work around Christmas time?",
+            "B: I usually start in the fall.",
+            "A: Yeah."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: Yeah.",
+            "2) A: Do you find you do most of your, your, uh, crocheting or your knit work around Christmas time?",
+            "3) B: I usually start in the fall."
+        ],
+        "correct_order": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "items": 10,
+        "hypothesis": "SpeakerA believes one can not dance to rap music",
+        "original": [
+            "A: Well, like I say the acid rock, I just do not ca-, an I don't care for rap music either.",
+            "B: Oh, go-, that's not music [laughter],",
+            "A: Uh-huh, no.",
+            "B: that is not, I don't know what that is, but that's not music [laughter].",
+            "A: If I can't understand the words I don't want to listen to it.",
+            "B: Well, it's, it's, it's not, it's not music, it's just, it's just, uh, uh, talking in a beat, it is just,",
+            "A: Yeah.",
+            "B: it's not exciting at all it doesn't,",
+            "A: Yeah.",
+            "B: it doesn't give you relaxation, you can't dance to it, you can't do anything to it [laughter]."
+        ],
+        "entailment": false,
+        "permuted_sentences": [
+            "1) A: Yeah.",
+            "2) B: Oh, go-, that's not music [laughter],",
+            "3) A: Well, like I say the acid rock, I just do not ca-, an I don't care for rap music either.",
+            "4) B: Well, it's, it's, it's not, it's not music, it's just, it's just, uh, uh, talking in a beat, it is just,",
+            "5) B: it's not exciting at all it doesn't,",
+            "6) B: that is not, I don't know what that is, but that's not music [laughter].",
+            "7) A: If I can't understand the words I don't want to listen to it.",
+            "8) B: it doesn't give you relaxation, you can't dance to it, you can't do anything to it [laughter].",
+            "9) A: Yeah.",
+            "10) A: Uh-huh, no."
+        ],
+        "correct_order": [
+            3,
+            2,
+            10,
+            6,
+            7,
+            4,
+            9,
+            5,
+            1,
+            8
+        ]
+    }
+]
