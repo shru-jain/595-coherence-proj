@@ -1,11 +1,4 @@
 venv
 .env
 __pycache__
-test_datasets.py
-datasets/test.json
-datasets/train.json
-test_order_entailment-zero-shot.py
-test_order_entailment.py
-test_order.py
 .vscode/
-llama.py

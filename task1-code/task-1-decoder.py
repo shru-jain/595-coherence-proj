@@ -13,8 +13,15 @@ import numpy as np
 from dotenv import load_dotenv
 from huggingface_hub import login
 from partial_accuracy import compute_accuracy, compute_partial_accuracy
+import wandb
 load_dotenv()
 login(token=os.getenv("HF_TOKEN"))
+wandb.login()
+run = wandb.init(
+    project='Finetuning LLM',
+    job_type="training",
+    anonymous="allow"
+)
 
 def load_model(
     model_name="mistralai/Mistral-7B-v0.3",
@@ -57,9 +64,12 @@ def get_response_template():
 def create_prompt_instruction(num_sentences, permuted_sentences, label=None):
     if label is None:
         label = ""
+    permuted_dialogue = ""
+    for sentence in permuted_sentences:
+        permuted_dialogue += f"{sentence}\n"
     return (f"Below is a list of sentences labeled from 1 to {num_sentences} that have been permuted from their original order in a dialogue. "
             f"Using the numerical label for each sentence, write only the original order of the sentences as a list of numbers inside square brackets, separated by commas.\n\n"
-            f"### Sentences:\n{permuted_sentences.rstrip()}\n\n"
+            f"### Sentences:\n{permuted_dialogue.rstrip()}\n\n"
             f"### Answer:\n{label}")
 
 
@@ -116,7 +126,7 @@ def setup_and_train_model(
     max_grad_norm=0.3,
     warmup_ratio=0.03,
     lr_scheduler_type="linear",
-    # report_to="wandb",
+    report_to="wandb",
     r=8,
     lora_alpha=32,
     target_modules=["q_proj", "v_proj"],
@@ -148,7 +158,7 @@ def setup_and_train_model(
         group_by_length=True,
         lr_scheduler_type=lr_scheduler_type,
         seed=seed,
-        #report_to=report_to,
+        report_to=report_to,
     )
 
     # Initialize the Trainer
@@ -197,14 +207,12 @@ def test(model, tokenizer, dataset, create_prompt_func, prediction_save='mistral
         pattern = r"\[\d+(?:, \d+)*"
         predicted_answer = re.findall(pattern=pattern, string=predicted_ans)
 
-        # Convert the predicted answer to str
         try:
             predicted_label = json.loads(predicted_answer[-1] + "]")
             predicted_label = predicted_label[:len(example['correct_order'])]
         except:
             print(predicted_ans)
             predicted_label = [0] * len(example['correct_order'])
-        # Ground truth label is either 1 or 2 (assumed to be 0-indexed)
         predictions.append(predicted_label)
         labels.append(example['correct_order'])
     # Calculate accuracy
@@ -236,6 +244,7 @@ def main(params):
         formatting_prompts_func=formatting_prompts_func,
         output_dir=params.output_dir,
         num_train_epochs=params.num_train_epochs,
+        max_seq_length=params.max_seq_length,
         per_device_train_batch_size=params.per_device_train_batch_size,
         gradient_accumulation_steps=params.gradient_accumulation_steps,
         optim=params.optim,
@@ -245,7 +254,7 @@ def main(params):
         max_grad_norm=params.max_grad_norm,
         warmup_ratio=params.warmup_ratio,
         lr_scheduler_type=params.lr_scheduler_type,
-        #report_to=params.report_to,
+        report_to=params.report_to,
         r=params.r,
         lora_alpha=params.lora_alpha,
         target_modules=params.target_modules,
@@ -254,32 +263,33 @@ def main(params):
     )
 
 
-    dataset_val, _ = load_data_with_collator(params.dataset_test, tokenizer=tokenizer, sample_size=None, response_template=response_template)
+    dataset_test, _ = load_data_with_collator(params.dataset_test, tokenizer=tokenizer, sample_size=None, response_template=response_template)
     
-    test(model, tokenizer, dataset_val, create_prompt_instruction, f"{params.model}_predictions.torch")
+    test(model, tokenizer, dataset_test, create_prompt_instruction)
     
     
 
 if __name__ == "__main__":
     num_train_epochs = 3
     max_seq_length = 1024
-    per_device_train_batch_size = 8
-    gradient_accumulation_steps = 4
+    per_device_train_batch_size = 4
+    gradient_accumulation_steps = 8
+    save_steps = 2000
     save_steps = 2000
     logging_steps = 500
     learning_rate = 5e-5
     max_grad_norm = 0.3
     warmup_ratio = 0.03
-    r = 64
+    r = 16
     lora_alpha = 16
     target_modules = [
-        "q_proj", "v_proj", "k_proj", "o_proj"
+        "q_proj", "v_proj"
     ]
     lora_dropout = 0.1
 
     optim = "paged_adamw_32bit"
     lr_scheduler_type = "linear"
-    # report_to = "wandb"
+    report_to = "wandb"
     seed=595
     random.seed(seed)
     torch.manual_seed(seed)
@@ -288,8 +298,8 @@ if __name__ == "__main__":
 
 
     parser = argparse.ArgumentParser(description="Finetune LLaMA-based model for Sentence Reconstruction Task")
-    parser.add_argument("--dataset_train", type=str, default="datasets/permuted-train-data-newlines.json", help="Train Dataset name")
-    parser.add_argument("--dataset_test", type=str, default="datasets/permuted-test-data-newlines.json", help="Test Dataset name")
+    parser.add_argument("--dataset_train", type=str, default="datasets/dialogsum.train.processed-output-permuted.json", help="Train Dataset name")
+    parser.add_argument("--dataset_test", type=str, default="datasets/dialogsum.test.processed-output-permuted.json", help="Test Dataset name")
     parser.add_argument("--output_dir", type=str, default="./results", help="Checkpoint Output")
     parser.add_argument("--model", type=str, default="mistralai/Mistral-7B-v0.3", help="Pretrained model name")
     parser.add_argument("--num_train_epochs", type=int, default=num_train_epochs, help="Number of training epochs")
@@ -303,7 +313,7 @@ if __name__ == "__main__":
     parser.add_argument("--max_grad_norm", type=float, default=max_grad_norm, help="Max gradient norm for clipping")
     parser.add_argument("--warmup_ratio", type=float, default=warmup_ratio, help="Warmup ratio for learning rate scheduler")
     parser.add_argument("--lr_scheduler_type", type=str, default=lr_scheduler_type, help="Learning rate scheduler type")
-    # parser.add_argument("--report_to", type=str, default=report_to, help="Reporting platform (e.g., wandb)")
+    parser.add_argument("--report_to", type=str, default=report_to, help="Reporting platform (e.g., wandb)")
     parser.add_argument("--r", type=int, default=r, help="LoRA rank parameter")
     parser.add_argument("--lora_alpha", type=int, default=lora_alpha, help="Alpha parameter for LoRA")
     parser.add_argument("--target_modules", type=list, default=target_modules, help="Target modules for LoRA")
@@ -313,6 +323,3 @@ if __name__ == "__main__":
     # Parse arguments and run the main function
     params, unknown = parser.parse_known_args()
     model = main(params)
-    
-#Mistral is Default
-#LLAMA: python3 decoder.py --model="meta-llama/Llama-3.1-8B-Instruct" --per_device_train_batch_size=4 --gradient_accumulation_steps=8
