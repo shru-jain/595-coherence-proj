@@ -1,0 +1,1502 @@
+[
+    {
+        "goal": "Conversation: [CLS] 1) A: Whereas, uh, Sean Connery has maintained the, uh, how would you, uh, ruddy look, but uh, [SEP] [CLS] 2) B: Uh-huh, yeah.  I liked his accent too. [SEP] [CLS] 3) A: Oh yes. [SEP] [CLS] 4) B: And, he can even be in movies that are not, uh, uh, sexually oriented, and he still comes off great. [SEP] [CLS] 5) A: Well, you know he was, when was it, last year or year before last, he was voted the sexiest actor in movies, [SEP] \nHypothesis: Sean Connery was voted the sexiest actor in movies.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Uh-huh, also, with, uh, women in the work force they've gotten a lot more options as far as, you know, what's it called, job sharing. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: Like if you and another lady were to share the same full time job, [SEP] \nHypothesis: Job sharing involves two people sharing the same full time job. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Okay, are you on an exercise program now or, [SEP] [CLS] 2) A: Yeah, I exercise pretty regularly. [SEP] [CLS] 3) B: Uh-huh. [SEP] [CLS] 4) A: I lift weights quite a bit. [SEP] \nHypothesis: Part of SpeakerA's exercise program includes weight lifting. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah, you really.  It seemed to be influenced by a lot of different music. A lot of times you'll hear songs that you know, they're not original, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: but have been put to a rap kind of a rhythm.  And, uh, sounds, it sounds so much different and yet, I, I have a much younger sister who listens to a lot of rap music and, uh, she thinks its pretty funny how often I know all of the words to songs that she's listening to, and yet, [SEP] [CLS] 4) B: Yeah. [SEP] [CLS] 5) A: she thought they were brand new, [SEP] [CLS] 6) B: Yeah. [SEP] [CLS] 7) A: original pieces. [SEP] \nHypothesis: SpeakerA has a sister. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: -- go to London quite a lot and see shows down there. [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: Uh, but other than that I just didn't have time to go to the movies, #you know.# [SEP] \nHypothesis: SpeakerA didn't have time to go to London. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I don't think it's a bad idea, teaches, teaches a lot.  I mean, I went in the service when I was eighteen, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: And, uh, stayed in for ten years. [SEP] \nHypothesis: The experience of being in the service teaches people a lot. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Uh, uh, however, I, I do, I do like a lot of different forms of music so I switch quite often.  Um, I think I like, I, I'm really particular about the type of music that I listen to. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: But, the, uh, there's such a wide selection, I think I like a lot, I like a little bit of a lot of different types of music.  You know, I, I, I like music that is, that I feel if it is performed correctly or if it's done right, or if the version is done right, I like it [laughter], [SEP] \nHypothesis: SpeakerB likes music that is performed correctly. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Most countries require that now, they -- [SEP] [CLS] 2) A: Yeah, yeah. [SEP] [CLS] 3) B: -- you know, they have, uh, it mandatory for, for the, the uh -- [SEP] [CLS] 4) A: Uh-huh. [SEP] [CLS] 5) B: -- at least the young men, I don't know about the young women, I don't know if they have to #serve in the military,# [SEP] \nHypothesis: Most countries now require young men to serve in the military. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: That's great.  Uh, that, uh, now I've got the material to do an afghan that I just never did get around to finishing it. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: I like those.  Those are pretty. [SEP] [CLS] 4) A: Yeah. ((Lilly, Lilly)), she said, she said it's for your daughter to use. Oh, no.  She said, I know she doesn't get to touch it.  She hung it on the wall. [SEP] \nHypothesis: The daughter does not get to touch the Afghan. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Well the, the other thing some people are not aware of, is they will use their A, their credit card like their Visa or their MasterCard for cash -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- and when they do that, they begin paying interest right from that very day on. [SEP] \nHypothesis: SpeakerA thinks most peope are unaware of some credit card policies. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Well, they're showing uh, LIVE AND LET DIE at this moment, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: and, it is the first appearance of Roger Moore as double oh seven. [SEP] \nHypothesis: Live and Let Die is Roger Moore's first appearance as double oh seven.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah.  A lot of times you can do that.  I think, I the pinks, there's like forty-two different shades of pink. [SEP] [CLS] 2) B: Good grief [laughter].  Yeah, there's lots of #pinks and greens.# [SEP] [CLS] 3) A: #Pinks and greens.#  Yeah. [SEP] \nHypothesis: SpeakerA thinks there are too many shades of pink. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: -- and fairly quickly.  When I do, um, crochet, it's usually the lacy Victorian type -- [SEP] [CLS] 2) A: Oh. [SEP] [CLS] 3) B: -- things like that, and I stiffen those with a, a glue mixture.  It's like white glue, and it may be something similar to that that the fabric is dipped in and then, um, allowed to dry in those, those draping bows, I mean, those draping streamers. [SEP] \nHypothesis: SpeakerB stiffens her crochet with a glue mixture. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah.  Well, I, I don't really have anything against rap music.  I, the one thing I do object to about rap music is, is when it becomes militant, [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: or, if it's, uh, violence oriented. [SEP] \nHypothesis: SpeakerA likes music that is violence oriented. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: [Breathing] Well, I'm trying to get my tolerance now I just had surgery, um, less then two months ago, and right now I'm just a little over about a mile and a half, [SEP] [CLS] 2) A: Okay. [SEP] [CLS] 3) B: but I'm trying to workup to three miles. [SEP] \nHypothesis: SpeakerB wants to run 3 miles. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I guess that's a really true, true hobby, but I, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: I think anything that you enjoy, [SEP] [CLS] 4) B: Yeah. [SEP] \nHypothesis: SpeakerB agrees that a hobby is anything you enjoy. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: uh, working out like that.  And that was very helpful we kept charts of our progress, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: and, uh, consistently increased the empty of resistance so you could see how much you improved over the weeks.  I found that to be, uh, very helpful. [SEP] \nHypothesis: SpeakerA finds that keeping track of exercise progress is helpful. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: um, unless you're, sort of, clearly of an older generation, or something, you know, in your sixties, or something like that, I'm, I'm, I'm not.  Uh, there's an assumption that you do something for your physical fitness, and, and, at least in urban California.  And, maybe not, I don't know about rural California too well.  But, in urban California it's just, you know, for all I know aerobics started out here.  I don't know where they actually started, but they, you know, the craze really picked up big here and before that there was the running craze.  And, they, California gets, you know, tends to be a bit faddish, but, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: the remarkable thing is how well the fads catch on elsewhere.  So, there must be something to some of them.  And, uh, [SEP] \nHypothesis: All exercise fads start in California and catch on elsewhere. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yes, I, I, I had seen it before Christmas, but I took a date to it, uh, about a month ago.  So, I, I, I've seen it the second time not too long ago. So. [SEP] [CLS] 2) B: It was really cute. [SEP] [CLS] 3) A: I really enjoyed it. [SEP] [CLS] 4) B: [Laughter]. [SEP] [CLS] 5) A: Of course, the bad thing about it was, uh, the second time I saw it, I didn't really enjoy it as much, and I was kind of surprised at that.  I thought that would be one of those that I would love to watch over and over. [SEP] \nHypothesis: SpeakerA was disappointed in HOME ALONE the second time she saw it. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And we, I have two friends, that we walk.  They have babies that are about the same ages as, as mine, and we've been walking every morning at, going when it was cold we would go to the mall because you can't take the babies out -- [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: -- very easily.  So we, when we go, we have about, do about fifteen miles a week, but the last little while, for one reason or another, we haven't been [laughter] real consistent.  So {pause} it's a little harder when you're depending on other people to do it with you -- [SEP] \nHypothesis: SpeakerB usually walks about 15 miles a week. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Plastic is just too easy, I mean -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- that's the, that's the whole problem with it.  Um, [SEP] \nHypothesis: SpeakerA thinks the problem with credit cards are that they are too easy to use. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Nope.  And I would never had said so either.  Uh, but, uh, they managed to get through, although not always with flying colors.  Uh, in fact, one of the incidents I was thinking of that my son had.  Uh, he was struggling with senior English and I had a meeting with the, uh, vice principal and the English instructor, and, [swallowing] uh, she showed me a paper that he had just handed in.  And she told me what she had requested.  And I read it and while it had, you know, a few little grammatical problems, it wasn't very long and so forth.  I thought it had some nice, well thought out, uh, parts to it. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: She gave him an F on that paper.  And I thought, well now, here you have a student who is trying to pass, who is struggling with your subject and you give them an F on something that doesn't seem that bad to me.  What are you telling that student?  You're telling them that, hey, you might as well forget it, #you know.# [SEP] \nHypothesis: SpeakerB agreed with the instructor that his son did bad on a paper.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: -- you know, I mean, it wasn't even funny -- [SEP] [CLS] 2) A: That's right. [SEP] [CLS] 3) B: -- it wasn't creative, it, it was the worst I've seen.  I mean, I have not watched prime time, week night T V, I guess in a real long time -- [SEP] \nHypothesis: SpeakerB thought that every show on was terrible. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah, you really.  It seemed to be influenced by a lot of different music. A lot of times you'll hear songs that you know, they're not original, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: but have been put to a rap kind of a rhythm.  And, uh, sounds, it sounds so much different and yet, I, I have a much younger sister who listens to a lot of rap music and, uh, she thinks its pretty funny how often I know all of the words to songs that she's listening to, and yet, [SEP] [CLS] 4) B: Yeah. [SEP] [CLS] 5) A: she thought they were brand new, [SEP] [CLS] 6) B: Yeah. [SEP] [CLS] 7) A: original pieces. [SEP] \nHypothesis: SpeakerB thinks SpeakerA is married. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah.  I don't know too much about it either.  Mine's pretty limited to my little, uh, porch plants [laughter]. [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: And then the ones in my apartment, half of which don't look real healthy, but I don't always get direct sun except in certain spots. [SEP] \nHypothesis: Half of SpeakerA's indoor plants don't look healthy. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: But yeah, I've, I've talked to some who's really had some bad experience and kind of knock on wood I haven't yet, not bad. [SEP] [CLS] 2) B: Yeah, well that's, [SEP] [CLS] 3) A: You know, I just, I'm just shocked at the end of the month, [SEP] \nHypothesis: SpeakerB is often shocked at the end of the month. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: # Right,# yeah, well, when, uh, we lived in San Antonio, I grew up around San Antonio, and it's always been a very large, uh, city, and increasingly growing.  It's has kind of the split population.  Um, there's a lot of retired military, uh, individuals that live there, and then there's a very large Hispanic population there.  And the one thing that we noticed that over the years has gotten worse and worse is Hispanic, uh, gang crime in the city -- [SEP] [CLS] 2) A: # Oh,# [SEP] [CLS] 3) B: --# and# that has, uh, been the worse thing that we've seen happening. [SEP] [CLS] 4) A: Does it spread out of the neighborhoods into the more the, uh, retired people's community, or does it stay in the bad neighborhoods? [SEP] \nHypothesis: SpeakerA wants to know if crime stays out of the retired community. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Number one turned out just great, and the lady said she couldn't believe that they know that I had done it in the colors, that they had decorated the nursery and I didn't even know it. [SEP] [CLS] 2) B: Oh, that's a (( )). [SEP] [CLS] 3) A: I gave it to her and she said how did you know those are the colors we used.  I said {pause} didn't [laughter]. [SEP] \nHypothesis: SpeakerA didn't know that her afghan colors were the same as the nursery. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: and we did aerobics together for about a month and a half and that went over real well, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: but, uh, that's about it there. [SEP] [CLS] 4) B: Oh, it's good and it's healthy, too. [SEP] [CLS] 5) A: Oh, yeah, yeah. [SEP] \nHypothesis: SpeakerA agrees with SpeakerB that aerobics is healthy. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Well, you look at places like Turkey. Turkey has the death penalty, [SEP] [CLS] 2) A: Huh-uh. [SEP] [CLS] 3) B: for just about everything. [SEP] [CLS] 4) A: Huh-uh. [SEP] [CLS] 5) B: I mean, if you get convicted of, uh, you know, drug trafficking, they just kill you.  You get convicted of, uh, you know, heinous crimes, they just kill you.  I mean there's no two ways about it. [SEP] \nHypothesis: SpeakerB believes that in turkey they'll give you the death penalty for drug trafficking. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I think.  There, there is a sense of, you know, whole, there's a lot of, you know, you'll get organizations, like institutes for the whole health, or whatever.  And, uh, oh the, the, the uni-, University of California at Berkeley puts out THE WELLNESS LETTER.  Which is, uh, turned into a fairly well subscribed to, uh, newsletter, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: monthly or biweekly newsletter or something like that and, and, it doesn't deal with just exercise, or just stress management, or just diet, or anything.  It, it's on fairly so-, solid scientific ground.  Uh, it's just dispensed with these distinctions.  It says ever-, all sorts of factors go into health and there's no reason to talk about one rather than another, so that they, they combined them all together.  And, uh, so it's had that orientation for quite some time.  Um, there's been some progressive medical schools out here, [SEP] \nHypothesis: University of California at Berkley has a progressive medical school. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I use mine a great deal, um, for groceries, for everything that I can and, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: then just write one check at the end of the month, [SEP] \nHypothesis: SpeakerA pays his/her credit card using a check. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I know my dad always talked about, uh, he was in C C C during, uh, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: And he was, uh, a rock rib Iowa type republican and the only good thing he could ever say about, uh, the whole Roosevelt administration was, uh, civilian conservation corps, [SEP] \nHypothesis: SpeakerA eats a lot of ribs. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Okay, we're going to talk about the public school system, [SEP] [CLS] 2) B: Okay. [SEP] [CLS] 3) A: What's wrong with it, an, or if anything is wrong with it and what we can do about it, what should be done about it. [SEP] \nHypothesis: SpeakerA and SpeakerB are planning to talk about the problems with the public school system. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Oh, yeah.  I think when you're in college you kind of, you have more of a regular schedule -- [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: -- in terms of, you can watch every week. [SEP] \nHypothesis: SpeakerB believes that college students can schedule their TV watching. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I'd like to know where they determine that I'm such a good credit risk that they can go and say, you get this much credit line.  You know. [SEP] [CLS] 2) A: Well, i-, [SEP] [CLS] 3) B: You've already been preapproved. [SEP] \nHypothesis: SpeakerA agrees that SpeakerB is preapproved. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Oh, I know.  I know, um, I work in school.  You know, that's something I do and I, it really is ((I'm like you)) astonishing what the younger ages know, and they react to what they see at home.  You know. [SEP] [CLS] 2) B: Huh-uh. [SEP] [CLS] 3) A: If they see violence at home, that's what you're going to get from the kids at school. [SEP] [CLS] 4) B: Exactly. [SEP] \nHypothesis: SpeakerA thinks SpeakerB is violent. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I don't really see the emphasis on things like Peace Corps, like we, you know, we saw back, I guess, in the Carter administration, [SEP] [CLS] 2) B: Right. [SEP] [CLS] 3) A: that was, that was a big thing with him. [SEP] \nHypothesis: The Peace Corps was a big thing with Carter. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Um, actually have been to the movies, um, I think the last movie I saw was MISERY. [SEP] [CLS] 2) A: Oh, I didn't see that. [SEP] [CLS] 3) B: Oh, very suspenseful. [SEP] \nHypothesis: SpeakerB thought Misery was very suspenful.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I'd like to know where they determine that I'm such a good credit risk that they can go and say, you get this much credit line.  You know. [SEP] [CLS] 2) A: Well, i-, [SEP] [CLS] 3) B: You've already been preapproved. [SEP] \nHypothesis: SpeakerB has been preapporved for a credit card before. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I'd recommend it.  It's a little on the violent side -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- but then what movie isn't anymore. [SEP] [CLS] 4) B: Right, right.  Yeah, our movies today, it used to be X and, you know, and P G -s used to be R -s and, seems like the rating system, you know, is kind of switching that way a little bit [laughter]. [SEP] \nHypothesis: SpeakerB agrees lots of movies are violent now. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: #[Laughter] Oh, really [laughter].# Well, when I was in England years ago. And I went to, to like Shakespeare's and, you know, #Stratford-On-Avon# -- [SEP] [CLS] 2) A: #Oh, yeah.# [SEP] [CLS] 3) B: -- and all that [laughter] and it was like you couldn't stand up inside of it because it #was so# -- [SEP] [CLS] 4) A: #Yeah.# [SEP] [CLS] 5) B: -- short.  The #ceilings# -- [SEP] [CLS] 6) A: #Yeah.# [SEP] [CLS] 7) B: --  were so short.  But [sigh].  Yeah. [SEP] [CLS] 8) A: Yeah.  There's some nice stuff over there to see. [SEP] \nHypothesis: There's some nice stuff over the ceilings of Stratford-On-Avon. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Whereas, uh, Sean Connery has maintained the, uh, how would you, uh, ruddy look, but uh, [SEP] [CLS] 2) B: Uh-huh, yeah.  I liked his accent too. [SEP] [CLS] 3) A: Oh yes. [SEP] [CLS] 4) B: And, he can even be in movies that are not, uh, uh, sexually oriented, and he still comes off great. [SEP] [CLS] 5) A: Well, you know he was, when was it, last year or year before last, he was voted the sexiest actor in movies, [SEP] [CLS] 6) B: He is. [SEP] [CLS] 7) A: or something. [SEP] [CLS] 8) B: Yeah, he had my vote double [laughter]. [SEP] [CLS] 9) A: [Laughter] I mean the man is sixty-two years old. [SEP] \nHypothesis: Sean Connery is sixty-two years old.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: and DRIVING MISS DAISY. [SEP] [CLS] 2) B: You know, I haven't seen that one yet, and I need to go see it. [SEP] [CLS] 3) A: Oh, you need to see that. [SEP] [CLS] 4) B: Yeah. [SEP] [CLS] 5) A: That is the most heart rendering story of relationships between two people. [SEP] [CLS] 6) B: Uh-huh. [SEP] [CLS] 7) A: Two diametrically opposed people from the stand point that one was Jewish and one was black and this all took place in the South. [SEP] [CLS] 8) B: Oh my. [SEP] [CLS] 9) A: And, uh, normally never the twain shall meet. [SEP] [CLS] 10) B: You bet, especially in the South. [SEP] [CLS] 11) A: Yes, right, and, um, uh, it, it really was a fantastic movie.  The acting was phenomenal. [SEP] \nHypothesis: Person SpeakerB likes driving Miss daisy. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Fantastic. Well one thing that pops into my mind real quick is, uh, about the, uh, funding of, the, the school system right now. [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: Evidently, uh, that's, that's a big problem. [SEP] \nHypothesis: SpeakerA agrees that there is a big problem with the funding of the school system. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And James Woods, I think is who it was, did an excellent job as the cop.  I mean, #you know, he just,# [SEP] [CLS] 2) B: #Yeah, I like him.# [SEP] [CLS] 3) A: Yeah, and there were, there were some definite, um, should I say, tense moments, [SEP] \nHypothesis: James Woods is tense. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah.  I'm still trying to get all the D M C colors [laughter]. [SEP] [CLS] 2) A: Oh, really [laughter].  Yeah, I've got the kits to put them all in.  I don't have them all yet [talking] -- [SEP] [CLS] 3) B: Yeah, right.  Yeah. [SEP] [CLS] 4) A: -- certainly. [SEP] [CLS] 5) B: Yeah.  I got to counting the other day and, uh, I think I have, what was it two hundred, and I got to thinking the money that I've got invested in this [laughter] is, uh, it, yeah, it can add up quick. [SEP] \nHypothesis: There are more than 200 DMC Colors. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And they're still let out on the street after one or two years.  Well, in Washington State, if you're a habitual sexual offender, they just don't let you out. [SEP] [CLS] 2) A: Um. [SEP] [CLS] 3) B: So you serve your prison term, and then you go into the mental hospital, and if you're pronounced cured, they'll let you go. [SEP] \nHypothesis: SpeakerB agrees with SpeakerA's statement on Washington State.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And, see, the difference, I guess, between hard rock and heavy metal is that the lyrics also.  Like really, like heavy metal, wo-, is considered, like the words heavy metal and, like, you always thought about, like, suicide.  And killing people and stuff like that. [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: And, just hard rock has, they, they don't talk about that, they just talk about, like, life in general. [SEP] \nHypothesis: SpeakerA thinks that heavy metal comments on life in general. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Well, my parents wanted to send me to college, and I was dead set against it [breathing]. [SEP] [CLS] 2) B: [Laughter]. [SEP] [CLS] 3) A: You know, I had wanderlust, you know. [SEP] \nHypothesis: SpeakerB found SpeakerA being dead set against college a joke. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Great.  How old are they? [SEP] [CLS] 2) B: (( )) um, four and two and half. [SEP] [CLS] 3) A: Oh, boy.  Those are two very active ages [laughter]. [SEP] \nHypothesis: SpeakerB uses four credit cards. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And, then, some people they get so wrapped up in them that they find, you know, one day they find, wow, I didn't realize I had this much, [SEP] [CLS] 2) A: That much stuff. [SEP] [CLS] 3) B: you know, I'd spent this much money. [SEP] \nHypothesis: SpeakerB thinks that people get caught by credit that they didn't remember they spent. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And it's surprising how much it's changed -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- the whole moral situation, everything, is just gone one whole complete direction different.  And we don't have any kids yet, but I feel the same way. It's really tough to find something that's -- [SEP] [CLS] 4) B: Right. [SEP] [CLS] 5) A: -- going to be good and interesting for the kids.  Even, even cartoons, um -- [SEP] [CLS] 6) B: Oh. [SEP] [CLS] 7) A: -- you know, you watch some of the cartoons, and kids -- [SEP] [CLS] 8) B: Yeah. [SEP] [CLS] 9) A: -- aren't, aren't even going to understand half the humor that's in there. It's, none of it's probably damaging, lot of times. [SEP] \nHypothesis: Cartoons have changed from being primarily for children. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Well, uh, the hobbies that I pursue in my spare time, are crafts and, uh, I've been involved in making, uh, hat stands and, uh, rag dolls and, uh, different type hats with, uh, flowers and roses, you know, and, uh, that kind of thing, straw hats and, [SEP] [CLS] 2) A: Oh {Sounds like typing noises in background}. [SEP] [CLS] 3) B: all that kind of stuff.  And I enjoy it, it's relaxing.  And you kind of get absorbed in it so the time goes by, you know, before you realize anything is going on.  And I play the organ sometimes, uh, just for my own satisfaction.  [laughter].  Not for anybody else's ears because I'm not that good at it, but I like to bang on the keyboards once in a while. [SEP] \nHypothesis: SpeakerB thinks that crafts are relaxing. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: But you need to rent the first one first. [SEP] [CLS] 2) B: To understand what's going on in the second? [SEP] [CLS] 3) A: Uh, if, if that is that the second one follows the first.  I don't know if they have the, uh, original actors on that first one to that one. [SEP] \nHypothesis: SpeakerA dosen't think the second FX follows the first. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: French Foreign Legion fellow who deserts to go help his brother's wife who got, who became a widow because he was selling drugs [laughter], [SEP] [CLS] 2) B: [Laughter]. [SEP] [CLS] 3) A: and he got killed. [SEP] [CLS] 4) B: Really uplifting, huh [laughter]? [SEP] \nHypothesis: SpeakerB thinks the French Foreign Legion is uplifting. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Cindy, have you seen DANCES WITH WOLVES? [SEP] [CLS] 2) B: No, I haven't.  Have you? [SEP] [CLS] 3) A: Oh, that is a wonderful movie. [SEP] [CLS] 4) B: Uh-huh, it's not, the length isn't too long? [SEP] \nHypothesis: SpeakerB does not like dances with wolves.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And they're still let out on the street after one or two years.  Well, in Washington State, if you're a habitual sexual offender, they just don't let you out. [SEP] [CLS] 2) A: Um. [SEP] [CLS] 3) B: So you serve your prison term, and then you go into the mental hospital, and if you're pronounced cured, they'll let you go. [SEP] \nHypothesis: SpeakerB has been a sex offender 45 times. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: [Laughter] Well that's, that's good as far as the cal-, is that, is that, um, pretty predominant as far as California do-, doe-, [SEP] [CLS] 2) A: It is in the urban areas, yes. [SEP] [CLS] 3) B: In the urban areas? [SEP] [CLS] 4) A: Most, for example most restaurants in an urban area will have a little vegetarian section now. [SEP] \nHypothesis: Many restaurants in urban California have a vegetarian section. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And, and, then what happened was that Phil Collins said, hey I can make money, a lot of money doing this, and then he came out with, uh, see, for example, his, his record like, No Jacket Required. [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: That was good, but it was on his way of going downhill, because he said, I can make a lot of money just singing alone, and then he came out with the Invisible Touch, with, uh, Genesis and that really, like now, I hate Phil Collins, I can't stand him. [SEP] \nHypothesis: SpeakerB listens to No Jacket Required. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I'm, just wrote my resume up because told we might be facing layoff over at Digital and they've never had, well, they've had layoffs recently, but when we got hired here, no, no, never any layoffs, never, never, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: and now we're looking at serious, I, I mean, I'm a technician. [SEP] [CLS] 4) B: Yeah. [SEP] [CLS] 5) A: When they start getting rid of technicians, [SEP] \nHypothesis: SpeakerA is unemployed. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: [Children] Uh, I think that, uh, really it wouldn't hurt most of the young people of the country to have to go and do voluntary service.  Uh, and, you know, I mean, [SEP] [CLS] 2) A: (( )). [SEP] [CLS] 3) B: there have been so many people that have done it and I've talked with several and I think they've gotten a lot out of it. [SEP] \nHypothesis: SpeakerA worked in the voluntary services. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: It seem like that's, like, especially lately there's been so many babies, [laughter] that, uh, bibs and blankets, and things like that.  Wall hangings, um, [SEP] [CLS] 2) B: Do you ever keep any of your stuff? [SEP] [CLS] 3) A: Isn't that funny.  No [laughter]. [SEP] \nHypothesis: SpeakerA thinks that keeping what she made is funny. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: So, you know, it was prime time, it was, what, seven thirty, eight o'clock on a week night -- [SEP] [CLS] 2) A: Uh-huh, uh-huh. [SEP] [CLS] 3) B: -- and we have cable, and there wasn't anything on any channel, and the stuff that was on the prime, the networks, you know, A B C, N B C, C B S, was, it was just, um, dribble -- [SEP] \nHypothesis: There was no show on any channel. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah.  And, of course, I was, I was living alone at the time and it was late at night and #scary and, you know [laughter].  You start hearing  noises# -- [SEP] [CLS] 2) B: #[Laughter] Gosh.  Call the crisis line.# [SEP] [CLS] 3) A: -- you know. [SEP] \nHypothesis: SpeakerA was frightened by noises. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Oh, well, that's neat that you like cross-stitching also. [SEP] [CLS] 2) A: Yeah, that's, that's kind of strange [laughter] that we got the same call. [SEP] [CLS] 3) B: Yeah. [SEP] [CLS] 4) A: It's a (( )) call. [SEP] [CLS] 5) B: Oh, I'm sorry.  Go ahead. [SEP] [CLS] 6) A: No, that's okay. [SEP] [CLS] 7) B: Okay [laughter], uh, but, yeah, I've been doing it for probably ten years or so. [SEP] \nHypothesis: Cross-stitching is peaceful. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: -- right in the tub, and it helps because its the time of the year that they're shedding a lot, and cleaning cat fur off the couch and off the floor is not a hobby of mine.  So I thought, [SEP] [CLS] 2) B: [Laughter]. [SEP] [CLS] 3) A: this'll help, you know, help them shed, and sure enough, boy the fur just came off like crazy once I got them -- [SEP] \nHypothesis: SpeakerA thinks that baths cause cats to shed some of their fur. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: What I did, when I was doing that was mostly pillows, you know, for sofas and so forth, and I can't find one that I've done. [SEP] [CLS] 2) A: Oh. [SEP] [CLS] 3) B: It's one of those things I did-, I didn't give them away, but I didn't know if it's been my color choice or multiple moves -- [SEP] [CLS] 4) A: Yeah, [SEP] [CLS] 5) B: -- or, or what, and it, I was so proud of them when I [laughter] got them finished, but I have no idea where they are. [SEP] \nHypothesis: SpeakerB moved after he made the pillows. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I use mine a great deal, um, for groceries, for everything that I can and, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: then just write one check at the end of the month, [SEP] \nHypothesis: SpeakerA doesn't use a credit card very often. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Um, well, I've made a lot of baby gifts [laughter]. [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: It seem like that's, like, especially lately there's been so many babies, [laughter] that, uh, bibs and blankets, and things like that.  Wall hangings, um, [SEP] \nHypothesis: SpeakerA lot of babies have been born to SpeakerA's acquaintances lately. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: How did you know to choose this subject, tonight.  That's funny [laughter]. What, how did you, what kinds of decorations did you use with the bas-, how were you decorating the baskets? [SEP] [CLS] 2) A: Oh, basically bows and lace -- [SEP] [CLS] 3) B: Um. [SEP] [CLS] 4) A: -- uh, ribbons.  Um. I really wanted to do, you know, so many of them now have the ribbons where, I'm not sure how they do it, but the ribbons, they make them, they like.  I don't know how to explain it.  They make them hard, you know? [SEP] [CLS] 5) B: Like fabric that's been stiffened. [SEP] [CLS] 6) A: Yeah. [SEP] [CLS] 7) B: Yes. [SEP] [CLS] 8) A: I've never done that, and those are so neat.  I mean, I would really like to do those but, [SEP] [CLS] 9) B: I've seen some, and there, there, they, I suspect they're fairly simple, because the one lady I've seen, I know that does it, I've never asked her any questions, but she has three kids all under the age of like six. [SEP] [CLS] 10) A: Um. [SEP] \nHypothesis: SpeakerA didn't know how to stiffen ribbons. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I do a little bit of woodworking, well, I used to.  I don't have the equipment here.  We moved to Dallas about a year ago -- [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: -- and my dad had a lot of woodworking equipment -- [SEP] \nHypothesis: SpeakerB used his father's woodworking equipment. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Number one turned out just great, and the lady said she couldn't believe that they know that I had done it in the colors, that they had decorated the nursery and I didn't even know it. [SEP] [CLS] 2) B: Oh, that's a (( )). [SEP] [CLS] 3) A: I gave it to her and she said how did you know those are the colors we used.  I said {pause} didn't [laughter]. [SEP] \nHypothesis: The colors of the project matched the nursery by accident. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Well, you look at places like Turkey. Turkey has the death penalty, [SEP] [CLS] 2) A: Huh-uh. [SEP] [CLS] 3) B: for just about everything. [SEP] [CLS] 4) A: Huh-uh. [SEP] [CLS] 5) B: I mean, if you get convicted of, uh, you know, drug trafficking, they just kill you.  You get convicted of, uh, you know, heinous crimes, they just kill you.  I mean there's no two ways about it. [SEP] \nHypothesis: SpeakerB has committed two heinous crimes. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Uh, I do walking on the treadmill, and then I do low impact aerobics. [SEP] [CLS] 2) A: Okay.  I guess you don't enjoy that very much. [SEP] [CLS] 3) B: Not, not really. [SEP] [CLS] 4) A: Do you find that, uh, to be boring? [SEP] [CLS] 5) B: Yeah, and time consuming, I mean it's not just the exercise that's boring and time consuming, it's, uh, you know, afterwards, you know, then you have to take a shower and get cleaned up, you know. [SEP] [CLS] 6) A: Yeah. [SEP] \nHypothesis: SpeakerA agrees that low impact aerobics and walking on the treadmill are boring and time consuming.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I really and truly did.  I mean, I have absolutely no problems with them winning seven Oscars.  None at all. [SEP] [CLS] 2) B: Right. [SEP] [CLS] 3) A: Normally I'm one of these people that I don't like one, one movie taking all the honors. [SEP] \nHypothesis: Ordinarily, SpeakerA would not have liked that one movie received seven oscars. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: We just, my wife and I just recently moved into our house.  So we're -- [SEP] [CLS] 2) B: Oh. [SEP] [CLS] 3) A: -- spend a lot of time on the house and out in the yard and things.  But. [SEP] \nHypothesis: SpeakerA and his wife are spending a lot of time working on their house. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And, then, some people they get so wrapped up in them that they find, you know, one day they find, wow, I didn't realize I had this much, [SEP] [CLS] 2) A: That much stuff. [SEP] [CLS] 3) B: you know, I'd spent this much money. [SEP] \nHypothesis: SpeakerB has a lot of credit cards. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: How did I hear about it?  Well I work, you know, they are gathering a data base for voice processing. [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: And, that's my field of work also. [SEP] \nHypothesis: SpeakerA does not work in voice processing.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I know the day care centers are not cheap either.  You know they're, [SEP] [CLS] 2) B: I haven't ever really looked at them.  Are you aware at all, [SEP] [CLS] 3) A: Uh, well, no, [SEP] [CLS] 4) B: of, of what they would, what they cost? [SEP] [CLS] 5) A: I just know, I know several single mothers who absolutely can't afford it.  They have to go with the, a single, uh, wh-, I mean a baby-sitter more, more or less. [SEP] [CLS] 6) B: Uh-huh. [SEP] [CLS] 7) A: But I think it's like, about sixty dollars a week for two children -- [SEP] \nHypothesis: SpeakerA thinks it is 60 dollars a week per child. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: -- that would mean it would be about ten dollars or so, or maybe twenty dolls-, maybe it would be more than that.  It was more than.  It would average out to thirty-five or forty dollars a night -- [SEP] [CLS] 2) A: Right. [SEP] [CLS] 3) B: -- which is a reasonable rate. [SEP] \nHypothesis: SpeakerA and SpeakerB agree thirty-five to forty dollars a night is not a reasonable rate.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: But the guy at the very top, the one who's, who's really making the millions and the millions is the one who also many times is part of the power structure, uh, the, uh, and had the political -- [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: -- uh, pull to keep things from, uh, keep the interest or the emphasis in some other direction, other than on the drug dealing, because it sure is monstrous in this country. [SEP] \nHypothesis: SpeakerA is part of the political power structure. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Well, uh, I guess uh, there have been certainly a lot of changes in the last couple of generations, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: for, uh, the roles of women and uh, I guess the most significant probably is that so many are working now, [SEP] [CLS] 4) B: Right. [SEP] \nHypothesis: SpeakerB agrees that there have been changes in the roles of women. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah, I know.  Well I, I, I'm not much of a television watcher.  I, I read as I said, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: and, uh, quite a bit.  I read about two or three novels a week, [SEP] \nHypothesis: SpeakerA does not read frequently.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: [/Noise] Oh, that is, that is the most precious movie.  It has, w-, to see it on the big screen because it's just the most gorgeous nature scenes you've ever seen in your life.  And it's all this, it's the story of this little cat and dog and it's not [swallowing] like cutesy.  It's just, uh, it's just so realistic.  Everything they do.  You wonder how in the world they ever got them to do some of these things. [SEP] [CLS] 2) A: Huh.  #Oh, those# -- [SEP] [CLS] 3) B: #And it was,# [SEP] [CLS] 4) A: -- a real dog and cat? [SEP] [CLS] 5) B: A real dog #and# -- [SEP] [CLS] 6) A: #Huh.# [SEP] [CLS] 7) B: -- cat and all the other animals.  They initially start out in the barnyard kind of setting where they're raised.  And then the cat gets, um, on this treacherous journey.  He climbs into a box and ends up floating down this river and he winds up all over creation.  I don't know where in the world it is.  Somewhere in China somewhere I think that it was #filmed.# [SEP] \nHypothesis: SpeakerB thinks Otis and Milo was filmed in China. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I think it's a really a good thing.  I, I like to see, of course, there's, you know, third world countries that can use all kind of help [laughter]. [SEP] [CLS] 2) B: Yeah, but there's a lot that can be done right here in this country, [SEP] [CLS] 3) A: But I think, [SEP] [CLS] 4) B: too. [SEP] [CLS] 5) A: we ought to start right here at home.  I'm, you know, [SEP] \nHypothesis: SpeakerA and SpeakerB agree that we should fix the problems at home before the problems of other countries. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I did some needlepoint years ago, and then I got into the Bargello. [SEP] [CLS] 2) A: Oh, what's that? [SEP] [CLS] 3) B: Well, it's an Italian, um, needlework, using, using the uh, I started to say the canvas, but the, uh, huh, what kind of cloth uses that.  I, I've just gone blank.  But it's used with yarn, and it usually takes long stitches over two or three openings in the cloth -- [SEP] \nHypothesis: The Bargello is used with yarn. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: and, uh, worked in the Abilene plant, and we used to go to Joe Allen's Barbecue, and, uh, oh, that was great. [SEP] [CLS] 2) A: Oh, yeah. [SEP] [CLS] 3) B: Really great, [SEP] [CLS] 4) A: That's, uh, [SEP] [CLS] 5) B: they have some nice stuff down there. [SEP] [CLS] 6) A: only way to do it. [SEP] [CLS] 7) B: I miss it [laughter]. [SEP] \nHypothesis: SpeakerB misses Abilene. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: But in some ways I think we are expected to do it all.  You're almost looked down upon if you don't try to do all of these things and -- [SEP] [CLS] 2) B: Right. [SEP] [CLS] 3) A: -- that's where the problem is really. [SEP] \nHypothesis: SpeakerB agrees that they are practically looked down on if they do not try to do all these things. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Well, I could barely hear what the switchboard operator was saying as what was the topic. [SEP] [CLS] 2) A: Fitness and exercise. [SEP] [CLS] 3) B: Oh, God [laughter].  No, why don't you go first. [SEP] \nHypothesis: SpeakerB thinks God is fitness and exercise. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: When I was a little kid, I saw the INCREDIBLE JOURNEY on Christmas Eve #and# -- [SEP] [CLS] 2) B: #Oh, boy.# [SEP] [CLS] 3) A: -- it was so good that I had #forgotten# -- [SEP] [CLS] 4) B: #Huh.# [SEP] [CLS] 5) A: -- that it was Christmas Eve.  #I mean# -- [SEP] \nHypothesis: SpeakerA forgot it was Christmas Eve when she watched the Incredible Journey. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Well, I don't know, was there any, I remember the MILTON BERLE SHOW even, I was, [SEP] [CLS] 2) A: Ye-, I'm not old enough to recall that one [laughter]. [SEP] [CLS] 3) B: I was, well I guess, I have to admit that I am [laughter]. [SEP] \nHypothesis: SpeakerB is older than SpeakerA.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: That's probably the safer way because I notice in aerobics a lot of the women that don't look like they shouldn't be doing certain things -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- I'm always afraid they're going to fall over and have a coro, coronary. [SEP] \nHypothesis: SpeakerB agrees that there are women who do aerobics who are not healthy enough to be doing aerobics. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah, well, I'm, I'm working for T I, Texas Instruments, down here. [SEP] [CLS] 2) A: Well, I interviewed with them. [SEP] [CLS] 3) B: Oh, yeah? [SEP] [CLS] 4) A: But I didn't want to go to Texas. [SEP] \nHypothesis: SpeakerA does not want to live in Texas because her mother is in Georgia. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Well, I'm trying to get back in shape for softball this spring. [SEP] [CLS] 2) B: Oh, yeah. [SEP] [CLS] 3) A: But I, [SEP] [CLS] 4) B: Do you go through this, is this something that you go through every year [laughter]. [SEP] [CLS] 5) A: Yeah, I haven't decided whether, whether I want to play yet or not I just bought myself a solo flex machine, I don't know if you've seen those advertised on T V. [SEP] \nHypothesis: SpeakerA has not yet decided whether or not she will play Softball this year. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Hi, um, okay what, now, uh, what particularly, particularly what kind of music do you like? [SEP] [CLS] 2) A: Well, I mostly listen to popular music.  I, uh, listen to it all the time in, in my car, so, I, I tend to be one of those people who switches stations a lot because I don't like commercials.  But, [SEP] [CLS] 3) B: Yeah. [SEP] [CLS] 4) A: uh, I find myself listening to popular music, and, uh, quite honestly, I, I have some little children and I, unfortunately, found myself listening to a lot of nursery rhyme music here lately, but that's not by my choice. [SEP] \nHypothesis: SpeakerB wants to know what kind of music SpeakerA likes. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: He was, he's of course, uh, I guess he's trained in this, uh, martial arts of some sort, but the plot was bland, the acting was bland.  It was just mostly centered upon his abilities to -- [SEP] [CLS] 2) B: Chop them up, huh? [SEP] [CLS] 3) A: -- yeah, chop them up, exactly.  And, [SEP] \nHypothesis: He chops up plot and acting. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah, well, well, we live, we live really close to Lake Champlain, which is in the Champlain Valley, [SEP] [CLS] 2) B: Oh, yeah. [SEP] [CLS] 3) A: so we're a little, we're about two weeks ahead of everyone else out on the outskirts so, [SEP] [CLS] 4) B: Okay, because that kind of moderates the weather a little bit? [SEP] [CLS] 5) A: Yeah. [SEP] \nHypothesis: Weather in Champlain Valley is two weeks ahead. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I don't think it's a bad idea, teaches, teaches a lot.  I mean, I went in the service when I was eighteen, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: And, uh, stayed in for ten years. [SEP] \nHypothesis: The Service is a teacher. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah, well, I'm, I'm working for T I, Texas Instruments, down here. [SEP] [CLS] 2) A: Well, I interviewed with them. [SEP] [CLS] 3) B: Oh, yeah? [SEP] [CLS] 4) A: But I didn't want to go to Texas. [SEP] \nHypothesis: TI offered SpeakerA a job. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And, then, some people they get so wrapped up in them that they find, you know, one day they find, wow, I didn't realize I had this much, [SEP] [CLS] 2) A: That much stuff. [SEP] [CLS] 3) B: you know, I'd spent this much money. [SEP] \nHypothesis: SpeakerB spends a lot of money. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: and, uh, the reason I'm at home is when I had my kids, and I was scheduled to go back and I tell you how much in the dark ages it was.  Um, I had been rated number one in the field and then I took, uh, when I became pregnant I also got meningitis, [SEP] [CLS] 2) A: Oh. [SEP] [CLS] 3) B: and then delivered the first baby three months early, [SEP] \nHypothesis: SpeakerB's first baby had meningitis. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: #Well, but you know, the,# the strange thing, uh, perhaps, not strange, but something that many people don't realize, is that you can go back as far as nineteen fifty-one and fifty-two and find that there were drug dealers at that time trying to influence the high school kids, because, uh, I'm a retired educator. [SEP] [CLS] 2) A: Okay [noise]. [SEP] [CLS] 3) B: And, in fifty-one and fifty-two, the police came to the high school where I was and were telling us how to recognize when kids were on drugs, how to recognize the pushers -- [SEP] [CLS] 4) A: Yeah. [SEP] \nHypothesis: SpeakerA knows how to spot people on drugs. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I'd like to know where they determine that I'm such a good credit risk that they can go and say, you get this much credit line.  You know. [SEP] [CLS] 2) A: Well, i-, [SEP] [CLS] 3) B: You've already been preapproved. [SEP] \nHypothesis: SpeakerB wishes he/she knew the credit card companies sources. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Okay.  The question was, um, what, what is your opinion of youth, uh, spending a year or two in, in public service. [SEP] [CLS] 2) B: I think it would be a great idea.  I'm not sure about requiring it, you know, of people, because people are going, you know, feeling resentful.  I don't know, but I think it would be a great idea. [SEP] [CLS] 3) A: Yeah. [SEP] \nHypothesis: SpeakerA agrees with SpeakerB's opinion. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Let's see, how about, uh, MAN FROM UNCLE? [SEP] [CLS] 2) B: I do seem to reme-, is that the one where they, uh, he always got this, this tape recording that self-destructed? [SEP] [CLS] 3) A: That's MISSION IMPOSSIBLE. [SEP] \nHypothesis: the tape recording is related to MISSION IMPOSSIBLE.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I'd recommend it.  It's a little on the violent side -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- but then what movie isn't anymore. [SEP] \nHypothesis: SpeakerA believes that most movies are violent. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And I just realized, I was sort of like an alcoholic, if I didn't get the booze out of the house, I was going to drink. [SEP] [CLS] 2) A: Oh. [SEP] [CLS] 3) B: So. [SEP] [CLS] 4) A: I guess I haven't ever had any trouble with that.  I have more or less, I have my favorite shows and I usually make time in my day or my week, you know, to watch those. [SEP] \nHypothesis: Unlike SpeakerB, SpeakerA manage's his time on TV shows well.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah, that's, uh, I don't know.  There's other kinds of service to the country that could be done, you know, [SEP] [CLS] 2) A: Yeah, I mean if you don't like, [SEP] [CLS] 3) B: I mean, working in the national parks, [SEP] [CLS] 4) A: Sure. [SEP] [CLS] 5) B: Uh, working, clean up the roadsides -- [SEP] \nHypothesis: SpeakerB thinks there could be other service to the country instead of military. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: He told me eight to twelve weeks. [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: Not anything, you know.  I said, but you're only going to put the cast on for a couple of weeks.  He said, yeah, but that's just, they tried to put me in some kind of immobilized walker, because he doesn't like to put casts on when it's warm.  But I just, the more they tried to get my foot in the more I screamed, I couldn't, you know -- [SEP] \nHypothesis: SpeakerA's cast will stay on for 8-12 weeks. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah I do, I do like to go to movies, and I have a V C R, so I like to rent movies, and, um, I have, right now I have the movie channel, so I've recorded quite a few movies off of that.  Um, just, I've kind of got a collection going of tapes now, and whenever I go visit my parents, they're always saying, Well, bring some of your tapes [laughter]. [SEP] [CLS] 2) B: [Laughter]. [SEP] [CLS] 3) A: They always borrow a few of them.  I was over there, they live in Duncanville -- [SEP] [CLS] 4) B: Uh-huh. [SEP] [CLS] 5) A: -- and I was over there at Easter, and they said, Bring some tapes with you.  So they are always borrowing my tapes. [SEP] [CLS] 6) B: Yeah. [SEP] \nHypothesis: SpeakerA watches movies at home more often than in theatres. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah, yeah.  But, I'm like you, I also, um, like to participate in, uh, things like, well, we just went to the, uh, Myererson Symphony Run this past weekend, and, and that was a lot of fun and you get to meet different people, [SEP] [CLS] 2) A: Uh-huh, uh-huh. [SEP] [CLS] 3) B: and, um, just get out, you know, [SEP] \nHypothesis: SpeakerB uses exercise opportunities to get out. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Have you seen SLEEPING WITH THE ENEMY? [SEP] [CLS] 2) A: No.  I've heard, I've heard that's really great, though. [SEP] [CLS] 3) B: Y-, you have to go see that one.  And how about SILENCE OF THE LAMB? [SEP] [CLS] 4) A: No, [SEP] [CLS] 5) B: Go. [SEP] [CLS] 6) A: You must really keep up. [SEP] [CLS] 7) B: I do.  I go every weekend [laughter].  I, I, uh, those are two definite must see movies, I think. [SEP] \nHypothesis: SpeakerB wants SpeakerA to see SLEEPING WITH THE ENEMY. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And it's surprising how much it's changed -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- the whole moral situation, everything, is just gone one whole complete direction different.  And we don't have any kids yet, but I feel the same way. It's really tough to find something that's -- [SEP] [CLS] 4) B: Right. [SEP] [CLS] 5) A: -- going to be good and interesting for the kids.  Even, even cartoons, um -- [SEP] \nHypothesis: It did not used to be as hard to find something that's good and interesting for kids.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Um, a lot, well, the last movie I saw, but it wasn't my choice, was the NINJA TURTLE movie [laughter]. [SEP] [CLS] 2) A: [Laughter] Obviously you have kids. [SEP] [CLS] 3) B: [Laughter] That's right.  Yeah, but my preference is the one we saw before that was SILENCE OF THE LAMBS. [SEP] \nHypothesis: SpeakerB prefers SILENCE OF THE LAMBS to the NINJA TURTLE movie. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Most countries require that now, they -- [SEP] [CLS] 2) A: Yeah, yeah. [SEP] [CLS] 3) B: -- you know, they have, uh, it mandatory for, for the, the uh -- [SEP] \nHypothesis: Most countries require some military service. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: -- with high tech weaponry, you know, I mean, the Iraqis didn't have a lot of high-tech weaponry, but they had mortars and machine guns, [SEP] [CLS] 2) A: Oh, yeah. [SEP] [CLS] 3) B: tanks and all that. [SEP] [CLS] 4) A: Sure. [SEP] \nHypothesis: Iraqis don't have very much hi-tech weaponry. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Okay [laughter], uh, but, yeah, I've been doing it for probably ten years or so. [SEP] [CLS] 2) A: Oh, wow.  No, I just started about, well, five years ago, I think. [SEP] [CLS] 3) B: But it is peaceful, I mean it is relaxing to do, once you find the time to do it. [SEP] \nHypothesis: SpeakerB thinks that cross-stitching is peaceful. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: and we did aerobics together for about a month and a half and that went over real well, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: but, uh, that's about it there. [SEP] [CLS] 4) B: Oh, it's good and it's healthy, too. [SEP] \nHypothesis: Only doing aerobics together is good and healthy. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: But yeah, I've, I've talked to some who's really had some bad experience and kind of knock on wood I haven't yet, not bad. [SEP] [CLS] 2) B: Yeah, well that's, [SEP] [CLS] 3) A: You know, I just, I'm just shocked at the end of the month, [SEP] \nHypothesis: SpeakerA has had bad credit card experiences. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: They don't, I don't, I don't work at T I. [SEP] [CLS] 2) A: Oh, you don't? [SEP] [CLS] 3) B: No, I used to work at T I, [SEP] [CLS] 4) A: Oh. [SEP] [CLS] 5) B: as matter of fact I was the only woman that they had in the field in a management position actually when I was working there I was the only woman that was pretty much in the industry [breathing], and I used to fill out those attitude surveys, [SEP] [CLS] 6) A: Yeah. [SEP] [CLS] 7) B: and, uh, uh, me and the insurance adjusters are, are very familiar with each other and my husband still works there, [SEP] [CLS] 8) A: Yeah. [SEP] [CLS] 9) B: and, um, I get my attitude expressed through them, but I find it to be very sometimes it's kind of shoot yourself in the foot short-, (( )) mentality to save a few bucks. [SEP] [CLS] 10) A: This is true. [SEP] [CLS] 11) B: [Breathing] Uh, and never having lived in Texas before I starting working for T I and I came down here and, you know, they did an attitude survey like six weeks after I had been working here and I asked about, you know, day care for the shift workers, [SEP] [CLS] 12) A: Yeah. [SEP] [CLS] 13) B: and boy I was pulled in by my manager and told that you just don't say that, you know, [SEP] [CLS] 14) A: Well, it's not, [SEP] [CLS] 15) B: it was not applicable to me and I was kind of horrified. [SEP] [CLS] 16) A: Now what year are we talking about? [SEP] [CLS] 17) B: We're talking nineteen seventy-eight. [SEP] [CLS] 18) A: Okay, uh, things have become much more enlightened since then. [SEP] [CLS] 19) B: They couldn't have gotten anymore in the dark ages [laughter]. [SEP] [CLS] 20) A: Yeah, you know, we still don't have a day care facility but people are more sympathetic to it. [SEP] \nHypothesis: TI still doesn't have a day care facility. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Right.  Well, I enjoy playing with my cats.  I don't know if you'd call that a hobby, but I have two cats, and I gave them a bath tonight, so they're a little bit angry at me [laughter]. [SEP] [CLS] 2) B: [Laughter] (( )).  Can you -- [SEP] [CLS] 3) A: They didn't like it too much. [SEP] [CLS] 4) B: -- can you put them right in the water? [SEP] [CLS] 5) A: Yeah, oh yeah -- [SEP] [CLS] 6) B: Oh, that's good, [SEP] [CLS] 7) A: -- right in the tub, and it helps because its the time of the year that they're shedding a lot, and cleaning cat fur off the couch and off the floor is not a hobby of mine.  So I thought, [SEP] [CLS] 8) B: [Laughter]. [SEP] [CLS] 9) A: this'll help, you know, help them shed, and sure enough, boy the fur just came off like crazy once I got them -- [SEP] [CLS] 10) B: Oh, yeah. [SEP] [CLS] 11) A: -- in the tub.  So, they're pretty content now, but they were mad at me for quite a while.  They went and hid after they, after they got dried off. [SEP] \nHypothesis: SpeakerA's two cats are hiding. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: That's funny [laughter].  No, I do some, I have really gotten out of it. I don't do it quite as much as I used to.  Um, I guess because I, I went back to school, so I don't have as much time. [SEP] [CLS] 2) B: Oh, you don't have time. [SEP] [CLS] 3) A: No, and I have two children also [laughter]. [SEP] [CLS] 4) B: You definitely don't have time. [SEP] [CLS] 5) A: It keeps me very busy.  But I really enjoy it when I do do it, when I get the chance, you know.  It's really, it's so relaxing to just sit, and, but once I get started, I can't put it down.  I just, [SEP] [CLS] 6) B: I have a similar problem.  I've got to have time or I don't even want to get into it in the first place. [SEP] [CLS] 7) A: Uh-huh.  Uh-huh. [SEP] \nHypothesis: SpeakerA does not do crafts often because she has less time. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: #Yeah.  My, my very favorite one# that the top of the tick for me is, uh, EXCALIBUR. [SEP] [CLS] 2) B: Oh, yeah.  #That was a good one.  I haven't seen that one in a long time.# [SEP] [CLS] 3) A: #I, I loved that film.  Um,# it's just so well done. [SEP] [CLS] 4) B: #Yeah.# [SEP] [CLS] 5) A: #And# I lived over in England for four years, [SEP] [CLS] 6) B: [Screeching] Oh, boy. [SEP] [CLS] 7) A: That was the first place I ever saw it. [SEP] [CLS] 8) B: Uh-huh. [SEP] [CLS] 9) A: And it was just, gosh, it was so good. [SEP] [CLS] 10) B: Oh, gosh. [SEP] [CLS] 11) A: It was, it was filmed in Ireland. [SEP] \nHypothesis: Excalibur was filmed in Ireland. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I think.  There, there is a sense of, you know, whole, there's a lot of, you know, you'll get organizations, like institutes for the whole health, or whatever.  And, uh, oh the, the, the uni-, University of California at Berkeley puts out THE WELLNESS LETTER.  Which is, uh, turned into a fairly well subscribed to, uh, newsletter, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: monthly or biweekly newsletter or something like that and, and, it doesn't deal with just exercise, or just stress management, or just diet, or anything.  It, it's on fairly so-, solid scientific ground.  Uh, it's just dispensed with these distinctions.  It says ever-, all sorts of factors go into health and there's no reason to talk about one rather than another, so that they, they combined them all together.  And, uh, so it's had that orientation for quite some time.  Um, there's been some progressive medical schools out here, [SEP] \nHypothesis: THE WELLNESS LETTER is a newsletter that contains information on many factors that contribute to health. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Let me see.  One movie I saw, I guess it was a while back, RED OCTOBER. [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: Have you seen that one? [SEP] [CLS] 4) A: Yes, I have.  That was pretty good. [SEP] [CLS] 5) B: Yeah, I read the book before so I knew the story line going in, but they changed some things in the movie.  It wasn't the same.  I thought the book was better than the movie, but I thought the movie was really good as well. [SEP] [CLS] 6) A: I always wait for the movie.  I don't have time to read the book. [SEP] [CLS] 7) B: Yeah.  I don't, I read about one or two thick novels like that a year. [SEP] \nHypothesis: SpeakerB read only one other book in the same year as RED OCTOBER. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And uh, I just decided I had to do that.  I think, in part because it was easy for me to become addicted to it, I mean I could just sit mindlessly in front of a T V set for hours. [SEP] [CLS] 2) A: Uh. [SEP] [CLS] 3) B: And I just realized, I was sort of like an alcoholic, if I didn't get the booze out of the house, I was going to drink. [SEP] \nHypothesis: SpeakerB was addicted to drinking.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: #[Laughter]# Let's see.  What are some other ones I've seen lately.  I'm trying to remember.  I can't.  Oh, I just saw one on the video.  Oh, um, have you seen THE GODS MUST BE CRAZY, PART TWO? [SEP] [CLS] 2) A: No [laughter]. [SEP] [CLS] 3) B: That is a riot. [SEP] \nHypothesis: THE GODS MUST BE CRAZY, PART TWO is very funny. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Okay.  The question was, um, what, what is your opinion of youth, uh, spending a year or two in, in public service. [SEP] [CLS] 2) B: I think it would be a great idea.  I'm not sure about requiring it, you know, of people, because people are going, you know, feeling resentful.  I don't know, but I think it would be a great idea. [SEP] [CLS] 3) A: Yeah. [SEP] \nHypothesis: SpeakerB thinks that having our youth do a year or two in public service is a good idea. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: -- I mean, I've always felt that people on welfare should be required to spend at least part of their time, [SEP] [CLS] 2) A: Oh yeah, absol-, [SEP] [CLS] 3) B: not all the time because that takes away from their opportunity to look for a job, but [beep] {three times} at least some of their time to look for, to go out and clean up the roads. [SEP] \nHypothesis: SpeakerB thinks people on welfare should clean up roads. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yo-, you know what eucalyptus is?  It's, [SEP] [CLS] 2) B: Yeah, yeah, the, they s-, uh, it's sold in the hobby stores and nurseries. [SEP] [CLS] 3) A: Yeah, it's got a s-, [SEP] [CLS] 4) B: It's got a kind of a peculiar smell to it but, [SEP] [CLS] 5) A: Yeah, at first I'm like, oh, how, why do people like this, but it, it is kind of a nice smell after a while.  People put them in, [SEP] [CLS] 6) B: Yeah, I didn't realize what it was for a while.  I'd walk into a room where some of that, and I'd wonder what is that, [SEP] \nHypothesis: SpeakerA likes the smell of eucalyptus. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Of course, there's not a whole lot of market for seventy-eight R P M records. [SEP] [CLS] 2) B: Is there not?  You, you'd, well you'd think there would be. [SEP] [CLS] 3) A: Well, the problem is most of the record players now will not play them because, [SEP] [CLS] 4) B: Well, that's true. [SEP] [CLS] 5) A: you have to have that needle, that, uh, particular kind of needle -- [SEP] [CLS] 6) B: Oh, yeah. [SEP] [CLS] 7) A: -- and, uh, they, [SEP] [CLS] 8) B: [Breathing]. [SEP] [CLS] 9) A: just won't play on a modern day, uh -- [SEP] [CLS] 10) B: Well, that's a shame -- [SEP] [CLS] 11) A: -- phonograph. [SEP] [CLS] 12) B: -- [Sniffing] because I, I, we go to antique stores a lot and you see seventy-eights, [SEP] [CLS] 13) A: Yeah. [SEP] [CLS] 14) B: a, a lot at, at the stores, a-, a-, at record stores, you'd, [SEP] [CLS] 15) A: Yeah. [SEP] [CLS] 16) B: think there'd be a market for, I'm, I'm sure you could find old players for them but that would cost a fortune, [SEP] \nHypothesis: SpeakerB disagrees with SpeakerA about the market for 78 RPM records. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Well, ironically enough I'm sitting here with a cast on my leg because I resumed an aerobics class the night before last. [SEP] [CLS] 2) B: Oh, no. [SEP] [CLS] 3) A: I ripped the ligaments in my right ankle. [SEP] \nHypothesis: SpeakerA ripped the ligaments in her ankle at aerobics class. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Uh-huh. [SEP] [CLS] 2) B: uh, and if you recall how it goes downtown, [SEP] [CLS] 3) A: Right. [SEP] [CLS] 4) B: ta, da, da, da, uh, all I have to do is hear that song and I get strongly evoked memories of, of difficult times in school being behind on work, [SEP] [CLS] 5) A: Uh-huh. [SEP] [CLS] 6) B: uh, and my family now knows if they come into my study and, uh, I happen to have had a tough day at work and maybe I'm trying to get a project done, uh, at school, uh, and I'm humming or whistling in a sort of mad crazy way the tune to Downtown they know to just stay away, [SEP] \nHypothesis: SpeakerA and SpeakerB did not know the DOWNTOWN song. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: How did you know to choose this subject, tonight.  That's funny [laughter]. What, how did you, what kinds of decorations did you use with the bas-, how were you decorating the baskets? [SEP] [CLS] 2) A: Oh, basically bows and lace -- [SEP] [CLS] 3) B: Um. [SEP] [CLS] 4) A: -- uh, ribbons.  Um. I really wanted to do, you know, so many of them now have the ribbons where, I'm not sure how they do it, but the ribbons, they make them, they like.  I don't know how to explain it.  They make them hard, you know? [SEP] [CLS] 5) B: Like fabric that's been stiffened. [SEP] \nHypothesis: SpeakerB uses stiffened fabric while decorating the baskets. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: -- with high tech weaponry, you know, I mean, the Iraqis didn't have a lot of high-tech weaponry, but they had mortars and machine guns, [SEP] [CLS] 2) A: Oh, yeah. [SEP] [CLS] 3) B: tanks and all that. [SEP] [CLS] 4) A: Sure. [SEP] \nHypothesis: SpeakerA agrees with SpeakerB that the Iraqis don't have a lot of hi-tech weaponry. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: -- of like when the buffalos are, when they're chasing the buffalos and everything -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- you've got to be where you feel it. [SEP] \nHypothesis: SpeakerA thinks you have to be where the buffalos are. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Okay.  The question was, um, what, what is your opinion of youth, uh, spending a year or two in, in public service. [SEP] [CLS] 2) B: I think it would be a great idea.  I'm not sure about requiring it, you know, of people, because people are going, you know, feeling resentful.  I don't know, but I think it would be a great idea. [SEP] [CLS] 3) A: Yeah. [SEP] \nHypothesis: SpeakerB isn't sure about requiring public service. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: But yeah, I've, I've talked to some who's really had some bad experience and kind of knock on wood I haven't yet, not bad. [SEP] [CLS] 2) B: Yeah, well that's, [SEP] [CLS] 3) A: You know, I just, I'm just shocked at the end of the month, [SEP] \nHypothesis: SpeakerA sometimes has unexpected charges. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Did, did you go to college? [SEP] [CLS] 2) B: Well, no.  I'm going right now [laughter]. [SEP] [CLS] 3) A: Oh, that's cool. [SEP] \nHypothesis: SpeakerB and SpeakerA both went to college. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah.  Well, I, I don't really have anything against rap music.  I, the one thing I do object to about rap music is, is when it becomes militant, [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: or, if it's, uh, violence oriented. [SEP] \nHypothesis: SpeakerB doesn't like music that is militant. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: [Children] Uh, I think that, uh, really it wouldn't hurt most of the young people of the country to have to go and do voluntary service.  Uh, and, you know, I mean, [SEP] [CLS] 2) A: (( )). [SEP] [CLS] 3) B: there have been so many people that have done it and I've talked with several and I think they've gotten a lot out of it. [SEP] \nHypothesis: SpeakerA agrees with SpeakerB's idea that it wouldn't hurt to have a mandatory service. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: When did you first take your, uh, first piano lesson? [SEP] [CLS] 2) B: Uh, probably about first grade, [SEP] [CLS] 3) A: Yeah. [SEP] \nHypothesis: SpeakerA has his first pinao lesson when he was 15 years old. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah.  Uh, well, I've been going to Spring Creek.  I haven't been to the Dallas one now in, oh, a couple of years. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: At least since they've redone it, supposedly redone.  So I don't really, [SEP] \nHypothesis: The exercise facilities have been redone since SpeakerB last went there. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: There's one, there's a movie I've seen, ROGER RABBIT.  That's not a recent movie, but, uh, I enjoyed that show. [SEP] [CLS] 2) A: Yeah, that was made in a few, I don't know, several years back, I guess. [SEP] [CLS] 3) B: Yeah, yeah. [SEP] \nHypothesis: SpeakerB agrees that ROGER RABBIT was made in a few years. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I ripped the ligaments in my right ankle. [SEP] [CLS] 2) B: Gosh. [SEP] [CLS] 3) A: Yeah so, [SEP] [CLS] 4) B: Exercise is not supposed to do that to you. [SEP] \nHypothesis: SpeakerB thinks that exercise is not supposed to hurt anyone. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah.  Well, the last two I saw him in, one of those BACK TO THE FUTURE, PART THREE deals and that was crummy #also.  I# -- [SEP] [CLS] 2) A: #Yeah.# [SEP] [CLS] 3) B: -- didn't think that was any good #so [childtalking].# [SEP] [CLS] 4) A: #I saw the original# BACK TO THE FUTURE and then I, I know, I hardly ever go see a sequel. [SEP] \nHypothesis: SpeakerA agrees that BACK TO THE FUTURE PART 3 was bad. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I like to, I like to do, uh, stuff with plants.  I like, um, I have a lot of plants in my apartment, and I've got a pretty small porch, but it's, it's, uh, I've got a few planters out there that I, I'll, uh, you know, in the winter time I usually plant some pansies in there, and then in the summer I'll plant petunias, or something that's colorful and like, that blooms a lot.  But -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- haven't done that yet.  I kept thinking that it was going to get cold one more time, but I think we're probably past that now.  I probably should go buy some. [SEP] \nHypothesis: SpeakerA wants to buy more plants. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: So, you know, it was prime time, it was, what, seven thirty, eight o'clock on a week night -- [SEP] [CLS] 2) A: Uh-huh, uh-huh. [SEP] [CLS] 3) B: -- and we have cable, and there wasn't anything on any channel, and the stuff that was on the prime, the networks, you know, A B C, N B C, C B S, was, it was just, um, dribble -- [SEP] \nHypothesis: SpeakerA and SpeakerB checked every prime network channel and nothing was on but dribble. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I, I'm not sure either.  But, I think, there would have to be a lot more, you know, information, you know, disseminated, before you say, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: let's do this, you know. [SEP] \nHypothesis: SpeakerA thinks SpeakerB needs more information before s/he decides to do this. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Well, my parents wanted to send me to college, and I was dead set against it [breathing]. [SEP] [CLS] 2) B: [Laughter]. [SEP] [CLS] 3) A: You know, I had wanderlust, you know. [SEP] \nHypothesis: SpeakerA was against going to college because he had wanderlust. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: What kinds of things have you done? [SEP] [CLS] 2) A: Um, well, I've made a lot of baby gifts [laughter]. [SEP] [CLS] 3) B: Uh-huh. [SEP] \nHypothesis: SpeakerB has made baby gifts. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Circuit City.  Have you been in there? [SEP] [CLS] 2) A: Yeah, they, they're not, their prices aren't that terrific.  They, they used to be, but they've gotten, they've got to pay for all that national advertising now. [SEP] [CLS] 3) B: Oh, it's national? [SEP] \nHypothesis: SpeakerB thinks circuit city is a national chain. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Are the-, yeah they're still, they're still, he's still doing it then, uh. [SEP] [CLS] 2) A: Yeah, every morning. [SEP] [CLS] 3) B: I'll have to tune in. [SEP] \nHypothesis: SpeakerB wants to watch an aerobics show. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I think probably as soon as they finished high school it would be ideal, because a lot of times, i-, if they go straight into college I think they're going in too quick but, [SEP] [CLS] 2) A: I think particular boys that the maturity, in fact I wasn't very mature when I left high school and I think there's a, there's a real challenge there. There's also this, this issue of, of, uh, you know, whether you're really ready, and I think it gives a different perspective. [SEP] [CLS] 3) B: Right, uh, y-, I, I think if you've been out of school a year, year and a half, before you start to college, you appreciate college more, [SEP] \nHypothesis: SpeakerB thinks kids going straight from high school to college is bad. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah, yeah.  Is that why you like aerobics classes, because you're not, sort of, someone else is doing the counting for you, so, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: it makes it less of a chore? [SEP] [CLS] 4) B: And, it's got, and I've always enjoyed dance. [SEP] [CLS] 5) A: Yeah. [SEP] [CLS] 6) B: So it involves, you know, I, I can't get out to dance all the time and, [SEP] [CLS] 7) A: Yeah, would that we could [laughter]. [SEP] [CLS] 8) B: Yeah, [laughter] and it's, and it's more regulated, I mean you're, you're using different parts of the body. [SEP] [CLS] 9) A: Uh-huh, uh-huh. [SEP] [CLS] 10) B: So, it, it is like dance, an-, and it's structured like that, but you have the music, and someone, like you said, someone else is counting, [SEP] [CLS] 11) A: Yeah. [SEP] [CLS] 12) B: so, it makes it easier for me. [SEP] [CLS] 13) A: Uh-huh. [SEP] [CLS] 14) B: And, someone else is telling me, okay, you know, let's move this way, let's move that way, [SEP] [CLS] 15) A: Uh-huh, uh-huh. [SEP] [CLS] 16) B: instead of me having to think about it so much. [SEP] [CLS] 17) A: Right.  You can just trust someone else to give you full exercise and all you do is follow along and enjoy yourself. [SEP] \nHypothesis: SpeakerB likes the aspect of Aerobics that someone else is leading. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Just never got a chance to come out.  No. [SEP] [CLS] 2) B: That's the most fascinating thing [laughter]. [SEP] [CLS] 3) A: Well, it's a pleasure talking with you. [SEP] \nHypothesis: SpeakerA and SpeakerB were famous piano players. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: So I started paying expenses and stuff on my credit cards, and things got worse and worse, and finally, boom [laughter]. [SEP] [CLS] 2) B: You lost your business? [SEP] [CLS] 3) A: Yep. [SEP] [CLS] 4) B: Oh, gol.  What a nightmare [laughter]. [SEP] [CLS] 5) A: Yeah, it was. I ended up going into bank-, you know, it was one of those things [noise] uh, Oh, it'll get better next week, you know. [noise] Things will pick up.  And, so, there I was in old bankruptcy court. [SEP] [CLS] 6) B: Well, you weren't charging gold and silver were you?  You can't do that, can you? [SEP] [CLS] 7) A: Oh, yeah. [SEP] [CLS] 8) B: Oh, you can? [SEP] [CLS] 9) A: Oh, yeah, yeah.  I was buying from other dealers, and, uh, you know, they take payment any way they can get it. [SEP] \nHypothesis: SpeakerB questions whether SpeakerA was able to buy gold and silver using credit. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: My walkman broke, [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: so I'm upset [laughter], [SEP] [CLS] 4) A: [Laughter]. [SEP] [CLS] 5) B: and I just have to turn to stereo up real loud [laughter]. [SEP] [CLS] 6) A: Yeah. [SEP] [CLS] 7) B: [Laughter]. [SEP] [CLS] 8) A: But it's a lot less stressful on the joints then jogging is. [SEP] \nHypothesis: SpeakerB thinks not having a walkman is less stressful. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: {Whispering} I know it {regular voice}.  Isn't that ridiculous.  We have cable which -- [SEP] [CLS] 2) A: Oh, I do too. [SEP] [CLS] 3) B: -- helps a lot [laughter]. [SEP] [CLS] 4) A: Yeah, but not enough. [SEP] \nHypothesis: SpeakerA believes that cable is not enough. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I used to be really hooked on ALL MY CHILDREN, [SEP] [CLS] 2) A: Oh. me. [SEP] [CLS] 3) B: [Laughter] And I watched that for like, oh, ten or fifteen straight years, [SEP] \nHypothesis: All My Children lasted for more than fifteen years.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I know my dad always talked about, uh, he was in C C C during, uh, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: And he was, uh, a rock rib Iowa type republican and the only good thing he could ever say about, uh, the whole Roosevelt administration was, uh, civilian conservation corps, [SEP] \nHypothesis: The only good thing SpeakerA's dad could say about the Roosevelt administration was the civilian conservation corps. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: [Laughter] Because you know, you think of the original is like, you know, oh, that was really great.  That was a, you know, a really good piece of work, and then when you hear the cover it's like, you know, God, what are they doing. [SEP] [CLS] 2) A: Right. They destroyed it. [SEP] [CLS] 3) B: [Laughter] I, I think a good one was, um, there was a Peter Frampton song, [SEP] \nHypothesis: SpeakerB likes originals. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: But the guy at the very top, the one who's, who's really making the millions and the millions is the one who also many times is part of the power structure, uh, the, uh, and had the political -- [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: -- uh, pull to keep things from, uh, keep the interest or the emphasis in some other direction, other than on the drug dealing, because it sure is monstrous in this country. [SEP] \nHypothesis: SpeakerB is a politician. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Okay.  The question was, um, what, what is your opinion of youth, uh, spending a year or two in, in public service. [SEP] [CLS] 2) B: I think it would be a great idea.  I'm not sure about requiring it, you know, of people, because people are going, you know, feeling resentful.  I don't know, but I think it would be a great idea. [SEP] [CLS] 3) A: Yeah. [SEP] \nHypothesis: SpeakerA thinks SpeakerB is a child. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: even when they're a teenager and they, you know are kind of standoffish, still you got to be their best friend because when they've got problems, who they going to go to, their friends that are dealing drugs, or, or your parents. [SEP] [CLS] 2) B: Exactly. [SEP] [CLS] 3) A: You know, an, and if they go to their friends dealing drugs, they're going to be in even worse shape. [SEP] \nHypothesis: SpeakerA is concerned that teenagers deal drugs. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah, my father had been in the military.  I didn't do it myself.  My father had and that's, uh, how he put himself through school basically. [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: He came from a poor immigrant family, and he didn't have a chance to, uh, you know, the family wasn't wealthy, so he had to do something to, [SEP] \nHypothesis: SpeakerB's father entered the military because his family wasn't wealthy. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: You have to have the right, [SEP] [CLS] 2) B: so easy. [SEP] [CLS] 3) A: type of shoes too, that's, [SEP] [CLS] 4) B: Yeah. [SEP] [CLS] 5) A: very important. [SEP] [CLS] 6) B: Yeah.  I found that, [SEP] \nHypothesis: SpeakerB agrees that the type of shoe is important. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Great.  How old are they? [SEP] [CLS] 2) B: (( )) um, four and two and half. [SEP] [CLS] 3) A: Oh, boy.  Those are two very active ages [laughter]. [SEP] \nHypothesis: SpeakerA thinks that the ages two and a half and four are active ages for children. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Hi, um, okay what, now, uh, what particularly, particularly what kind of music do you like? [SEP] [CLS] 2) A: Well, I mostly listen to popular music.  I, uh, listen to it all the time in, in my car, so, I, I tend to be one of those people who switches stations a lot because I don't like commercials.  But, [SEP] [CLS] 3) B: Yeah. [SEP] [CLS] 4) A: uh, I find myself listening to popular music, and, uh, quite honestly, I, I have some little children and I, unfortunately, found myself listening to a lot of nursery rhyme music here lately, but that's not by my choice. [SEP] \nHypothesis: SpeakerB switches music stations in the car. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And, and, then what happened was that Phil Collins said, hey I can make money, a lot of money doing this, and then he came out with, uh, see, for example, his, his record like, No Jacket Required. [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: That was good, but it was on his way of going downhill, because he said, I can make a lot of money just singing alone, and then he came out with the Invisible Touch, with, uh, Genesis and that really, like now, I hate Phil Collins, I can't stand him. [SEP] \nHypothesis: SpeakerA doesn't like listening to Phil Collins. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Did, did you go to college? [SEP] [CLS] 2) B: Well, no.  I'm going right now [laughter]. [SEP] [CLS] 3) A: Oh, that's cool. [SEP] \nHypothesis: SpeakerA likes college. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: -- they had a chrome strip that wasn't level, and it was about four inches deep and then about, oh a seventy degree angle. [SEP] [CLS] 2) B: Oh, my goodness. [SEP] [CLS] 3) A: And as we were jumping around or doing something I just jumped up and came right down on it. [SEP] [CLS] 4) B: Um. [SEP] [CLS] 5) A: The orthopedist called it a, uh, basketball injury where the ankle just rolls under you, and it snapped. [SEP] \nHypothesis: The orthopedist called the chrome strip a basketball injury. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah I do, I do like to go to movies, and I have a V C R, so I like to rent movies, and, um, I have, right now I have the movie channel, so I've recorded quite a few movies off of that.  Um, just, I've kind of got a collection going of tapes now, and whenever I go visit my parents, they're always saying, Well, bring some of your tapes [laughter]. [SEP] [CLS] 2) B: [Laughter]. [SEP] [CLS] 3) A: They always borrow a few of them.  I was over there, they live in Duncanville -- [SEP] \nHypothesis: SpeakerA's parents borrow her recorded tapes. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah. I, I, I watched, uh, Costner {mispronounced} on the Academy Awards.  I was really happy that he got, I was hoping he was going to get Best Actor. [SEP] [CLS] 2) B: Yeah.  #Yeah.# [SEP] [CLS] 3) A: #Uh,# but he, he, he did pretty good on that one. [SEP] \nHypothesis: Costner did pretty good on the Academy Awards. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Well, like I told you before, (( )).  And you're talking about [throatclearing] credit cards. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: We put ours up.  I mean I had a delightful evening one night cutting a bunch of those suckers up. [SEP] [CLS] 4) A: Um, I wish I had. [SEP] [CLS] 5) B: Well, you should try it. [SEP] \nHypothesis: SpeakerA thinks SpeakerB should cut up his credit cards. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: -- and I'm thirty years old, and I'm kind of irresponsible, but I have the morals that keep me from, you know, if I was going to go out and drink or do something, I wouldn't do it in front of my child.  These people, you know, they bring their, their Johns home and they bring their drugs home and the kids are just sitting there in the same room. [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: It's just that they have absolutely no, no morals -- [SEP] \nHypothesis: The kids have no morals. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Did, did you go to college? [SEP] [CLS] 2) B: Well, no.  I'm going right now [laughter]. [SEP] [CLS] 3) A: Oh, that's cool. [SEP] \nHypothesis: SpeakerB currently attends college. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I use mine a great deal, um, for groceries, for everything that I can and, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: then just write one check at the end of the month, [SEP] \nHypothesis: SpeakerA uses a credit card for groceries. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And, uh, work on his Christmas stocking. [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: We missed it last year, so hopefully this year he'll have one. [SEP] \nHypothesis: The baby did not have any stockings last year. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Um, it's a, it's a tap-, I use tapes. [SEP] [CLS] 2) A: Oh, okay, okay, like a Cathy Smith workout, [SEP] [CLS] 3) B: Or, or Richard Simmons, [SEP] [CLS] 4) A: or Jane Fonda. [SEP] [CLS] 5) B: [Laughter]. [SEP] [CLS] 6) A: Okay [laughter]. [SEP] [CLS] 7) B: Sweating to the oldies [laughter]. [SEP] \nHypothesis: Cathy Smith, Richard Simmons, and Jane Fonda workouts are oldies. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And, see, the difference, I guess, between hard rock and heavy metal is that the lyrics also.  Like really, like heavy metal, wo-, is considered, like the words heavy metal and, like, you always thought about, like, suicide.  And killing people and stuff like that. [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: And, just hard rock has, they, they don't talk about that, they just talk about, like, life in general. [SEP] \nHypothesis: SpeakerB thinks SpeakerA is going to commit suicide. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: trying to keep this shape that way but, you know, it's hard to find.  I mean it's really hard to find a place that's going to offer water aerobics because what I'm finding is that if they do offer it, you get the crowd of women that are, [breathing], I think they feel this is going to be an effortless ((sweatless)) way, [SEP] [CLS] 2) A: That's right. [SEP] [CLS] 3) B: to get in shape, [SEP] [CLS] 4) A: That's right. [SEP] [CLS] 5) B: without having to spend anything or it's the geriatric crowd. [SEP] [CLS] 6) A: That's right. [SEP] [CLS] 7) B: So, I've considered even becoming licensed to teach it. [SEP] \nHypothesis: You need a driver's license to teach water aerobics. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Well I haven't had too much of a chance to watch T V lately. [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: So probably everything I going to say is kind of dated. [SEP] \nHypothesis: SpeakerB will speak only about dated TV shows. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: No, and I have two children also [laughter]. [SEP] [CLS] 2) B: You definitely don't have time. [SEP] [CLS] 3) A: It keeps me very busy.  But I really enjoy it when I do do it, when I get the chance, you know.  It's really, it's so relaxing to just sit, and, but once I get started, I can't put it down.  I just, [SEP] \nHypothesis: SpeakerA's children keep her busy. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah, I uh, I think that while it's a good change for I think women to be able to fulfill their potential in whatever they feel, you know, [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: their expertise may be. [SEP] \nHypothesis: SpeakerB agrees that there is no downside to women being able to fulfill their potential. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Of course, there's not a whole lot of market for seventy-eight R P M records. [SEP] [CLS] 2) B: Is there not?  You, you'd, well you'd think there would be. [SEP] [CLS] 3) A: Well, the problem is most of the record players now will not play them because, [SEP] [CLS] 4) B: Well, that's true. [SEP] [CLS] 5) A: you have to have that needle, that, uh, particular kind of needle -- [SEP] [CLS] 6) B: Oh, yeah. [SEP] [CLS] 7) A: -- and, uh, they, [SEP] [CLS] 8) B: [Breathing]. [SEP] [CLS] 9) A: just won't play on a modern day, uh -- [SEP] [CLS] 10) B: Well, that's a shame -- [SEP] [CLS] 11) A: -- phonograph. [SEP] [CLS] 12) B: -- [Sniffing] because I, I, we go to antique stores a lot and you see seventy-eights, [SEP] [CLS] 13) A: Yeah. [SEP] [CLS] 14) B: a, a lot at, at the stores, a-, a-, at record stores, you'd, [SEP] [CLS] 15) A: Yeah. [SEP] [CLS] 16) B: think there'd be a market for, I'm, I'm sure you could find old players for them but that would cost a fortune, [SEP] \nHypothesis: SpeakerB thinks there should be a market for 78 RPM records. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: All right.  I'm, live in Plano, Texas and, uh, [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: uh, today we're not even suppose to be in school because the, uh, the way the taxation and all that crap is, there really legally isn't any funding for the school systems in Texas today. [SEP] [CLS] 4) A: Right. [SEP] [CLS] 5) B: So, uh, I mean, when you, when you take, uh, uh, professionals and put them in situations, they have to make decisions based on money to fund public education, and they can't get their finger out of their ear long enough to, to get that major subject in line, something's wrong.  So, I think here in Texas mainly that the, the, they're not serious, they're more serious about what the salary should be for senators than they are for what, how the level of education should be for children.  I have a one year old so I'm not, I'm more opinionated about the observations than, than the true facts, but, [SEP] [CLS] 6) A: Uh-huh. [SEP] [CLS] 7) B: it's just a shame to me that, that the, our firemen, our policemen, and school teachers are the three least paid utilities, um, that have the biggest impact to our well-being. [SEP] \nHypothesis: Teachers, firefighters, and policemen are the three lowest paid utilities in texas. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: -- I'd probably have nightmares for the next six months #[laughter].  It's supposed to# -- [SEP] [CLS] 2) A: #Nay.  That's what people said,# [SEP] [CLS] 3) B: -- be good though.  I know some friends who went to see it. [SEP] \nHypothesis: SpeakerB's nightmares are supposed to be good. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Latest, latest one I've saw which was a mistake to go see was LIONHEART, had Claude Van Damme. [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: He was, he's of course, uh, I guess he's trained in this, uh, martial arts of some sort, but the plot was bland, the acting was bland.  It was just mostly centered upon his abilities to -- [SEP] [CLS] 4) B: Chop them up, huh? [SEP] [CLS] 5) A: -- yeah, chop them up, exactly.  And, [SEP] \nHypothesis: SpeakerA agrees that LIONHEART is based on Claude's ability to chop people up. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Do yo-, are you on a reg-, regular exercise program right now? [SEP] [CLS] 2) B: Yes, and I hate it [laughter]. [SEP] [CLS] 3) A: [Laughter]. [SEP] [CLS] 4) B: How about you? [SEP] [CLS] 5) A: Oh, well, I'm kind of off and on. [SEP] [CLS] 6) B: Off and on well, I guess I've been kind of off and on I've, uh, [SEP] [CLS] 7) A: Right now I'm kind of off. [SEP] \nHypothesis: SpeakerA is not on a regular exercise program. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And I know at least in the medical field, it seems like they've come out with a lot further advances as far as female medications and things since women have gotten into the doctor field. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: I don't think that men really took the time to work on that sort of thing. [SEP] \nHypothesis: SpeakerB thinks that men pursue advances in female medications. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah, you really.  It seemed to be influenced by a lot of different music. A lot of times you'll hear songs that you know, they're not original, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: but have been put to a rap kind of a rhythm.  And, uh, sounds, it sounds so much different and yet, I, I have a much younger sister who listens to a lot of rap music and, uh, she thinks its pretty funny how often I know all of the words to songs that she's listening to, and yet, [SEP] [CLS] 4) B: Yeah. [SEP] [CLS] 5) A: she thought they were brand new, [SEP] [CLS] 6) B: Yeah. [SEP] [CLS] 7) A: original pieces. [SEP] \nHypothesis: SpeakerA believes that original music is sometimes put to a rap rhythm. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And they'll help the country eventually, too, [SEP] [CLS] 2) A: Sure, I mean, [SEP] [CLS] 3) B: because rather than having a bunch of uneducated people we can have educated people, [SEP] [CLS] 4) A: Well, this, I mean -- [SEP] [CLS] 5) B: and that's only going to help. [SEP] \nHypothesis: The only thing that will help the country is having more educated people. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah, [laughter] isn't that funny.  I guess I do have one thing.  A friend of mine gave me a clock kit -- [SEP] [CLS] 2) B: Ooh. [SEP] [CLS] 3) A: -- and, I, I needlepointed the face, and I, uh, kept that because she gave me that.  So, [SEP] \nHypothesis: SpeakerA's friend gave her a face to crochet. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I think probably as soon as they finished high school it would be ideal, because a lot of times, i-, if they go straight into college I think they're going in too quick but, [SEP] [CLS] 2) A: I think particular boys that the maturity, in fact I wasn't very mature when I left high school and I think there's a, there's a real challenge there. There's also this, this issue of, of, uh, you know, whether you're really ready, and I think it gives a different perspective. [SEP] [CLS] 3) B: Right, uh, y-, I, I think if you've been out of school a year, year and a half, before you start to college, you appreciate college more, [SEP] \nHypothesis: SpeakerB agrees that SpeakerA wasn't mature when he/she left high school. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Um, I, I understand that it's being proposed as a requirement, [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: for, uh, young people to be, to go into public service.  I think, [SEP] \nHypothesis: Many young people go into public service. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah.  I've done some cross, um, cross stitch, but I never count right, and I always have to either take it out or have my picture slightly off centered -- [SEP] [CLS] 2) A: Uh-huh [laughter]. [SEP] [CLS] 3) B: -- or, or something.  It never has worked out completely. [SEP] [CLS] 4) A: Yeah, it takes a lot of concentration.  I mean, it was the type of thing, I was, I was making some little things for Christmas, and I also made a little thing for a baby gift, and, uh, I thought, Oh, I can do this while I watch T V.  Wrong [laughter]. [SEP] \nHypothesis: SpeakerA thinks that cross-stitching takes lots of concentration. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I enjoy, uh, sewing and needlework also.  I've, I've, uh, made some small things, cross stitch things.  And, um -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- back when I was in high school, I worked at a needlework shop, and I, I used to do the latch hook rugs and needlepoint and things like that, and I, I still remember how to do it.  It's just been so long since I've actually sat down and taken the time to do something like that.  But I have recently done some cross stitch. [SEP] \nHypothesis: SpeakerA makes Christmas gifts that are little. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Have you tried any, growing any, um, like fruits and vegetables or anything?  I guess vegetables are in, insi-, like in pots and stuff? [SEP] [CLS] 2) A: No, I never have tried that, just because I don't have that much space on this little porch here in this apartment -- [SEP] [CLS] 3) B: Uh-huh. [SEP] [CLS] 4) A: -- or this little balcony.  And my other two pots are, they're kind of, they're pretty big, and I have enough plants in them that it takes up a lot of my porch area, so between that and the chairs and the barbecue grill and the fireplace wood, [SEP] [CLS] 5) B: [Laughter]. [SEP] [CLS] 6) A: there's no room for much else.  But my dad, uh, my dad used to grow tomatoes and things at the house.  And I'd, I think when I was real little I probably had a finger in on that every time he did it -- [SEP] [CLS] 7) B: Uh-huh. [SEP] [CLS] 8) A: -- and had to be out there and watch and that type of stuff.  But I've never really tried anything like that since then. [SEP] [CLS] 9) B: Well, I considered it last year and this year both, but I haven't done anything about it. [SEP] [CLS] 10) A: Uh-huh. [SEP] [CLS] 11) B: So.  I think it would be nice to just go out and pick some tomatoes off the porch.  We get lots of sunlight here, and the porch is screened in and it's pretty large. [SEP] \nHypothesis: SpeakerB considered growing tomatoes. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I did some needlepoint years ago, and then I got into the Bargello. [SEP] [CLS] 2) A: Oh, what's that? [SEP] [CLS] 3) B: Well, it's an Italian, um, needlework, using, using the uh, I started to say the canvas, but the, uh, huh, what kind of cloth uses that.  I, I've just gone blank.  But it's used with yarn, and it usually takes long stitches over two or three openings in the cloth -- [SEP] [CLS] 4) A: Huh. [SEP] [CLS] 5) B: -- and you weave intricate patterns and use different colors.  Like it could be a flame stitch where so rather than drawing a picture you're making a design like a geometric or whatever, and it was used quite often in the colonial times to, uh, uh, to upholster chairs, and so forth, as well as the crewel, um, embroidery work that was done on them. [SEP] \nHypothesis: Bargello was used to upholster chairs. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: #[Laughter]# Let's see.  What are some other ones I've seen lately.  I'm trying to remember.  I can't.  Oh, I just saw one on the video.  Oh, um, have you seen THE GODS MUST BE CRAZY, PART TWO? [SEP] [CLS] 2) A: No [laughter]. [SEP] [CLS] 3) B: That is a riot. [SEP] \nHypothesis: SpeakerA has not seen THE GODS MUST BE CRAZY, PART TWO that is a riot. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah, I read the book before so I knew the story line going in, but they changed some things in the movie.  It wasn't the same.  I thought the book was better than the movie, but I thought the movie was really good as well. [SEP] [CLS] 2) A: I always wait for the movie.  I don't have time to read the book. [SEP] [CLS] 3) B: Yeah.  I don't, I read about one or two thick novels like that a year. [SEP] \nHypothesis: SpeakerB and SpeakerA have little time for reading. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah really.  I enjoy aerobics, and I do it because I like it, I mean, I like the music and -- [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: -- that kind of stuff. [SEP] [CLS] 4) B: I like the music, but I've been unable to do that, because I hurt my foot about five years ago.  I broke my heel. [SEP] \nHypothesis: SpeakerB agrees that the music is good in aerobics. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah, you really.  It seemed to be influenced by a lot of different music. A lot of times you'll hear songs that you know, they're not original, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: but have been put to a rap kind of a rhythm.  And, uh, sounds, it sounds so much different and yet, I, I have a much younger sister who listens to a lot of rap music and, uh, she thinks its pretty funny how often I know all of the words to songs that she's listening to, and yet, [SEP] [CLS] 4) B: Yeah. [SEP] [CLS] 5) A: she thought they were brand new, [SEP] [CLS] 6) B: Yeah. [SEP] [CLS] 7) A: original pieces. [SEP] \nHypothesis: SpeakerB and SpeakerA agree on everything. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Uh, that was the one with Mickey Rooney and, uh, oh, what's that real, oh, not real old, my wife she is old too, [SEP] [CLS] 2) B: [Laughter]. [SEP] [CLS] 3) A: dancer, uh, I can't think of her name.  I got it right on the tip of my tongue and can't say it, Helen something. [SEP] [CLS] 4) B: Uh, uh, uh, I think I know who you're ta-, oh, I know who you're talking about, [SEP] [CLS] 5) A: real long legs, [SEP] [CLS] 6) B: she's got black hair, [SEP] [CLS] 7) A: and dark hair. [SEP] \nHypothesis: SpeakerB believes that SpeakerA's wife has dark hair. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: So when I went to my first year of tech school, I had a very easy time because our high school -- [SEP] [CLS] 2) B: Right. [SEP] [CLS] 3) A: -- had a, a good program. [SEP] \nHypothesis: SpeakerA thinks that his high school had a good program. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I agree with you. I, if we were going to get anything now it would definitely be a cat, or even a bird or a fish tank or something, you know [laughter]. [SEP] [CLS] 2) A: Yeah, now that's an idea [laughter] -- [SEP] [CLS] 3) B: Something small -- [SEP] [CLS] 4) A: -- with the small babies. [SEP] \nHypothesis: SpeakerB thinks that a small animal is good for small children. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Uh, I agree with you.  Uh, uh, what I'm thinking about is back [breathing], well, when I was a kid, and much earlier than that, kids were kind of, i-, i-, you know, the parents kind of pushed them to join, like the Boy Scouts [children] or Girl Scouts and they did, do, do do a lot of public service activities, but these days they're not, uh, par-, parents aren't encouraging their kids to do things like that.  Because when I was in the Girl Scouts, we did a lot of public service things, because that's just part o-, of, of the scouting, and, you know. [SEP] [CLS] 2) A: Yeah, I've, I've, that's really great.  I, I really think that both the Boy Scouts and Girl Scouts is a excellent, two excellent organizations. [SEP] [CLS] 3) B: They are but parents, [SEP] \nHypothesis: SpeakerB doesn't agree with SpeakerA that the girl and boy scouts are a good organization. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And, uh, work on his Christmas stocking. [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: We missed it last year, so hopefully this year he'll have one. [SEP] [CLS] 4) A: Yeah.  Well, last year he was a little bit young for having one. [SEP] \nHypothesis: He was young for Christmas. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Right.  I, ev-, every now and then I'll watch E S P N, I get cable on T V, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: and they have, uh, a couple of shows called basic training, and, uh, what is the other one called. [SEP] \nHypothesis: cable TV has some aerobics shows. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I don't think it's a bad idea, teaches, teaches a lot.  I mean, I went in the service when I was eighteen, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: And, uh, stayed in for ten years. [SEP] \nHypothesis: SpeakerA stayed in the service until he was 28. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Okay, Mary. [SEP] [CLS] 2) A: Yes. [SEP] [CLS] 3) B: Um, the, uh, the latest one I've seen, uh, had to do with a, uh, uh, the, uh, basically a manhunt, um, and it was, uh, it was called MANHUNTER, actually.  Uh, the, uh, the guy, uh, apparently had a, a, mental disfunction in which he needed to go out and just slay people.  Uh, just, uh, kill them with, with as much blood and, and guts as possible. [SEP] \nHypothesis: The man's mental disfunction caused him to kill people.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: and, biking and I, I, I love to swim, so I love it when, you know, it's swimming weather, [SEP] [CLS] 2) A: Um. [SEP] [CLS] 3) B: and, uh, [SEP] [CLS] 4) A: Well, you're talking to someone from California where it's often swimming weather [laughter]. [SEP] [CLS] 5) B: Oh, I didn't realize that. [SEP] [CLS] 6) A: Uh [laughter]. [SEP] [CLS] 7) B: I'm sorry. [SEP] [CLS] 8) A: [Laughter]. [SEP] [CLS] 9) B: Well, I'm in Texas.  I, I just assumed that I had, this is the first call I've done, [SEP] \nHypothesis: California is more often warm than Texas. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Hi, um, okay what, now, uh, what particularly, particularly what kind of music do you like? [SEP] [CLS] 2) A: Well, I mostly listen to popular music.  I, uh, listen to it all the time in, in my car, so, I, I tend to be one of those people who switches stations a lot because I don't like commercials.  But, [SEP] [CLS] 3) B: Yeah. [SEP] [CLS] 4) A: uh, I find myself listening to popular music, and, uh, quite honestly, I, I have some little children and I, unfortunately, found myself listening to a lot of nursery rhyme music here lately, but that's not by my choice. [SEP] \nHypothesis: SpeakerA likes popular music. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I used to date a girl who taught English at ninth grade level. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: I mean, I was absolutely flabbergasted at what, they wo-, what she was paid.  True, she was young, you know, but still it's the principle. [SEP] [CLS] 4) A: Right. [SEP] [CLS] 5) B: Of course, if she got her Masters degree it would all be different.  But, uh, [SEP] \nHypothesis: SpeakerB believes teachers with masters degrees are better paid. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I use mine a great deal, um, for groceries, for everything that I can and, [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: then just write one check at the end of the month, [SEP] \nHypothesis: SpeakerA does grocery shopping. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah, yeah.  Is that why you like aerobics classes, because you're not, sort of, someone else is doing the counting for you, so, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: it makes it less of a chore? [SEP] [CLS] 4) B: And, it's got, and I've always enjoyed dance. [SEP] \nHypothesis: SpeakerB likes Aerobics partially because she has always enjoyed dance. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I enjoy, uh, sewing and needlework also.  I've, I've, uh, made some small things, cross stitch things.  And, um -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- back when I was in high school, I worked at a needlework shop, and I, I used to do the latch hook rugs and needlepoint and things like that, and I, I still remember how to do it.  It's just been so long since I've actually sat down and taken the time to do something like that.  But I have recently done some cross stitch. [SEP] \nHypothesis: SpeakerA did needlepoint in class. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: -- was so real.  #It's like, [laughter] I mean it just# -- [SEP] [CLS] 2) A: #Yeah, I'd, I bet.# [SEP] [CLS] 3) B: -- blew me away. [SEP] \nHypothesis: It moved SpeakerB from her original position.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Yeah.  It was pretty wild [laughter] and (( )).  Of course, the only sound is Dudley Moore narrates it. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: But there's no, you know, nothing else [laughter] to keep it going.  But it really keeps -- [SEP] [CLS] 4) A: Huh. [SEP] [CLS] 5) B: -- keeps me going.  I, I've seen it #twice now [laughter].# [SEP] \nHypothesis: SpeakerB has seen Dudley Moore twice. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: [Laughter] But, uh, I, did you happen to see last night the special on Channel Two with James Galway? [SEP] [CLS] 2) B: We don't get Channel Two.  My, [SEP] [CLS] 3) A: Oh. [SEP] [CLS] 4) B: uh, our cable doesn't, I wish we got that what, but, [SEP] [CLS] 5) A: That is fabulous. [SEP] [CLS] 6) B: Was it?  Well, [SEP] [CLS] 7) A: We, [SEP] [CLS] 8) B: we don't get Channel Two. [SEP] [CLS] 9) A: Yeah, when he played DANNY BOY it just almost brought, [SEP] \nHypothesis: SpeakerA played DANNY BOY. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: That's, uh, it's interesting.  It gets them away from home and, and gets them to do something useful, although the kids today, though, it, it seems that almost that their concern for money, I, we were doing some investigating colleges and said the kids are much more interested today in, in trying to find a job, study something that will give them a job as opposed to, be curious, be curious as to if, if there was, if there was mandatory, you could choose the option of either a mandatory military service or voluntary, do you think that would be reasonable? [SEP] [CLS] 2) B: I think it would.  In, in Israel, the, even the women are, are required to, to be in the military for a certain period of time.  Uh, I was in the military, and I personally feel if, if they have draf-, the draft, that they should draft women as quickly as they do the men. [SEP] [CLS] 3) A: Well, but, the, the issue of, of, of, which, what, what would, what would you find, what would you have them do?  You know there are a lot of people around with, there's a lot of unemployment right now.  What would you have these people do if they were brought in? [SEP] \nHypothesis: SpeakerA has been to Israel. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: -- back when I was in high school, I worked at a needlework shop, and I, I used to do the latch hook rugs and needlepoint and things like that, and I, I still remember how to do it.  It's just been so long since I've actually sat down and taken the time to do something like that.  But I have recently done some cross stitch. [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: And I enjoy doing that.  It's just the same old thing, it's just getting the time to do it [laughter]. [SEP] \nHypothesis: SpeakerA enjoys doing cross-stitching. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Okay movies.  I haven't seen too many lately.  I have kids and we went and saw THE RESCUERS DOWN UNDER, Under, [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: over the, the break.  Do, do you have kids you take to movies or, [SEP] [CLS] 4) A: No, no kids. [SEP] [CLS] 5) B: Yeah.  It's a Walt Disney movie and it didn't get as, you know, as good a reviews as like the LITTLE MERMAID, their last one, and got all kinds of Academy Awards and things last year.  But this one was, I thought was excellent.  The (( )), [SEP] \nHypothesis: The break is a Walt Disney movie. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And they have a particular child actor, uh, who's, who's being supposedly run down by a buffalo. [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: And when they were trying to film that, the buffalo that they used for that scene was Neil Young's buffalo. [SEP] [CLS] 4) B: Uh-huh. [SEP] [CLS] 5) A: I can't remember what they said his name was.  But he has a fetish for Oreo cookies. [SEP] \nHypothesis: The bull did not like Oreo cookies.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Uh-huh.  Well that's one thing I like about the Spring Creek place.  At least the fellow that's there, one of the fellows that's there at night and on weekends is real helpful. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: And his name is B J. [SEP] \nHypothesis: SpeakerB thinks that BJ is helpful. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Um, I don't know if I'm really afraid of spending too much.  I just, uh, don't think that I need them, you know.  I, uh, they are tempting at times, [SEP] [CLS] 2) A: [Laughter]. [SEP] [CLS] 3) B: but I, I just, you know, sometimes I just don't like everybody knowing everything about me, you know, so, [SEP] \nHypothesis: SpeakerB doesn't want SpeakerA to know anything about him. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Well the, the other thing some people are not aware of, is they will use their A, their credit card like their Visa or their MasterCard for cash -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- and when they do that, they begin paying interest right from that very day on. [SEP] \nHypothesis: SpeakerA owns a mastercard. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And, see, the difference, I guess, between hard rock and heavy metal is that the lyrics also.  Like really, like heavy metal, wo-, is considered, like the words heavy metal and, like, you always thought about, like, suicide.  And killing people and stuff like that. [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: And, just hard rock has, they, they don't talk about that, they just talk about, like, life in general. [SEP] \nHypothesis: SpeakerA thinks the difference between hard rock and heavy metal is the lyrics. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: No, you must pay all attention to what you're doing.  It's, it is a lot more difficult than it seems like it would be.  It took me, uh, quite a bit of time.  I though, Oh, this won't take long at all.  But -- [SEP] [CLS] 2) B: Uh-huh. [SEP] [CLS] 3) A: -- I was wrong.  It took. it took a while to do.  But, it was fun, I enjoyed it. [SEP] \nHypothesis: SpeakerA found that paying attention took a lot of time to do. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: I think I had four, uh, jalapeno plants last year. I think one of them died, but I, I've got, s-, I've put them, I chop them up and put them in jars and usually give them away because I, there is no way that I can eat all of those nobody else in the family likes them, but always got to the keep those planted. [SEP] [CLS] 2) B: Yeah, oh, my husband doesn't like them either, but I can always give them away. [SEP] [CLS] 3) A: Well, that's kind of the way I am, um. [SEP] [CLS] 4) B: #Besides they're fun to grow.# [SEP] \nHypothesis: SpeakerB thinks that jalapenos are fun to grow. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I think probably as soon as they finished high school it would be ideal, because a lot of times, i-, if they go straight into college I think they're going in too quick but, [SEP] [CLS] 2) A: I think particular boys that the maturity, in fact I wasn't very mature when I left high school and I think there's a, there's a real challenge there. There's also this, this issue of, of, uh, you know, whether you're really ready, and I think it gives a different perspective. [SEP] [CLS] 3) B: Right, uh, y-, I, I think if you've been out of school a year, year and a half, before you start to college, you appreciate college more, [SEP] \nHypothesis: SpeakerA wasn't mature when he/she left high school. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: my brother lives ten miles from here and he gets frost and, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: his crop gets killed. [SEP] \nHypothesis: SpeakerA's brother's crops get killed by frost. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And most of the problems with kids in school carrying guns and, and knives and everything, I mean, good grief what's (( )). [SEP] [CLS] 2) B: Yeah now, that's, that's just unbelievable to me, you know. [SEP] [CLS] 3) A: I can't believe that.  I mean when I was in junior high and high school that never happened.  You never heard about that. [SEP] \nHypothesis: Kids did not carry guns and knives to school when SpeakerA and SpeakerB were in school. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: And the doctor said, you didn't do anything.  There's only a one in five hundred chance that the radiologist will call you.  That was Tuesday night, and Wednesday night the radiologist called me at work and, uh, I was on crutches, and he said, I think you better call an orthopedist.  So we went to one and he just put a big old cast on it. [SEP] [CLS] 2) B: Put a big cast on it. [SEP] [CLS] 3) A: Yeah, for about four weeks. [SEP] \nHypothesis: The orthopedist took four weeks putting the cast on. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: uh, some of those countries were so safe, it was unreal.  Singapore is very, supposed to be very safe and, in fact, Tokyo, and I thought Tokyo would be dangerous being such a huge large city with so many people, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: but they, at, at the T I there, I said is there any area I should avoid. And the guy said let me ask another girl here and he turned and asked this girl, and said, can you think of any place where Dana shouldn't go by herself, or anything.  And she, she thought for a few minutes and she said, no.  And he said is there any place you wouldn't go by yourself.  She said, no.  And they said, [SEP] \nHypothesis: Tokyo is not as safe as Singapore. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: #Well, but you know, the,# the strange thing, uh, perhaps, not strange, but something that many people don't realize, is that you can go back as far as nineteen fifty-one and fifty-two and find that there were drug dealers at that time trying to influence the high school kids, because, uh, I'm a retired educator. [SEP] [CLS] 2) A: Okay [noise]. [SEP] [CLS] 3) B: And, in fifty-one and fifty-two, the police came to the high school where I was and were telling us how to recognize when kids were on drugs, how to recognize the pushers -- [SEP] [CLS] 4) A: Yeah. [SEP] \nHypothesis: SpeakerB is a former educator. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Bo, Bo, Bohemian Rhapsody. [SEP] [CLS] 2) B: Right, right, yeah, yeah. [SEP] [CLS] 3) A: Yeah, that, that was great.  I heard that the other day on the radio and I pumped it up. [SEP] \nHypothesis: SpeakerA has listened to the radio. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: Uh, uh, however, I, I do, I do like a lot of different forms of music so I switch quite often.  Um, I think I like, I, I'm really particular about the type of music that I listen to. [SEP] [CLS] 2) A: Uh-huh. [SEP] [CLS] 3) B: But, the, uh, there's such a wide selection, I think I like a lot, I like a little bit of a lot of different types of music.  You know, I, I, I like music that is, that I feel if it is performed correctly or if it's done right, or if the version is done right, I like it [laughter], [SEP] \nHypothesis: SpeakerB likes a lot of different music. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: That's, uh, it's interesting.  It gets them away from home and, and gets them to do something useful, although the kids today, though, it, it seems that almost that their concern for money, I, we were doing some investigating colleges and said the kids are much more interested today in, in trying to find a job, study something that will give them a job as opposed to, be curious, be curious as to if, if there was, if there was mandatory, you could choose the option of either a mandatory military service or voluntary, do you think that would be reasonable? [SEP] [CLS] 2) B: I think it would.  In, in Israel, the, even the women are, are required to, to be in the military for a certain period of time.  Uh, I was in the military, and I personally feel if, if they have draf-, the draft, that they should draft women as quickly as they do the men. [SEP] [CLS] 3) A: Well, but, the, the issue of, of, of, which, what, what would, what would you find, what would you have them do?  You know there are a lot of people around with, there's a lot of unemployment right now.  What would you have these people do if they were brought in? [SEP] \nHypothesis: SpeakerB believes women should be drafted alongside men. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Yeah, I can't remember what her name is, but is, [SEP] [CLS] 2) B: -- yeah, I didn't enjoy her.  I, I, she was too much of a opposite of Dede, and I think that's what they try to do, but I think we wanted to see Dede there -- [SEP] [CLS] 3) A: Uh-huh. [SEP] [CLS] 4) B: -- or somebody like her. [SEP] \nHypothesis: Dede is a female. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: my brother lives ten miles from here and he gets frost and, [SEP] [CLS] 2) B: Yeah. [SEP] [CLS] 3) A: his crop gets killed. [SEP] \nHypothesis: SpeakerA's brother's crop is killed by frost. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Bo, Bo, Bohemian Rhapsody. [SEP] [CLS] 2) B: Right, right, yeah, yeah. [SEP] [CLS] 3) A: Yeah, that, that was great.  I heard that the other day on the radio and I pumped it up. [SEP] \nHypothesis: SpeakerA likes Bohemian Rhapsody. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: But yeah, I've, I've talked to some who's really had some bad experience and kind of knock on wood I haven't yet, not bad. [SEP] [CLS] 2) B: Yeah, well that's, [SEP] [CLS] 3) A: You know, I just, I'm just shocked at the end of the month, [SEP] \nHypothesis: SpeakerA talks to other people. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Oh, I know.  I know, um, I work in school.  You know, that's something I do and I, it really is ((I'm like you)) astonishing what the younger ages know, and they react to what they see at home.  You know. [SEP] [CLS] 2) B: Huh-uh. [SEP] [CLS] 3) A: If they see violence at home, that's what you're going to get from the kids at school. [SEP] [CLS] 4) B: Exactly. [SEP] \nHypothesis: SpeakerA believes that if kids see violence at home, that's what they're going to do at school. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: I do too.  I mean, they are just slapstick {word drawn out for emphasis}. [SEP] [CLS] 2) A: Oh, yeah. [SEP] [CLS] 3) B: It, you have to see those twice to catch everything. [SEP] [CLS] 4) A: Well, you have to see them more than that. [SEP] \nHypothesis: You have to see slapstick movies many times before you understand everything. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) B: And, uh, work on his Christmas stocking. [SEP] [CLS] 2) A: Yeah. [SEP] [CLS] 3) B: We missed it last year, so hopefully this year he'll have one. [SEP] \nHypothesis: The baby did not have a Christmas stocking last year.. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Okay, well, I can tell you pretty much my two favorite shows -- [SEP] [CLS] 2) B: Okay. [SEP] [CLS] 3) A: -- and they kind of are in different spectrums, I think.  Um, one of them is QUANTUM LEAP -- [SEP] \nHypothesis: QUANTUM LEAP is one of SpeakerA's favourite shows. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 1
+    },
+    {
+        "goal": "Conversation: [CLS] 1) A: Well, my parents wanted to send me to college, and I was dead set against it [breathing]. [SEP] [CLS] 2) B: [Laughter]. [SEP] [CLS] 3) A: You know, I had wanderlust, you know. [SEP] \nHypothesis: SpeakerA was dead set against going to college because he had an illness called wanderlust. This hypothesis is? ",
+        "sol1": "False",
+        "sol2": "True",
+        "label": 0
+    }
+]
